@@ -7,3 +7,11 @@ theme:
 markdown_extensions:
   - abbr
   - footnotes
+nav:
+  - 'index.md'
+  - 'Approach':
+      - 'Overview': 'approach.md'
+      - 'Benefits': 'benefits.md'
+  - 'stack.md'
+  - 'pipeline.md'
+  - 'contact.md'

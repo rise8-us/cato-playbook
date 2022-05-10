@@ -1,4 +1,4 @@
-# Approach
+# Overview
 
 The continuous ATO utilizes ongoing authorization within the [National Institute of Standards and Technology](https://www.nist.gov/) (NIST)
 [Risk Management Framework](https://csrc.nist.gov/projects/risk-management) (RMF). Ongoing authorization requires that 
