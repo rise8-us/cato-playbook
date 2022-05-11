@@ -12,7 +12,7 @@ nav:
   - 'Approach':
       - 'Overview': 'approach.md'
       - 'Benefits': 'benefits.md'
-  - 'stack.md'
+  - 'architecture.md'
   - 'pipeline.md'
   - 'policy.md'
   - 'contact.md'
