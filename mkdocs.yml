@@ -17,4 +17,5 @@ nav:
       - 'Overview' : 'process.md'
       - 'selection.md'
       - 'pipeline.md'
+  - 'policy.md'
   - 'contact.md'
