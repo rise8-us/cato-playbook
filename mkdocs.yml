@@ -13,7 +13,9 @@ nav:
       - 'Overview': 'approach.md'
       - 'Benefits': 'benefits.md'
   - 'architecture.md'
-  - 'process.md'
+  - 'Process':
+      - 'Overview' : 'process.md'
+      - 'selection.md'
   - 'pipeline.md'
   - 'policy.md'
   - 'contact.md'
