@@ -8,3 +8,4 @@ system categorization
 - Security tasks are generated from the survey and injected into the product backlog for prioritization and execution
 - Engineers implement controls and provide evidence that is evaluated by an assessor. Direct references to code are 
 provided for both evaluation and traceability.
+- Security requirements are reevaluated with changes in the system architecture. 
