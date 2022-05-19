@@ -7,6 +7,9 @@ theme:
 markdown_extensions:
   - abbr
   - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 nav:
   - 'index.md'
   - 'Approach':
@@ -17,5 +20,6 @@ nav:
       - 'Overview' : 'process.md'
       - 'selection.md'
       - 'pipeline.md'
+      - 'checklist.md'
   - 'policy.md'
   - 'contact.md'
