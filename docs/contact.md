@@ -1,3 +1,3 @@
 # Contact
 
-You can find us on slack at [vaapi-secure-release-pipeline](https://lighthouseva.slack.com/archives/C02PTSZKM8W)
+You can find us on slack at [vaapi-cato](https://lighthouseva.slack.com/archives/C03G2J6G7AR)
