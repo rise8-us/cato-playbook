@@ -8,5 +8,5 @@ We've put a checklist together for product teams looking to leverage our platfor
 - [ ] Meet with security team for initial [survey and security requirements generation](selection.md)
 - [ ] Remediate security findings in accordance with the [policy](policy.md)
 
-**Well done! Ship your application to production!**
+:fontawesome-solid-ship: **Well done! Ship your application to production!** :fontawesome-solid-ship:
 
