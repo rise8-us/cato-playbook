@@ -1,3 +1,9 @@
 # Process
+The [Risk Management Framework for Information Systems and Organizations](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final) 
+encourages making the Risk Management Framework "indistinguishable" from the Software Development Lifecycle (SDLC) 
+"ensuring the seamless integration of security and privacy protections into organizational systems". 
+Below is a depiction of how the risk management steps are integrated into an agile software development. What's 
+important to note is the feedback loop (continuous monitoring) that occurs between the assessment and 
+categorization steps.
 
 ![Process!](images/process.png "Process")
