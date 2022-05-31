@@ -20,7 +20,8 @@ nav:
   - 'Approach':
       - 'Overview': 'approach.md'
       - 'Benefits': 'benefits.md'
-  - 'architecture.md'
+      - 'architecture.md'
+      - 'Boundary': 'boundary.md'
   - 'Process':
       - 'Overview' : 'process.md'
       - 'categorization.md'
