@@ -7,6 +7,4 @@ We've put a checklist together for product teams looking to leverage our platfor
 - [ ] Create [system diagram](diagram.md)
 - [ ] Meet with security team for initial [survey and security requirements generation](selection.md)
 - [ ] Remediate security findings in accordance with the [policy](policy.md)
-
-:fontawesome-solid-ship: **Well done! Ship your application to production!** :fontawesome-solid-ship:
-
+- [ ] Ship your application to a production environment within the [platform](platform.md)
