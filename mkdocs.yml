@@ -23,6 +23,7 @@ nav:
   - 'architecture.md'
   - 'Process':
       - 'Overview' : 'process.md'
+      - 'categorization.md'
       - 'diagram.md'
       - 'selection.md'
       - 'pipeline.md'
