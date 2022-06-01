@@ -25,6 +25,7 @@ nav:
   - 'Process':
       - 'Overview' : 'process.md'
       - 'categorization.md'
+      - 'privacy.md'
       - 'diagram.md'
       - 'selection.md'
       - 'pipeline.md'
