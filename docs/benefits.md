@@ -1,14 +1,15 @@
 # Benefits
 
-Security pushed to the left in development
+***Improve security posture and lower risk***
+: Reduce the number of security defects through [threat analysis and secure coding practices](https://www.securitycompass.com/sdelements/)
+: Detect and remediate application vulnerabilities quickly via the [Secure Release Pipeline](pipeline.md)
 
-- Fix application vulnerabilities early and evaluate continuously
-- Lower project risk early by mitigating at the source
-- Quality and security best practices built-in from the beginning
+***Increase transparency and trust***
+: Default access to all artifacts of the software development life cycle (ie source code, body of evidence) to assessors 
+and cybersecurity personnel for continuous monitoring (eg assessment and evaluation)
 
-Incremental security risk assessment at each release
+***Reduce costs***
+: Through reducing the number of security defects
+: Leveraging a cloud environment
 
-- Automate assessments early in pipeline
-- Iterate and tune applications rapidly
-- Reduce cycle time and project schedules
-- Continuous monitoring by default
+***Increase software delivery to Veterans***
