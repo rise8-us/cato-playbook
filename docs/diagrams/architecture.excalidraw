@@ -5,8 +5,8 @@
   "elements": [
     {
       "type": "rectangle",
-      "version": 227,
-      "versionNonce": 2061524621,
+      "version": 229,
+      "versionNonce": 1373197712,
       "isDeleted": false,
       "id": "9x9FrYplawFRMHcyidB0B",
       "fillStyle": "hachure",
@@ -15,7 +15,7 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 1122.5449829101562,
+      "x": 1124.5977935791016,
       "y": 329.9318542480469,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
@@ -30,7 +30,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1652999721667,
+      "updated": 1660837262780,
       "link": null,
       "locked": false
     },
@@ -62,8 +62,8 @@
     },
     {
       "type": "rectangle",
-      "version": 399,
-      "versionNonce": 878234221,
+      "version": 401,
+      "versionNonce": 1966613392,
       "isDeleted": false,
       "id": "B-FD7Bqdxg9gtXTg0UsGf",
       "fillStyle": "hachure",
@@ -72,7 +72,7 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 1122.5449829101562,
+      "x": 1124.5977935791016,
       "y": 498.9324035644531,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
@@ -87,14 +87,14 @@
           "type": "arrow"
         }
       ],
-      "updated": 1652999871038,
+      "updated": 1660837266944,
       "link": null,
       "locked": false
     },
     {
       "type": "text",
-      "version": 122,
-      "versionNonce": 1712705588,
+      "version": 123,
+      "versionNonce": 777250704,
       "isDeleted": false,
       "id": "7o9yGLYgjNTqNDm0mQDDV",
       "fillStyle": "hachure",
@@ -112,8 +112,13 @@
       "seed": 520909253,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElements": [],
-      "updated": 1652283777292,
+      "boundElements": [
+        {
+          "id": "dGpYdkucpmmLNu7W-Q-gM",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1660836993493,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -200,8 +205,8 @@
     },
     {
       "type": "arrow",
-      "version": 1639,
-      "versionNonce": 1065020099,
+      "version": 2176,
+      "versionNonce": 1740285296,
       "isDeleted": false,
       "id": "LPWdi9fTTNGYq7e8LLVEk",
       "fillStyle": "hachure",
@@ -210,28 +215,28 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 964.1680706251391,
-      "y": 482.8955564294197,
+      "x": 998.3261085350036,
+      "y": 485.8458738122322,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 176.2045737243502,
-      "height": 51.81602814977987,
+      "width": 142.29238542386065,
+      "height": 47.46358378048285,
       "seed": 427308901,
       "groupIds": [],
       "strokeSharpness": "round",
       "boundElements": [],
-      "updated": 1652999531511,
+      "updated": 1660836982241,
       "link": null,
       "locked": false,
       "startBinding": {
         "elementId": "0VNY4jt-T8GXlW_GS7_Pp",
-        "focus": 0.21610048261103804,
+        "focus": 0.21496614791664514,
         "gap": 8.480090120825935
       },
       "endBinding": {
         "elementId": "bBW2hIWK8MopZ5_wjSk8s",
-        "focus": -0.6227956606886682,
-        "gap": 7.775671080198208
+        "focus": -0.620580282308985,
+        "gap": 7.529821470823208
       },
       "lastCommittedPoint": null,
       "startArrowhead": null,
@@ -242,15 +247,64 @@
           0
         ],
         [
-          176.2045737243502,
-          51.81602814977987
+          142.29238542386065,
+          47.46358378048285
+        ]
+      ]
+    },
+    {
+      "type": "arrow",
+      "version": 2320,
+      "versionNonce": 1152510352,
+      "isDeleted": false,
+      "id": "dGpYdkucpmmLNu7W-Q-gM",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 999.6757789451599,
+      "y": 318.8661680016853,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 142.29238542386065,
+      "height": 47.46358378048285,
+      "seed": 46180752,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "boundElements": [],
+      "updated": 1660836998906,
+      "link": null,
+      "locked": false,
+      "startBinding": {
+        "elementId": "oiK02bVaH-ai7uXWjU3ZM",
+        "focus": 0.22861353912443413,
+        "gap": 11.364932039771247
+      },
+      "endBinding": {
+        "elementId": "7o9yGLYgjNTqNDm0mQDDV",
+        "focus": -0.6286267847919298,
+        "gap": 6.180151060666958
+      },
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          142.29238542386065,
+          47.46358378048285
         ]
       ]
     },
     {
       "type": "text",
-      "version": 802,
-      "versionNonce": 893915264,
+      "version": 1070,
+      "versionNonce": 2129402224,
       "isDeleted": false,
       "id": "0VNY4jt-T8GXlW_GS7_Pp",
       "fillStyle": "hachure",
@@ -259,11 +313,11 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 738.95263671875,
-      "y": 424.41546630859375,
+      "x": 813.5822143554688,
+      "y": 427.36578369140625,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 331,
+      "width": 256,
       "height": 50,
       "seed": 1070989035,
       "groupIds": [],
@@ -274,51 +328,17 @@
           "type": "arrow"
         }
       ],
-      "updated": 1652999514603,
+      "updated": 1660836993493,
       "link": null,
       "locked": false,
       "fontSize": 20,
       "fontFamily": 1,
-      "text": "We use the VA's enterprise cloud,\nalso known as VAEC",
+      "text": "We use the AWS offering\nwithin VA Enterprise Cloud",
       "baseline": 43,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "We use the VA's enterprise cloud,\nalso known as VAEC"
-    },
-    {
-      "type": "text",
-      "version": 179,
-      "versionNonce": 1777708340,
-      "isDeleted": false,
-      "id": "R0hKhQZysWPWFpk9wbIc5",
-      "fillStyle": "hachure",
-      "strokeWidth": 4,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "angle": 0,
-      "x": 1189.4370727539062,
-      "y": 243.59524536132812,
-      "strokeColor": "#000000",
-      "backgroundColor": "transparent",
-      "width": 218,
-      "height": 46,
-      "seed": 827683013,
-      "groupIds": [],
-      "strokeSharpness": "sharp",
-      "boundElements": [],
-      "updated": 1652283940570,
-      "link": null,
-      "locked": false,
-      "fontSize": 36,
-      "fontFamily": 1,
-      "text": "Architecture",
-      "baseline": 32,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "containerId": null,
-      "originalText": "Architecture"
+      "originalText": "We use the AWS offering\nwithin VA Enterprise Cloud"
     },
     {
       "type": "ellipse",
@@ -556,6 +576,79 @@
       "verticalAlign": "top",
       "containerId": null,
       "originalText": "We leverage common\ncontrol inheritance \nup the stack"
+    },
+    {
+      "id": "oiK02bVaH-ai7uXWjU3ZM",
+      "type": "text",
+      "x": 815.9955291748047,
+      "y": 257.50123596191406,
+      "width": 238,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "seed": 31336848,
+      "version": 417,
+      "versionNonce": 115816304,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "dGpYdkucpmmLNu7W-Q-gM",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1660836998906,
+      "link": null,
+      "locked": false,
+      "text": "About 70% of security \ncontrols are inherited",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 43,
+      "containerId": null,
+      "originalText": "About 70% of security \ncontrols are inherited"
+    },
+    {
+      "id": "rKYQ-xhSvSrQ44VSa0eT8",
+      "type": "text",
+      "x": 1223.3819732666016,
+      "y": 239.9060821533203,
+      "width": 253,
+      "height": 36,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "seed": 4624752,
+      "version": 474,
+      "versionNonce": 249889136,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1660837274008,
+      "link": null,
+      "locked": false,
+      "text": "The Modern Stack",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 25,
+      "containerId": null,
+      "originalText": "The Modern Stack"
     }
   ],
   "appState": {
