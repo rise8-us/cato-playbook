@@ -1,7 +1,8 @@
 # Architecture
 We leverage a modern architecture that allows us to build, deploy and monitor our applications. At the lowest level, a 
-cloud environment (eg VAEC) serves as our infrastructure providing flexible compute and storage capabilities. Above that 
-is a modern platform (eg DI) which provides fundamental services such as endpoint encryption, logging and monitoring. On
-top of that we ship our applications with a [Secure & Release (SecRel) Pipeline](pipeline.md). 
+cloud environment (eg VA Enterprise Cloud) serves as our infrastructure providing flexible compute and storage 
+capabilities. Above that is a modern platform which provides both operating environments 
+(eg [Delivery Infrastructure](platform.md)) and a secure mechanism for shipping applications 
+(eg [Secure Release Pipeline](pipeline.md)).
 
 ![Technology Stack!](images/architecture.png "Technology Stack")
