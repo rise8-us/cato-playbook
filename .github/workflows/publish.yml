@@ -20,6 +20,6 @@ jobs:
       - name: Install python
         uses: actions/setup-python@v3
       - name: Install mkdocs
-        run: pip install mkdocs-material mkdocs-print-site-plugin
+        run: pip install mkdocs-material mkdocs-print-site-plugin mkdocs-git-revision-date-localized-plugingit
       - name: Build and deploy
         run: mkdocs gh-deploy --force
