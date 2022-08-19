@@ -2,8 +2,11 @@ site_name: Lighthouse cATO Playbook
 site_url: https://department-of-veterans-affairs.github.io/lighthouse-cato-playbook
 repo_url: https://github.com/department-of-veterans-affairs/lighthouse-cato-playbook
 edit_uri: edit/main/docs/
+repo_name: lighthouse-cato-playbook
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github
 markdown_extensions:
   - abbr
   - footnotes
