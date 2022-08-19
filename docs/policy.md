@@ -1,6 +1,6 @@
 # Policy
 
-- Critical and high severity vulnerabilities detected via Static Analysis Security Testing (SAST) must be mitigated 
+- Critical and high severity vulnerabilities detected via Static Application Security Testing (SAST) must be mitigated 
 prior to deployment into both staging and production environments. Detection is **automated** via the
 [Secure Release Pipeline]((https://github.com/department-of-veterans-affairs/lighthouse-tornado)). Enforcement is 
 **automated** via [Delivery Infrastructure](https://department-of-veterans-affairs.github.io/lighthouse-di-documentation/).
