@@ -11,5 +11,5 @@ means updating documentation and security requirements after changes in implemen
 new security and privacy risks. Changes may require additional security and privacy controls.
 - Assessors are responsible to ensure product teams have addressed security requirements in an appropriate manner.
 - Assessors will ensure application teams comply with the [policy](policy.md)
-- Assessors will meet with the product team at least every 6 months to ensure documentation and security requirements 
+- Assessors will meet with the product team at least every 3 months to ensure documentation and security requirements 
 are being maintained.
