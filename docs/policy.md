@@ -1,5 +1,10 @@
 # Policy
 
+- Security requirements generated via SD Elements must be completed and approved by an assessor. Enforcement is 
+**manual** via assessment. Approach is phased according to the following schedule:
+    1. priority (7-10) and privacy tasks prior to release into production
+    2. priority (4-6) tasks within 30 days of release into production 
+    3. priority (1-3) tasks within 60 days of release into production
 - Critical and high severity vulnerabilities detected via Static Application Security Testing (SAST) must be mitigated 
 prior to deployment into both staging and production environments. Detection is **automated** via the
 [Secure Release Pipeline]((https://github.com/department-of-veterans-affairs/lighthouse-tornado)). Enforcement is 
