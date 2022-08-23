@@ -21,5 +21,5 @@ must pass a maleware scan. Detection is **automated** via the
 - Critical and high severity vulnerabilities in production are remediated or mitigated within 3 business days of 
 discovery. Detection is both **automated** via the 
 [Secure Release Pipeline](https://department-of-veterans-affairs.github.io/lighthouse-tornado/) and **manual** 
-(ie pentration test). Remediation is **manual** via normal agile product development. Enforcement is **manual** via 
+(ie penetration test). Remediation is **manual** via normal agile product development. Enforcement is **manual** via 
 assessment.
