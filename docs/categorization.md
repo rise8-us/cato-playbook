@@ -23,7 +23,7 @@ follows:
 - **High** - the loss of confidentiality, integrity, or availability could be expected to have a severe or
   catastrophic adverse effect on organizational operations, organizational assets, or individuals.[^2]
 
-Given our platform is categorized as moderate we are only able to accept low and moderate applications (eg APIs) at this
+:material-information-outline: Given our platform is categorized as moderate we are only able to accept low and moderate applications (eg APIs) at this
 time.
 
 *[SC]: system categorization
