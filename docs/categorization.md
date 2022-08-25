@@ -1,5 +1,9 @@
 # Categorization
 
+We leverage an existing service managed by the VA's Governance Risk Compliance (GRC) organization for system
+categorization. Reach out to us on slack at
+[vaapi-cato-support](https://lighthouseva.slack.com/archives/C03G2J6G7AR) to initiate a system categorization.
+
 The categorization process determines the "worst-case potential impact that could result from a compromise of the 
 confidentiality, integrity, or availability of information expressed as a value of low, moderate or high."[^1] The 
 rating is often expressed as a triple (ie low, moderate, low) but can be reduced to a single aggregate 
@@ -18,10 +22,6 @@ follows:
   effect on organizational operations, organizational assets, or individuals.[^2]
 - **High** - the loss of confidentiality, integrity, or availability could be expected to have a severe or
   catastrophic adverse effect on organizational operations, organizational assets, or individuals.[^2]
-
-We leverage an existing process managed by the VA's Governance Risk Compliance (GRC) organization for system 
-categorization. Reach out to us on slack at
-[vaapi-cato-support](https://lighthouseva.slack.com/archives/C03G2J6G7AR) to initiate a system categorization.
 
 *[SC]: system categorization
 [^1]:[NIST Special Publication 800-37](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final)
