@@ -23,6 +23,9 @@ follows:
 - **High** - the loss of confidentiality, integrity, or availability could be expected to have a severe or
   catastrophic adverse effect on organizational operations, organizational assets, or individuals.[^2]
 
+Given our platform is categorized as moderate we are only able to accept low and moderate applications (eg APIs) at this
+time.
+
 *[SC]: system categorization
 [^1]:[NIST Special Publication 800-37](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final)
 [^2]:[Standards for Security Categorization of Federal Information and Information Systems](https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.199.pdf)
