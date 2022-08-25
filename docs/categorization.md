@@ -5,8 +5,8 @@ confidentiality, integrity, or availability of information expressed as a value 
 rating is often expressed as a triple (ie low, moderate, low) but can be reduced to a single aggregate 
 value (ie moderate).
 
-SC information system = {(confidentiality, impact), (integrity, impact), (availability, impact)},
-where the acceptable values for potential impact are LOW, MODERATE, or HIGH.
+**SC**~information_system~ = {(**confidentiality**, *impact*), (**integrity**, *impact*), (**availability**, *impact*)},  
+where the acceptable values for potential *impact* are LOW, MODERATE, or HIGH.
 
 The system categorization affects security and privacy control selection. In general, the higher the impact due to loss,
 the more protections (eg security and privacy controls) we must put in place to mitigate risk. The impact levels are as 
@@ -23,5 +23,6 @@ We leverage an existing process managed by the VA's Governance Risk Compliance (
 categorization. Reach out to us on slack at
 [vaapi-cato-support](https://lighthouseva.slack.com/archives/C03G2J6G7AR) to initiate a system categorization.
 
+*[SC]: system categorization
 [^1]:[NIST Special Publication 800-37](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final)
 [^2]:[Standards for Security Categorization of Federal Information and Information Systems](https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.199.pdf)
