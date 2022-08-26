@@ -645,14 +645,14 @@
     },
     {
       "type": "rectangle",
-      "version": 1180,
-      "versionNonce": 648426898,
+      "version": 1186,
+      "versionNonce": 816059787,
       "isDeleted": false,
       "id": "VL08bzihxhlmPa0JnpZ0X",
       "fillStyle": "hachure",
       "strokeWidth": 1,
       "strokeStyle": "dashed",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "angle": 0,
       "x": 868.4284057617188,
@@ -661,11 +661,16 @@
       "backgroundColor": "transparent",
       "width": 554.40283203125,
       "height": 163.62847900390625,
-      "seed": 1848674949,
+      "seed": 1447169349,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElements": [],
-      "updated": 1653343926608,
+      "boundElements": [
+        {
+          "id": "-5ovmL1ulpfWBnHHrOCGL",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1661478062881,
       "link": null,
       "locked": false
     },
@@ -800,6 +805,94 @@
           -112.23935218134892
         ]
       ]
+    },
+    {
+      "id": "-5ovmL1ulpfWBnHHrOCGL",
+      "type": "arrow",
+      "x": 1411.4772772270012,
+      "y": 632.0707244873047,
+      "width": 84.50389424026457,
+      "height": 86.86730957031239,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 1320910501,
+      "version": 280,
+      "versionNonce": 190868555,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1661478045071,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -84.50389424026457,
+          -86.86730957031239
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "CTEpP2PqVuaEwTVHY-kT9",
+        "focus": 0.19736639538844972,
+        "gap": 9.06170654296875
+      },
+      "endBinding": {
+        "elementId": "VL08bzihxhlmPa0JnpZ0X",
+        "focus": -0.2738033550861045,
+        "gap": 4.178726196289176
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "CTEpP2PqVuaEwTVHY-kT9",
+      "type": "text",
+      "x": 1272.9607543945312,
+      "y": 641.1324310302734,
+      "width": 295,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "seed": 356860043,
+      "version": 120,
+      "versionNonce": 1959326187,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "-5ovmL1ulpfWBnHHrOCGL",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1661478038242,
+      "link": null,
+      "locked": false,
+      "text": "We're responsible for managing\nthe risk of systems inside\nthe boundary",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 68,
+      "containerId": null,
+      "originalText": "We're responsible for managing\nthe risk of systems inside\nthe boundary"
     }
   ],
   "appState": {
