@@ -12,3 +12,7 @@
     sites owned and operated by the VA. We utilize va.gov domains for all sites operated with the VA. However, SaaS 
     products (eg [https://www.oit.va.gov/marketplace/](https://www.oit.va.gov/marketplace/)) are owned and operated by 
     commercial entities. These sites operate under domains registered by the vendor.
+
+??? question "Are you storing Protected Health Information (PHI) outside the VA's intranet?"
+
+    No, data is stored within the AWS offering on the VA Enterprise Cloud.
