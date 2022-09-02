@@ -53,5 +53,6 @@ nav:
       - 'checklist.md'
   - 'policy.md'
   - 'monitoring.md'
-  - 'contact.md'
-  - 'FAQ': 'faq.md'
+  - 'Support':
+    - 'contact.md'
+    - 'FAQ': 'faq.md'
