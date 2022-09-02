@@ -7,6 +7,8 @@ theme:
   name: material
   icon:
     repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -34,8 +36,8 @@ plugins:
   - search
   - print-site
 nav:
-  - 'index.md'
   - 'Approach':
+      - 'index.md'
       - 'Overview': 'approach.md'
       - 'Benefits': 'benefits.md'
       - 'architecture.md'
