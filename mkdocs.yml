@@ -36,7 +36,7 @@ plugins:
   - search
   - print-site
 nav:
-  - 'Approach':
+  - 'Introduction':
       - 'index.md'
       - 'Overview': 'approach.md'
       - 'Benefits': 'benefits.md'
