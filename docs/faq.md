@@ -16,3 +16,10 @@
 ??? question "Are you storing Protected Health Information (PHI) outside the VA's intranet?"
 
     No, data is stored within the AWS offering on the VA Enterprise Cloud.
+
+??? question "How do you handle POAMs for applications?"
+
+    We do not allow POAMs. We require strict compliance with our [policy](policy.md). Allowing POAMs would require 
+    additional staffing to manage, assess and  approve. Addtionally, POAMs would likely increase our risk. Keeping risk 
+    low allows us to move quickly and safely.
+
