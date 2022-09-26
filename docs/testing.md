@@ -7,10 +7,17 @@ Access to the VA network is required.
 
 - A web application penetration test, referred to as a Web Application Security Assessment (WASA) within the VA, must be
   performed before the application is made available in a production environment. Tests must be performed annually or at
-  the discretion of an assessor. Critical and high findings must be remediated within 3 business days. 
+  the discretion of an assessor. 
+  - Critical findings must be remediated within 30 days.
+  - High findings must be remediated within 60 days. 
+  - Medium findings must be remediated within 90 days.
+  - Low findings are remediated at the discretion of the application assessor.
 - A relational database scan must be performed[^1] before the application is made available in a production environment. 
-  Tests must be performed annually or at the discretion of an assessor. Critical and high findings must be remediated 
-  within 3 business days. 
+  Tests must be performed annually or at the discretion of an assessor. 
+  - Critical findings must be remediated within 30 days.
+  - High findings must be remediated within 60 days. 
+  - Medium findings must be remediated within 90 days.
+  - Low findings are remediated at the discretion of the application assessor.
 
 
 
