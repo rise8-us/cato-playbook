@@ -23,7 +23,7 @@ discovery. Detection is both **automated** via the
 [Secure Release Pipeline](https://department-of-veterans-affairs.github.io/lighthouse-tornado/) and **manual** 
 (ie penetration test). Remediation is **manual** via normal agile product development. Enforcement is **manual** via 
 assessment.
-- Moderate vulnerabilities in production must be remediated or mitigated within 60 days of detection. Detection is both 
+- Medium vulnerabilities in production must be remediated or mitigated within 30 days of detection. Detection is both 
 **automated** via the  [Secure Release Pipeline](https://department-of-veterans-affairs.github.io/lighthouse-tornado/) 
 and **manual** (ie penetration test). Remediation is **manual** via normal agile product development. Enforcement is 
 **manual** via assessment.
