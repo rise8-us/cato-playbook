@@ -1,4 +1,4 @@
-# Penetration Testing
+# Penetration & Relational DB Testing
 
 Penetration tests evaluate the security posture of a system by exploiting known vulnerabilities. We currently leverage 
 existing services within the VA to perform penetration tests. The penetration tests listed below 
@@ -7,17 +7,19 @@ Access to the VA network is required.
 
 - A web application penetration test, referred to as a Web Application Security Assessment (WASA) within the VA, must be
   performed before the application is made available in a production environment. Tests must be performed annually or at
-  the discretion of an assessor. 
+  the discretion of an Application Assessor. 
   - Critical findings must be remediated within 30 days.
   - High findings must be remediated within 60 days. 
   - Medium findings must be remediated within 90 days.
-  - Low findings are remediated at the discretion of the application assessor.
+  - Low findings are remediated at the discretion of the Application Assessor.
+<br>
+
 - A relational database scan must be performed[^1] before the application is made available in a production environment. 
-  Tests must be performed annually or at the discretion of an assessor. 
+  Tests must be performed annually or at the discretion of an Application Assessor. 
   - Critical findings must be remediated within 30 days.
   - High findings must be remediated within 60 days. 
   - Medium findings must be remediated within 90 days.
-  - Low findings are remediated at the discretion of the application assessor.
+  - Low findings are remediated at the discretion of the Application Assessor.
 
 
 
