@@ -1,4 +1,4 @@
-# Penetration & Relational DB Testing
+# Penetration & DB Testing
 
 Penetration tests evaluate the security posture of a system by exploiting known vulnerabilities. We currently leverage 
 existing services within the VA to perform penetration tests. The penetration tests listed below 
