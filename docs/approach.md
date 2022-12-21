@@ -15,4 +15,4 @@ The following principles are critical to how we enable people, process and techn
 
 
 [^1]:[NIST Special Publication 800-37](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-137.pdf)
-[^2]: NIST Special Publication 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
+[^2]: [NIST Special Publication 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
