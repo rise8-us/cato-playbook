@@ -2,7 +2,10 @@
 
 The continuous ATO utilizes ongoing authorization within the [National Institute of Standards and Technology](https://www.nist.gov/) (NIST) [Risk Management Framework](https://csrc.nist.gov/projects/risk-management) (RMF). Ongoing authorization requires that “security controls and organizational risks are assessed and analyzed at a frequency sufficient to support risk-based security decisions to adequately protect organizational information”[^1]. 
 
-The following principles are critical in supporting our approach within Lighthouse:
+We currently leverage a mixture of new and existing VA practices to support RMF outcomes, which includes the management of security controls that are aligned to your systems unique security risk context via NIST Security and Privacy Controls for Federal Information Systems and Organizations[^2].
+
+## Principles
+The following principles are critical to how we enable people, process and technology within Lighthouse:
 
 - **Cloud Adoption** reduces the amount of authorizations needed across the organization
 - **Common Control Inheritance** reduces the amount of security and compliance work for products enabling application teams to deliver products faster
@@ -12,3 +15,4 @@ The following principles are critical in supporting our approach within Lighthou
 
 
 [^1]:[NIST Special Publication 800-37](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-137.pdf)
+[^2]: NIST Special Publication 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
