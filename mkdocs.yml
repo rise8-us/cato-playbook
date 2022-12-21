@@ -42,7 +42,6 @@ nav:
       - 'Benefits': 'benefits.md'
       - 'architecture.md'
       - 'Boundary': 'boundary.md'
-      - 'Review': 'review.md'
   - 'Process':
       - 'Overview' : 'process.md'
       - 'categorization.md'
