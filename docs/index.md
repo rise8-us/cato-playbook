@@ -1,4 +1,4 @@
-# Opening Monologue
+# Opening Prologue
 
 Because reliance on digital products and experiences that Veterans and their families depend upon is always growing, so too are the consequences of outages and cybersecurity threats. It is incumbent on organizations to understand the risks that a system introduces to their network, and to mitigate those risks to the greatest extent possible. Through a process of Certification and Accreditation, a system can be granted what is known as an Authority to Operate (ATO), which approves a system for use. The Federal Government uses ATOs to manage risk in their networks by evaluating security controls for new and existing systems. A tremendous amount of work and responsibility goes into certifying a system for use, and requires that an Authorizing Official (AO) be the individual who accepts both the benefits and risks of the system going into production to obtain and maintain their ATO. 
 
