@@ -7,7 +7,7 @@ cATO utilizes ongoing authorization within the [National Institute of Standards 
 We currently leverage a mixture of new and existing VA practices to support RMF outcomes, which includes the management of security controls that are aligned to your systems unique security risk context via NIST Security and Privacy Controls for Federal Information Systems and Organizations[^3].
 
 ## Principles
-The following principles are critical to how we enable people, process and technology within Lighthouse:
+The following are critical to how we enable people, process and technology within Lighthouse:
 
 - **Cloud Adoption** reduces the amount of authorizations needed across the organization
 - **Common Control Inheritance** reduces the amount of security and compliance work for products enabling application teams to deliver products faster
