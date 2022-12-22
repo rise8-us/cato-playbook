@@ -38,7 +38,6 @@ plugins:
 nav:
   - 'Introduction':
       - 'Prologue': 'prologue.md'
-      - 'cato.md'
       - 'Overview': 'approach.md'
       - 'Benefits': 'benefits.md'
       - 'architecture.md'
