@@ -1,4 +1,4 @@
-# Opening Prologue
+# Prologue
 
 Because reliance on digital products and experiences that Veterans and their families depend upon is always growing, so too are the consequences of outages and cybersecurity threats. It is incumbent on organizations to understand the risks that a system introduces to their network, and to mitigate those risks to the greatest extent possible. Through a process of Certification and Accreditation, a system can be granted what is known as an Authority to Operate (ATO), which approves a system for use. The Federal Government uses ATOs to manage risk in their networks by evaluating security controls for new and existing systems. A tremendous amount of work and responsibility goes into certifying a system for use, and requires that an Authorizing Official (AO) be the individual who accepts both the benefits and risks of the system going into production to obtain and maintain their ATO. 
 
@@ -6,7 +6,7 @@ As software becomes more dependent on microservice-based architectures, and deve
 
 Our user research uncovered that application development teams have no awareness or working knowledge of what an ATO is, how to achieve one, nor that there are responsibilities they own on their path to production. If teams are not aware of what responsibilities they carry in terms of cybersecurity risk, and why it supports their goal of delivering value to Veterans, how can we assume that security risks are being mitigated to the greatest extent possible?
 
-# Introduction of cATO
+## Introduction of cATO
 
 As the Department of Veterans Affairs (VA) implements Development, Security and Operations (DevSecOps) methodologies, there is an opportunity to implement Continuous Authorization to Operate (cATO) - also known as continuous Risk Management Framework (cRMF) - practices that will enable continuously secure software releases as well as monitoring. cATO represents a challenging but necessary enhancement of our cyber risk approach in order to accelerate innovation while outpacing expanding cybersecurity threats. The focus shifts to how quickly teams can deliver outcomes[^2] into production for Veterans in a repeatable and reliable way. Speed is achieved utilizing small, incremental changes that are easily shipped into production[^3]. However, the quick pace of development can often outpace security and compliance practices that do not adapt and evolve. Sacrificing security and compliance for speed is neither acceptable nor necessary. 
 
