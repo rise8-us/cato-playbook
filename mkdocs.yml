@@ -37,7 +37,7 @@ plugins:
   - print-site
 nav:
   - 'Introduction':
-      - 'index.md'
+      - 'Prologue': 'prologue.md'
       - 'Introduction of cATO': 'cato.md'
       - 'Overview': 'approach.md'
       - 'Benefits': 'benefits.md'
