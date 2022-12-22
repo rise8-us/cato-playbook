@@ -38,6 +38,7 @@ plugins:
 nav:
   - 'Introduction':
       - 'index.md'
+      - 'Introduction of cATO': 'introduction-of-cato.md'
       - 'Overview': 'approach.md'
       - 'Benefits': 'benefits.md'
       - 'architecture.md'
