@@ -1,4 +1,4 @@
-## Introduction of cATO
+# Introduction of cATO
 
 As the Department of Veterans Affairs (VA) implements Development, Security and Operations (DevSecOps) methodologies, there is an opportunity to implement Continuous Authorization to Operate (cATO) - also known as continuous Risk Management Framework (cRMF) - practices that will enable continuously secure software releases as well as monitoring. cATO represents a challenging but necessary enhancement of our cyber risk approach in order to accelerate innovation while outpacing expanding cybersecurity threats. The focus shifts to how quickly teams can deliver outcomes[^1] into production for Veterans in a repeatable and reliable way. Speed is achieved utilizing small, incremental changes that are easily shipped into production[^[2]]. However, the quick pace of development can often outpace security and compliance practices that do not adapt and evolve. Sacrificing security and compliance for speed is neither acceptable nor necessary. 
 
