@@ -8,4 +8,7 @@ As software becomes more dependent on microservice-based architectures, and deve
 
 Our user research uncovered that application development teams had limited to no awareness or working knowledge of what an ATO is, how to achieve one, nor that there are responsibilities they own on their path to production. This begs the question - if teams are not aware of what responsibilities they own in terms of cybersecurity risk, and why it supports their goal of delivering value to Veterans, how can we assume that security risks are being mitigated to the greatest extent possible?
 
+This Lighthouse cATO playbook is a living document[^2] describing the people, processes and technology we leverage. The intent of this playbook is to help educate readers on our cATO practices in a concise, and consumable way. 
+
 [^1]: [VA Handbook 6500](https://dvagov.sharepoint.com/sites/OITOIS/KnowledgeService/KSPublications/VA_Handbook_6500.pdf#search=6500)
+[^2]: We maintain the documentation so that it represents how we manage cybersecurity risks and threats
