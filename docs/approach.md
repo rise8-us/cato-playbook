@@ -12,7 +12,6 @@ The [National Institute of Standards and Technology](https://www.nist.gov/) (NIS
 Organizations should maximize the use of ***automation***, wherever possible, to increase the speed, effectiveness, and efficiency of executing the steps in the Risk Management Framework (RMF). Automation is particularly useful in the assessment and continuous monitoring of controls, the preparation of authorization packages for timely decision-making, and the implementation of ongoing authorization approaches—together facilitating a real-time or near real-time risk-based decision-making process for senior leaders.
 
 <br/>
-
 ## RMF Org-Wide Risk Management
 
 Effective NIST RMF is structured in an layered format that supports both bi-directional communication and reporting as well as risk management approach defined by boundaries of ownership. Application development teams align to Level 3 of an orgazniation-wide RMF approach as described by the image below, and focus on addressing direct and indirect[^4] risks tied to their *information system* boundary. Level 1 and 2 are responsible for employing systems and processes that information system owning teams will interact with throughout the software development lifecycle (SDLC), including day two operations such as incident response.
@@ -22,7 +21,6 @@ Effective NIST RMF is structured in an layered format that supports both bi-dire
 ![This is an image](images/rmfOrgApproach.png)
 
 <br/>
-
 ## RMF Structure
 
 There are sevent steps in the RMF. While the RMF steps are listed in sequential order below, it's important to note that steps that occur after *Prepare*  can be carried out in a nonsequential order. This distinction aligns well with Agile and DevSecOps methodoligies where incremental and iterative adjustments that are introduced to a system come from a feedback loop with end-users, peer teams or data that exists from various monitoring solutions. The purpose of each step is outlined for you here:
@@ -39,7 +37,6 @@ There are sevent steps in the RMF. While the RMF steps are listed in sequential 
 ![This is an image](images/rmfSteps.png)
 
 <br/>
-
 ## Ongoing Authorization and cATO
 
 Traditionally, the *Authorize* step of RMF is where a designated Authorizing Official (AO) will make an Authorization to Operate decision based upon:
