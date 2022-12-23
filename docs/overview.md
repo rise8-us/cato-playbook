@@ -57,6 +57,10 @@ It's important to note that risks can be remediated, accepted with no intent to 
 - **Autonomy Requires Accountability** requires application development teams to responsibly manage their systems direct and indirect security risks.
 - **Embedded Support** looks like cybersecurity certified specialists are now members of the application development team to rapidly assist with managing security risks 
 
+<br/>
+
+![This is an image](images/cATO.png)
+
 <br/><br/>
 
 *[cATO]: continuous Authority to Operate
