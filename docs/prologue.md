@@ -10,5 +10,6 @@ Our user research uncovered that application development teams had limited to no
 
 This Lighthouse cATO playbook is a living document[^2] describing the people, processes and technology we leverage. The intent of this playbook is to help educate readers on our cATO practices in a concise, and consumable way. 
 
+<br/>
 [^1]: [VA Handbook 6500](https://dvagov.sharepoint.com/sites/OITOIS/KnowledgeService/KSPublications/VA_Handbook_6500.pdf#search=6500)
 [^2]: We maintain the documentation so that it represents how we manage cybersecurity risks and threats
