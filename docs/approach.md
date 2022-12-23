@@ -6,7 +6,7 @@ As the Department of Veterans Affairs (VA) implements Development, Security and 
 
 > ***Sacrificing security and compliance for speed is neither acceptable nor necessary.***
 
-<br/><br/>
+<br/>
 
 ## NIST RMF Fundamentals
 
