@@ -24,6 +24,7 @@ Effective NIST RMF is structured in an layered format that supports both bi-dire
 ## RMF Structure
 
 There are sevent steps in the RMF. While the RMF steps are listed in sequential order below, it's important to note that steps that occur after *Prepare*  can be carried out in a nonsequential order. This distinction aligns well with Agile and DevSecOps methodoligies where incremental and iterative adjustments that are introduced to a system come from a feedback loop with end-users, peer teams or data that exists from various monitoring solutions. The purpose of each step is outlined for you here:
+
 - **Prepare** to execute the RMF from an organization- and a system-level perspective by establishing a context and priorities for managing security and privacy risk.
 - **Categorize** the system and the information processed, stored, and transmitted by the system based on an analysis of the impact of loss.
 - **Select** an initial set of controls for the system and tailor the controls as needed to reduce risk to an acceptable level based on an assessment of risk. 
@@ -40,6 +41,7 @@ There are sevent steps in the RMF. While the RMF steps are listed in sequential 
 ## Ongoing Authorization and cATO
 
 Traditionally, the *Authorize* step of RMF is where a designated Authorizing Official (AO) will make an Authorization to Operate decision based upon:
+
 1. A risk acceptance statement
 2. Time or event-driven triggers for reviewi of the security and privacy posture of a given system (if any)
 
