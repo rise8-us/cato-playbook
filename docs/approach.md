@@ -2,12 +2,9 @@
 
 As the Department of Veterans Affairs (VA) implements Development, Security and Operations (DevSecOps) methodologies, there is an opportunity to implement Continuous Authorization to Operate (cATO) practices that will enable real-time monitoring and continuous delivery of secure software. cATO represents a challenging but necessary enhancement of our cyber risk approach in order to accelerate innovation while outpacing expanding cybersecurity threats. Speed can only be achieved utilizing small, incremental changes that are easily tested and shipped into production[^1]. However, the quick pace of development can often outpace security and compliance practices that do not adapt and evolve with the times.
 
-<br/>
-
 > ***Sacrificing security and compliance for speed is neither acceptable nor necessary.***
 
 <br/>
-
 ## NIST RMF Fundamentals
 
 The [National Institute of Standards and Technology](https://www.nist.gov/) (NIST), and in partnership with other organizations, developed the [Risk Management Framework](https://csrc.nist.gov/projects/risk-management) (RMF) to improve information security, strengthen risk management processes, and encourage reciprocity[^2] among organizations which includes data privacy. NIST encourages organizations to employ, whenever possible, iterative and incremental approaches to ensure security and privacy requirements and controls are implemented, verified, and validated as development progresses throughout the life cycle. Security controls are aligned to a given systems unique security risk context via NIST Security and Privacy Controls for Federal Information Systems and Organizations[^3].
