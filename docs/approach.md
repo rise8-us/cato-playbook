@@ -11,7 +11,7 @@ The [National Institute of Standards and Technology](https://www.nist.gov/) (NIS
 
 Organizations should maximize the use of ***automation***, wherever possible, to increase the speed, effectiveness, and efficiency of executing the steps in the Risk Management Framework (RMF). Automation is particularly useful in the assessment and continuous monitoring of controls, the preparation of authorization packages for timely decision-making, and the implementation of ongoing authorization approaches—together facilitating a real-time or near real-time risk-based decision-making process for senior leaders.
 
-<br/><br/>
+<br/>
 
 ## RMF Org-Wide Risk Management
 
@@ -21,7 +21,7 @@ Effective NIST RMF is structured in an layered format that supports both bi-dire
 
 ![This is an image](images/rmfOrgApproach.png)
 
-<br/><br/>
+<br/>
 
 ## RMF Structure
 
@@ -38,7 +38,7 @@ There are sevent steps in the RMF. While the RMF steps are listed in sequential 
 
 ![This is an image](images/rmfSteps.png)
 
-<br/><br/>
+<br/>
 
 ## Ongoing Authorization and cATO
 
