@@ -35,6 +35,7 @@ markdown_extensions:
 plugins:
   - search
   - print-site
+  - typeset
 nav:
   - 'Introduction':
       - 'Prologue': 'prologue.md'
