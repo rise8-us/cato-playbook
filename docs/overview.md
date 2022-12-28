@@ -43,7 +43,7 @@ There are sevent steps in the RMF. While the RMF steps are listed in sequential 
 Traditionally, the *Authorize* step of RMF is where a designated Authorizing Official (AO) will make an Authorization to Operate decision based upon:
 
 1. A risk acceptance statement
-2. Time or event-driven triggers for reviewi of the security and privacy posture of a given system (if any)
+2. Time or event-driven triggers for review of the security and privacy posture of a given system (if any)
 
 It's important to note that risks can be remediated, accepted with no intent to remediate or accept with a planned future remediation strategy - also known as a Plan of Action and Milestone (POAM).
 
