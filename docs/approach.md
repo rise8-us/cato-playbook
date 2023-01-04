@@ -69,12 +69,15 @@ This section communicates what existing VA vs. new Lighthouse cATO processes are
 | System Categorization               | :white_check_mark: FIPS 199 + NIST 800-60 (eMASS)                                |                                                                         |
 | Application Assessors               | :x: Coordination through GRC Team                                                | :white_check_mark: Embedded with App Teams on day 1                     |
 | Control Selection                   | :x: eMASS Static Baseline including all CCIs                                     | :white_check_mark: SD Elements and only whats applicable                |
-| Control Implementation              | :x: all details go into eMASS                                                    | :white_check_mark: Address all security requirements in SD Elements with evidence     |
+| Control Implementation              | :x: eMASS                                                                        | :white_check_mark: Address all security requirements in SD Elements     |
 | Web Application Security Testing    | :white_check_mark: EAS WASA                                                      |                                                                         |
 | Mobile Application Security Testing | :white_check_mark: EAS MASA                                                      |                                                                         |
-| Database Scanning                   | :white_check_mark: EAS DB Scanning                                               |                                                                         |
-| SAST and SCA Scanning               | :x: Coordinate a Fortify scan by separate team                                   | :white_check_mark: SecRel Pipeline - Snyk scan                      |
-| Image/Container Scanning            | :x: Does not exist                                                               | :white_check_mark: SecRel Pipeline - Aqua Scan                      |
+| Database Scanning                   | :white_check_mark: DB Scanning                                                   |                                                                         |
+| SAST and SCA Scanning               | :x: Fortify                                                                      | :white_check_mark: SecRel Pipeline - Snyk                               |
+| Image/Container Scanning            | :x: Does not exist                                                               | :white_check_mark: SecRel Pipeline - Aqua                               |
 | Control Assessment                  | :x: Coordination through GRC Team for initial ATO and then only upon ATO renewal | :white_check_mark: Assessed as you go with SD Elements                  |
 | POAMs                               | :x: Create & manage after assessment periods                                     | :white_check_mark: SD Elements & reviewed with AO                       |
 | Authorization                       | :x: AO approves initial and all major changes                                    | :white_check_mark: Adhere to all cATO processes and you're pre-approved |
+| Ongoing Change Impacts              | :x: System Impact Analysis (SIA)                                                 | :white_check_mark: SD Elements (Survey + Threat Model Diagram)          |
+
+
