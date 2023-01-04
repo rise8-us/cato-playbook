@@ -32,7 +32,13 @@ Our Ongoing Authorization Boundary (also known as Accountability Boundary) cover
 ## LH SecRel Pipeline Capabilities
 [Continuous integration](https://www.martinfowler.com/articles/continuousIntegration.html) pipelines ensure that Application Development Teams can deliver frequent changes of software into production quickly and safely. Within the Lighthouse Program, app teams have the flexibility to build, test and deploy using whatever strategy is best suited for their product(s). However, before teams can deploy to the LHDI Platform, they must be registered to, and call our, [Secure Release Pipeline (SecRel)](https://department-of-veterans-affairs.github.io/lighthouse-tornado). 
 
-This pipeline is a Lighthouse service that enables security vulnerability detection and remediation guidance every time an engineer commits code changes to their teams repository. Upon each commit, the app team is receiving immediate feedback on security vulnerabilities for Static Application Security Testing (SAST), Software Composition Analysis (SCA) for open source packages, as well as vulnerabilities that exist within Image(s)/Container(s) being leveraged by the application. Our SecRel Pipeline enforces [policies](policy.md) that must be adhered to, in order for teams to achieve a [digitally signed](https://csrc.nist.gov/glossary/term/digital_signature) application image. Images signed by SecRel are the only images for custom developed software allowed onto the LHDI Platform, and are validated by the platform prior to deployment.
+This pipeline is a Lighthouse service that enables security vulnerability detection and remediation guidance every time an engineer commits code changes to their teams repository. Upon each commit, the app team is receiving immediate feedback on security vulnerabilities for Static Application Security Testing (SAST), Software Composition Analysis (SCA) for open source packages, as well as vulnerabilities that exist within Image(s)/Container(s) being leveraged by the application. Our SecRel Pipeline enforces [policies](policy.md) as gatecheck jobs, that must be adhered to in order for teams to achieve a [digitally signed](https://csrc.nist.gov/glossary/term/digital_signature) application image. Only images signed by the SecRel Pipeline are allowed onto the LHDI Platform, and are validated by the platform prior to deployment.
+
+<br/>
+
+![SecRel!](images/SecRel.png "SecRel")
+
+<br/>
 
 Please refer to the [Current Practice Adjustments](#current-practice-adjustments) section below, for all other forms of security vulnerability scanning practices that are currently not covered by the SecRel Pipeline.
 
