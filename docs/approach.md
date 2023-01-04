@@ -6,7 +6,6 @@ The Lighthouse (LH) Program AO and Leadership Team, have chosen to run experimen
 - [LH Ongoing Authorization Boundary](#lh-ongoing-authorization-boundary)
 - [LH SecRel Pipeline Capabilities](#lh-secrel-pipeline-capabilities)
 - [Application Security Assessors](#application-security-assessors)
-- [Quarterly Risk Reviews](#quarterly-risk-reviews)
 - [Current Practice Adjustments](#current-practice-adjustments)
 
 <br/>
@@ -49,7 +48,7 @@ If you recall the [RMF Structure](overview.md), there are two major steps of NIS
 
 Traditionally, System Owning teams would need to coordinate a week, or multi-week, long assessment exercise months in advance to provide adequate time to address NIST Controls and outcomes of the assessment exercise. This forces teams to operate with a waterfall schedule mentality, taking on coordination risks and planning around the availability of Assessors as well as the readiness of the system for assessment. This inevitably adds months of delay to a teams path to production, and often leads to a large list of unaddressed POAMs that then have long shelf lives before being mitigated.
 
-Our approach within the Lighthouse Program is aimed at aligning security assessment practices to how modern software development teams actually develop and deliver products to end-users - iteratively and incrementally. As denoted by the image below, teams learn enough about the problem space and end-users they are solving for, as well as ideating through various solutions. It is at this point when an Application Security Assessor is embedded with the team throughout the lifecycle of their product and Software Development Lifecycle (SDLC). We also employ a COTS solution known as [SD Elements](https://www.securitycompass.com/sdelements/) which allows the System Owning team and Assessors to map out the various technology, architecture and risk vectors using a system survey and threat model diagram to drive [Control Selection](selection.md), implementation and assessment activities. This process of assessing risk occurs as changes are introduced by the System Owning team or their systems dependencies. By iteratively and incrementally addressing small amounts of security risks, Assessors and System Owning teams have greater transparency and trust in the process of certifiying the product to go to production.
+Our approach within the Lighthouse Program is aimed at aligning security assessment practices to how modern software development teams actually develop and deliver products to end-users - iteratively and incrementally. As denoted by the image below, teams learn enough about the problem space and end-users they are solving for, as well as ideating through various solutions. It is at this point when an Application Security Assessor is embedded with the team throughout the lifecycle of their product and Software Development Lifecycle (SDLC). We also employ a COTS solution known as [SD Elements](https://www.securitycompass.com/sdelements/) which allows the System Owning team and Assessors to map out the various technology, architecture and risk vectors using a system survey and threat model diagram to drive [Control Selection](selection.md), implementation and assessment activities. This process of assessing risk and verifying that a security requirement has been met, occurs as changes are introduced by the System Owning team or system dependencies. By iteratively and incrementally addressing small amounts of security risks, Assessors and System Owning teams have greater transparency and trust in the process of certifiying the product to go to production.
 
 <br/>
 
@@ -57,20 +56,26 @@ Our approach within the Lighthouse Program is aimed at aligning security assessm
 
 <br/>
 
-## Quarterly Risk Reviews
-
-<br/>
-
 ## Current Practice Adjustments
-This section is dedicated to outlining the incremental and iterative practice adjustments that have been applied within the Lighthouse Program, and which VA directive/handbook the adjustment is aligned to.
+This section communicates what existing VA vs. new Lighthouse cATO processes are being leveraged to satisfy requirements for Application Development Teams to leverage our Lighthouse Program Ongoing Authorization and cATO. Existing VA Processes come directly from OIT/OIS services that are aligned to [VA Handbook 6500](https://dvagov.sharepoint.com/sites/OITOIS/KnowledgeService/KSPublications/VA_Handbook_6500.pdf#search=6500). 
 
-| Activities | Existing VA Practice Leveraged | New Lighthouse cATO Practice Leveraged |
-|------------|:------------------------------:|:--------------------------------------:|
-|            |                                |                                        |
-|            |                                |                                        |
-|            |                                |                                        |
-|            |                                |                                        |
-|            |                                |                                        |
-|            |                                |                                        |
-|            |                                |                                        |
+| **Activity**                        |                              **Existing VA Process**                             |                     **New Lighthouse cATO Process**                     |
+|-------------------------------------|:--------------------------------------------------------------------------------:|:-----------------------------------------------------------------------:|
+| Register System                     | :white_check_mark: VA GRC Tool (eMASS)                                           |                                                                         |
+| Visualize Security Risks            | :white_check_mark: System Diagram (any format)                                   |                                                                         |
+| Privacy Analysis                    | :white_check_mark: PTA & PIA w/ Privacy Office                                   |                                                                         |
+| Privacy Data Handling               | :white_check_mark: Privacy Act System of Record Notice (SORN)                    |                                                                         |
+| Authorizing Interconnections        | :white_check_mark: VA MOU/ISA Standard Operating Procedure                       |                                                                         |
+| System Categorization               | :white_check_mark: FIPS 199 + NIST 800-60 (eMASS)                                |                                                                         |
+| Application Assessors               | :x: Coordination through GRC Team                                                | :white_check_mark: Embedded with App Teams on day 1                     |
+| Control Selection                   | :x: eMASS Static Baseline including all CCIs                                     | :white_check_mark: SD Elements and only whats applicable                |
+| Control Implementation              | :x: eMASS                                                                        | :white_check_mark: Address all security requirements in SD Elements     |
+| Web Application Security Testing    | :white_check_mark: EAS WASA                                                      |                                                                         |
+| Mobile Application Security Testing | :white_check_mark: EAS MASA                                                      |                                                                         |
+| Database Scanning                   | :white_check_mark: DB Scanning                                                   |                                                                         |
+| SAST and SCA Scanning               | :x: Fortify                                                                      | :white_check_mark: SecRel Pipeline - Snyk                               |
+| Image/Container Scanning            | :x: Does not exist                                                               | :white_check_mark: SecRel Pipeline - Aqua                               |
+| Control Assessment                  | :x: Coordination through GRC Team for initial ATO and then only upon ATO renewal | :white_check_mark: Assessed as you go with SD Elements                  |
+| POAMs                               | :x: Create & manage after assessment periods                                     | :white_check_mark: SD Elements & reviewed with AO                       |
+| Authorization                       | :x: AO approves initial and all major changes                                    | :white_check_mark: Adhere to all cATO processes and you're pre-approved |
 
