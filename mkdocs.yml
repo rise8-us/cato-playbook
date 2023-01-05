@@ -42,6 +42,7 @@ nav:
       - 'Approach': 'approach.md'
       - 'Benefits': 'benefits.md'
   - 'Process':
+      - 'checklist.md'
       - 'Overview' : 'process.md'
       - 'categorization.md'
       - 'privacy.md'
@@ -50,7 +51,6 @@ nav:
       - 'pipeline.md'
       - 'platform.md'
       - 'testing.md'
-      - 'checklist.md'
   - 'policy.md'
   - 'monitoring.md'
   - 'Support':
