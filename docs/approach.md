@@ -57,27 +57,27 @@ Our approach within the Lighthouse Program is aimed at aligning security assessm
 <br/>
 
 ## Current Practice Adjustments
-This section communicates what existing VA processes vs. new Lighthouse cATO processes are being leveraged to satisfy requirements for `Application Development Teams` to leverage the LHDI Platform, Lighthouse Program Ongoing Authorization and cATO. Existing VA Processes come directly from OIT/OIS services that are aligned with [VA Handbook 6500](https://dvagov.sharepoint.com/sites/OITOIS/KnowledgeService/KSPublications/VA_Handbook_6500.pdf#search=6500). 
+This section communicates what existing VA processes vs. new Lighthouse cATO processes are being leveraged, `if applicable` to your systems risk profile, to satisfy requirements for `Application Development Teams` to leverage the LHDI Platform, Lighthouse Program Ongoing Authorization and cATO. Existing VA Processes come directly from OIT/OIS services that are aligned with [VA Handbook 6500](https://dvagov.sharepoint.com/sites/OITOIS/KnowledgeService/KSPublications/VA_Handbook_6500.pdf#search=6500). 
 
-| **Activity**                        | **Existing VA Process**                                                          | **New Lighthouse cATO Process**                                         |
-|-------------------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| Register System                     | :white_check_mark: VA GRC Tool (eMASS)                                           |                                                                         |
-| Visualize Security Risks            | :white_check_mark: System Diagram (any format)                                   |                                                                         |
-| Privacy Analysis                    | :white_check_mark: PTA & PIA w/ Privacy Office                                   |                                                                         |
-| Privacy Data Handling               | :white_check_mark: Privacy Act System of Record Notice (SORN)                    |                                                                         |
-| Authorizing Interconnections        | :white_check_mark: VA MOU/ISA Standard Operating Procedure                       |                                                                         |
-| System Categorization               | :white_check_mark: FIPS 199 + NIST 800-60 (eMASS)                                |                                                                         |
-| Application Assessors               | :x: Coordination through GRC Team                                                | :white_check_mark: Embedded with App Teams on day 1                     |
-| Control Selection                   | :x: eMASS Static Baseline including all CCIs                                     | :white_check_mark: SD Elements and only whats applicable                |
-| Control Implementation              | :x: eMASS                                                                        | :white_check_mark: Address all security requirements in SD Elements     |
-| Web Application Security Testing    | :white_check_mark: EAS WASA                                                      |                                                                         |
-| Mobile Application Security Testing | :white_check_mark: EAS MASA                                                      |                                                                         |
-| Database Scanning                   | :white_check_mark: DB Scanning                                                   |                                                                         |
-| SAST and SCA Scanning               | :x: Fortify                                                                      | :white_check_mark: SecRel Pipeline - Snyk                               |
-| Image/Container Scanning            | :x: Does not exist                                                               | :white_check_mark: SecRel Pipeline - Aqua                               |
-| Control Assessment                  | :x: Coordination through GRC Team for initial ATO and then only upon ATO renewal | :white_check_mark: Assessed as you go with SD Elements                  |
-| POAMs                               | :x: Create & manage after assessment periods                                     | :white_check_mark: SD Elements & reviewed with AO                       |
-| Authorization                       | :x: AO approves initial and all major changes                                    | :white_check_mark: Adhere to all cATO processes and you're pre-approved |
-| Ongoing Change Impacts              | :x: System Impact Analysis (SIA)                                                 | :white_check_mark: SD Elements (Survey + Threat Model Diagram)          |
+| **Activity**                                               | **Existing VA Process**                                                          | **New Lighthouse cATO Process**                                         |
+|------------------------------------------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Register System                                            | :white_check_mark: VA GRC Tool (eMASS)                                           |                                                                         |
+| Visualize Security Risks                                   | :white_check_mark: System Diagram (any format)                                   |                                                                         |
+| Privacy Analysis                                           | :white_check_mark: PTA & PIA w/ Privacy Office                                   |                                                                         |
+| Privacy Data Handling <br/> `If Applicable`                | :white_check_mark: Privacy Act System of Record Notice (SORN)                    |                                                                         |
+| Authorizing Interconnections <br/> `If Applicable`         | :white_check_mark: VA MOU/ISA Standard Operating Procedure                       |                                                                         |
+| System Categorization                                      | :white_check_mark: FIPS 199 + NIST 800-60 (eMASS)                                |                                                                         |
+| Application Assessors                                      | :x: Coordination through GRC Team                                                | :white_check_mark: Embedded with App Teams on day 1                     |
+| Control Selection                                          | :x: eMASS Static Baseline including all CCIs                                     | :white_check_mark: SD Elements and only whats applicable                |
+| Control Implementation                                     | :x: eMASS                                                                        | :white_check_mark: Address all security requirements in SD Elements     |
+| Web Application Security Testing                           | :white_check_mark: EAS WASA                                                      |                                                                         |
+| Mobile Application Security Testing <br/> `If Applicable`  | :white_check_mark: EAS MASA                                                      |                                                                         |
+| Database Scanning                                          | :white_check_mark: DB Scanning                                                   |                                                                         |
+| SAST and SCA Scanning                                      | :x: Fortify                                                                      | :white_check_mark: SecRel Pipeline - Snyk                               |
+| Image/Container Scanning                                   | :x: Does not exist                                                               | :white_check_mark: SecRel Pipeline - Aqua                               |
+| Control Assessment                                         | :x: Coordination through GRC Team for initial ATO and then only upon ATO renewal | :white_check_mark: Assessed as you go with SD Elements                  |
+| POAMs                                                      | :x: Create & manage after assessment periods                                     | :white_check_mark: SD Elements & reviewed with AO                       |
+| Authorization                                              | :x: AO approves initial and all major changes                                    | :white_check_mark: Adhere to all cATO processes and you're pre-approved |
+| Ongoing Change Impacts                                     | :x: System Impact Analysis (SIA)                                                 | :white_check_mark: SD Elements (Survey + Threat Model Diagram)          |
 
 
