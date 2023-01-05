@@ -42,8 +42,8 @@ nav:
       - 'Approach': 'approach.md'
       - 'Benefits': 'benefits.md'
   - 'Process':
+      - 'overview': 'process.md'
       - 'checklist.md'
-      - 'Overview' : 'process.md'
       - 'categorization.md'
       - 'privacy.md'
       - 'diagram.md'
