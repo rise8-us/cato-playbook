@@ -1,12 +1,15 @@
 # Checklist
 
-We've put a checklist together for product teams looking to leverage our platform and authorization process.
+We've put together a checklist for application development teams who are looking to leverage our LHDI platform and cATO authorization process. Need assistance? Leverage our [support channel](contact.md). 
 
-- [ ] Obtain [system categorization](categorization.md)
-- [ ] Obtain [privacy threshold analysis](privacy.md) 
 - [ ] Create [system diagram](diagram.md)
-- [ ] Meet with security team for initial [survey and security requirements generation](selection.md)
-- [ ] Remediate security findings in accordance with the [policy](policy.md)
+- [ ] Perform [privacy anlaysis](privacy.md) 
+- [ ] Obtain [system categorization](categorization.md)
+- [ ] Onboard to LHDI Platform (`instructions page coming soon!`)
+- [ ] Onboard to SecRel Toolchain (`instructions page coming soon!`)
+- [ ] Meet with Application Security Assessor for initial [survey and security requirements generation](selection.md)
+- [ ] Remediate security findings thoughtout your development cycles in accordance with the [policy](policy.md)
 - [ ] Perform required [penetration tests](testing.md) and remediate findings according to policy
 - [ ] Ship your application to a production environment within the [platform](platform.md)
 - [ ] Managing risk is never done! [You're responsible](monitoring.md) for making security and risk discussions a part of every day life.
+
