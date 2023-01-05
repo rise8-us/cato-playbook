@@ -57,7 +57,7 @@ Our approach within the Lighthouse Program is aimed at aligning security assessm
 <br/>
 
 ## Current Practice Adjustments
-This section communicates what existing VA vs. new Lighthouse cATO processes are being leveraged to satisfy requirements for Application Development Teams to leverage our Lighthouse Program Ongoing Authorization and cATO. Existing VA Processes come directly from OIT/OIS services that are aligned to [VA Handbook 6500](https://dvagov.sharepoint.com/sites/OITOIS/KnowledgeService/KSPublications/VA_Handbook_6500.pdf#search=6500). 
+This section communicates what existing VA processes vs. new Lighthouse cATO processes are being leveraged to satisfy requirements for `Application Development Teams` to leverage the LHDI Platform, Lighthouse Program Ongoing Authorization and cATO. Existing VA Processes come directly from OIT/OIS services that are aligned with [VA Handbook 6500](https://dvagov.sharepoint.com/sites/OITOIS/KnowledgeService/KSPublications/VA_Handbook_6500.pdf#search=6500). 
 
 | **Activity**                        | **Existing VA Process**                                                          | **New Lighthouse cATO Process**                                         |
 |-------------------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------|
