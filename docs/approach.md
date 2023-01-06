@@ -11,14 +11,12 @@ The Lighthouse (LH) Program AO and Leadership Team, have chosen to run experimen
 <br/>
 
 ## LH Architecture Inheritance Model
-We leverage a modern architecture that allows us to build, deploy and monitor our applications. This is also the foundation to supporting a common control inheritance model through [common control providers](https://csrc.nist.gov/glossary/term/common_control_provider#:~:text=Definition(s)%3A,controls%20inherited%20by%20information%20systems). At the lowest level, a cloud environment (eg VA Enterprise Cloud) serves as our infrastructure providing flexible AWS compute and storage capabilities. Above that is a modern platform which provides both operating environments (eg [Delivery Infrastructure (DI)](platform.md)) as well as a secure mechanism for shipping applications (eg [Secure Release Pipeline](pipeline.md)). Each of these layers account for a percentage of NIST 800-53 Controls that are solely owned by that layer of the stack, thus reducing the overall effort for each app team shipping their products on the LHDI Platform.
+We leverage a modern architecture that allows us to build, deploy and monitor our applications. This is also the foundation to supporting a common control inheritance model through [common control providers](https://csrc.nist.gov/glossary/term/common_control_provider#:~:text=Definition(s)%3A,controls%20inherited%20by%20information%20systems). At the lowest level, a cloud environment (eg VA Enterprise Cloud) serves as our infrastructure providing flexible AWS compute and storage capabilities. Above that is a modern platform which provides both operating environments (eg [Delivery Infrastructure (DI)](https://department-of-veterans-affairs.github.io/lighthouse-di-documentation/) as well as a secure mechanism for shipping applications (eg [Secure Release Pipeline](pipeline.md)). Each of these layers account for a percentage of NIST 800-53 Controls that are solely owned by that layer of the stack, thus reducing the overall effort for each app team shipping their products on the LHDI Platform.
 
 <br/>
 
 ![Technology Stack!](images/architecture.png "Technology Stack")
 
-:material-lightbulb-outline: For more information on the Delivery Infrastructure head over to their
-[site](https://department-of-veterans-affairs.github.io/lighthouse-di-documentation/)
 
 <br/>
 
@@ -42,7 +40,7 @@ This pipeline is a Lighthouse service that enables security vulnerability detect
 
 <br/>
 
-Please refer to the [Current Practice Adjustments](#current-practice-adjustments) section below, for all other forms of security vulnerability scanning practices that are currently not covered by the SecRel Pipeline.
+Please refer to the [Current Process Adjustments](#current-process-adjustments) section below, for all other forms of security vulnerability scanning practices that are currently not covered by the SecRel Pipeline.
 
 <br/>
 
