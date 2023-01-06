@@ -9,6 +9,7 @@ We've put together a checklist for application development teams who are looking
 
 ## Phase 2 - Existing VA Processes for Registering Systems
 Partner with an assigned System Steward to complete the following:
+
 - [ ] Register with VASI `Instructional Guidance Coming Soon`
 - [ ] Create [system diagram](diagram.md) 
 - [ ] Perform [privacy anlaysis](privacy.md)
