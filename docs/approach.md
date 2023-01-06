@@ -6,7 +6,7 @@ The Lighthouse (LH) Program AO and Leadership Team, have chosen to run experimen
 - [LH Ongoing Authorization Boundary](#lh-ongoing-authorization-boundary)
 - [LH SecRel Pipeline Capabilities](#lh-secrel-pipeline-capabilities)
 - [Application Security Assessors](#application-security-assessors)
-- [Current Practice Adjustments](#current-practice-adjustments)
+- [Current Process Adjustments](#current-process-adjustments)
 
 <br/>
 
@@ -16,6 +16,9 @@ We leverage a modern architecture that allows us to build, deploy and monitor ou
 <br/>
 
 ![Technology Stack!](images/architecture.png "Technology Stack")
+
+:material-lightbulb-outline: For more information on the Delivery Infrastructure head over to their
+[site](https://department-of-veterans-affairs.github.io/lighthouse-di-documentation/)
 
 <br/>
 
