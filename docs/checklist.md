@@ -19,7 +19,7 @@ Partner with an assigned System Steward to complete the following:
 <br/>
 
 ## Phase 3 - Onboard to LHDI and SecRel
-- [ ] Onboard to LHDI Platform by notifying `Team Honeybdger` via Slack message on [lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH)
+- [ ] Onboard to LHDI Platform by notifying `Team Honeybadger` via Slack message on [lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH)
 - [ ] Onboard to [SecRel Toolchain](https://upgraded-invention-05777635.pages.github.io/onboarding/)
 
 <br/>
