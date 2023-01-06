@@ -5,6 +5,7 @@ edit_uri: edit/main/docs/
 repo_name: lighthouse-cato-playbook
 theme:
   name: material
+  logo: images/logo.png
   icon:
     repo: fontawesome/brands/github
   features:
