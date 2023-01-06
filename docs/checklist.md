@@ -2,8 +2,9 @@
 
 We've put together a checklist for application development teams who are looking to leverage our LHDI platform and cATO authorization process. This checklist is organized into four sequential phases to avoid unnecessary roadblocks between phases. ***Need assistance? Leverage our [support channel](contact.md).*** 
 
-## Phase 1 - Prerequisites
-- [ ] Complete and send us your copy of the [Compatibility Assessment Questionnaire]() via Slack message on [lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH), to ensure your system can be supported by LHDI and SecRel
+## Phase 1 - Compatibility with LHDI & SecRel
+- [ ] Access the [Compatibility Assessment Questionnaire](compatibility.docx) and click `View raw` on next github screen
+- [ ] Send us your copy via Slack message on [lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH)
 
 <br/>
 
