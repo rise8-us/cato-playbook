@@ -1,7 +1,7 @@
 # Categorization
 
 We leverage an existing service managed by the VA's Governance Risk Compliance (GRC) organization for system categorization. Reach out to us on slack at
-[lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH) if you have questions or need help initiate a system categorization.
+[lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH) if you have questions or need help initiating a system categorization.
 
 The categorization process determines the worst-case potential impact that could result from a compromise of the confidentiality, integrity, or availability of an information type, and the overall system. This is expressed using a triple rating format as described below, and where the acceptable values for potential *impact* are LOW, MODERATE, or HIGH. As an example, if a given information system were categorized {low, moderate, low} the overall outcome would be ***Moderate*** because that was the highest impact level for the overall assessment of risk for the system.
 
