@@ -1,6 +1,6 @@
 # Privacy Analysis
 
-## What is a Privacy Analysis?
+## What is Privacy Analysis?
 The privacy analysis process determines whether or not your system will have any interactions (eg collection, processing, storing, transmission, etc.) with privacy data types. The privacy analysis begins with a privacy threshold assessment (PTA). The purpose of the PTA is to identify the use of both personally identifiable information (PII) and personal health information (PHI) and determine if a privacy impact analysis (PIA) is needed.
 
 <br/>
