@@ -7,7 +7,7 @@ The categorization process determines the worst-case potential impact that could
 
 <br/>
 
-## Why is this important?
+## Why are they important?
 System categorization affects security and privacy control selection. In general, the higher the impact due to loss, the more protections (ie security and privacy controls) we must apply to mitigate risk. The impact levels are described as follows:
 
 - **Low** - the loss of confidentiality, integrity, or availability could be expected to have a limited adverse effect on organizational operations, organizational assets, or individuals.[^2]
