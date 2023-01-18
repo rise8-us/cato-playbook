@@ -5,7 +5,7 @@ The privacy analysis process determines whether or not your system will have any
 
 <br/>
 
-## Why is this important?
+## Why are they important?
 The purpose of conducting a privacy analysis, is to identify the level and impact of privacy risks in relation to your system, the data and how the system and data plan to be used. This assesssment will determine what additional security and privacy controls must be addressed before shipping your application(s) to production.
 
 :material-information-outline: We expect the majority of applications in the VA will require both a PTA and PIA due to the nature of our business. 
