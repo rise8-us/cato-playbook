@@ -15,9 +15,7 @@ The purpose of conducting a privacy analysis, is to identify the level and impac
 ## How do I accomplish this task?
 We leverage the VA's Privacy Office organization for privacy analysis. To initiate this activity, you should contact your assigned System Steward to coordinate a PTA, and if necessary, a PIA with a Privacy Officer. Don't have an assigned System Steward? Reach out to us on slack at [lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH), and we can help pair you up.
 
-
-
-
+<br/>
 
 [^1]:[NIST Special Publication 800-122](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-122.pdf)
 
