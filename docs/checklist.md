@@ -1,6 +1,6 @@
 # Checklist
 
-We've put together a checklist for application development teams who are looking to leverage our LHDI platform and cATO authorization process. This checklist is organized into four sequential phases to avoid unnecessary roadblocks between phases. Need assistance? Leverage our ***[support channel](contact.md)***. 
+We've put together a checklist for application development teams who are looking to leverage our LHDI platform and cATO authorization process. This checklist is organized into four sequential phases to avoid unnecessary roadblocks between phases. Need assistance? Leverage our ***[support channel](contact.md)*** on Slack. 
 
 ## Phase 1 - Compatibility with LHDI & SecRel
 - [ ] Access the [Compatibility Assessment Questionnaire](compatibility.docx) and click `View raw` on next github screen
