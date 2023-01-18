@@ -21,14 +21,14 @@ Partner with an assigned System Steward to complete the following in parallel wi
 
 ## Phase 3 - Onboard to LHDI and SecRel
 - [ ] Onboard to LHDI Platform by notifying `Team Honeybadger` via Slack message on [lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH)
-- [ ] Onboard to [SecRel Toolchain](https://upgraded-invention-05777635.pages.github.io/onboarding/) by submitting a Github Issue
+- [ ] Onboard to SecRel Toolchain by submitting a Github Issue via the [Onboarding Guide](https://upgraded-invention-05777635.pages.github.io/onboarding/)
 
 <br/>
 
 ## Phase 4 - Adopt & Continuously Demonstrate cATO
-- [ ] Application Security Assessor supports your team for initial and ongoing [survey and security requirements generation](selection.md)
-- [ ] Remediate security findings thoughtout your development cycles in accordance with the [policy](policy.md)
-- [ ] Perform required [penetration tests](testing.md) and remediate findings according to policy
-- [ ] Ship your application to a production environment within the [platform](platform.md)
+- [ ] An Application Security Assessor will be assigned to your team once onboarded to the SecRel Toolchain, and supports your team for initial and ongoing [survey and security requirements generation](selection.md)
+- [ ] Remediate security findings thoughout development cycles in accordance with our [policy](policy.md)
+- [ ] Perform required [penetration testing](testing.md) and remediate findings in accordance with our [policy](policy.md)
+- [ ] Ship your application to a production environment within the [LHDI platform](platform.md)
 - [ ] Managing risk is never done! [You're responsible](monitoring.md) for making security and risk discussions a part of every day life.
 
