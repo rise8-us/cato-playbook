@@ -21,7 +21,7 @@ For another example, if a given information system were categorized {LOW, MODERA
 <br/>
 
 ## Why are they important?
-System categorization affects security and privacy control selection. In general, the higher the impact due to loss, the more protections (ie security and privacy controls) we must apply to mitigate risk. The impact levels are described as follows:
+System categorization affects your security and privacy control selection. In general, the higher the impact due to loss, the more security requirements your team will need to address to reduce the risk to the VA and your users. The impact levels are described as follows:
 
 - **Low** - the loss of confidentiality, integrity, or availability could be expected to have a limited adverse effect on organizational operations, organizational assets, or individuals.[^2]
 - **Moderate** - the loss of confidentiality, integrity, or availability could be expected to have a serious adverse effect on organizational operations, organizational assets, or individuals.[^2]
