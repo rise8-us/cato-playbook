@@ -1,13 +1,25 @@
 # Pipeline
 
-Our [continuous integration](https://www.martinfowler.com/articles/continuousIntegration.html) pipeline ensures that 
-application teams can deliver products into production quickly and safely. Security and compliance concerns are 
-addressed in the secure and release stages of the pipeline. The [Secure Release Pipeline](https://department-of-veterans-affairs.github.io/lighthouse-tornado)
-is a Lighthouse product that manages and enforces both the secure and release stages. Policy enforcement is achieved by 
-[digitally signing](https://csrc.nist.gov/glossary/term/digital_signature) application images, validating them prior 
-to deployment, as well as performing static code analysis vulnerability scanning on application source code. In both cases, an application development teams' ability to release code to users in production is gated and controlled by not allowing deployment of software if there are High or Critical vulnerabilities discovered. Per our [Policy](https://verbose-lamp-357464da.pages.github.io/policy/), these vulnerabilities must be remediated before the Secure and Release pipeline will approve the deployment and release of software into production.
+## What is a Pipeline?
+[Continuous integration](https://www.martinfowler.com/articles/continuousIntegration.html) pipelines ensure that application teams can deliver products into production quickly and safely. While most CI/CD pipelines focus on automed software builds, testing and releases, teams will be able to address security and compliance concerns by adopting our secure and release stages into their pipelines. The [Secure Release (SecRel) Pipeline](https://department-of-veterans-affairs.github.io/lighthouse-tornado) is a Lighthouse Delivery Platform service that manages and enforces both the secure and release stages.
 
 ![Pipeline!](images/pipeline.png "CI/CD Pipeline")
 
-:material-lightbulb-outline: For more information on the Secure Release Pipeline head over to their 
-[site](https://department-of-veterans-affairs.github.io/lighthouse-tornado)
+<br/>
+
+## Why is this important?
+Access to the SecRel pipeline means Application Teams can gain immediate feedabck on security vulnerabilities for their source code, 3rd party libraries and images, every time they commit code. Not only do engineers gain continuous feedback, but they also receive guidance on combating security weaknesses, access to cybersecurity education resources, and quickly remediate these blockers in real-time so that our pipeline can [digitally sign](https://csrc.nist.gov/glossary/term/digital_signature) their images. This is how we can enforce the validation of low risk software being deployed. This means that an Application Teams' ability to release code to users in production is gated and controlled by our [Policy](https://verbose-lamp-357464da.pages.github.io/policy/) that is built into our SecRel pipeline.
+
+<br/>
+
+## How do I get access?
+:material-lightbulb-outline: For guidance on how to onboard to our SecRel Toolchain, please leverage our [Onboarding Guide](https://upgraded-invention-05777635.pages.github.io/onboarding/)
+
+<br/>
+
+## How do I use this capability?
+:material-lightbulb-outline: For more information on the SecRel Pipeline, and how it works, head over to their [site](https://department-of-veterans-affairs.github.io/lighthouse-tornado)
+
+
+
+
