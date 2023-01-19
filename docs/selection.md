@@ -20,10 +20,11 @@ Updating SD Elements surveys helps articulate the cybersecurity and regulation b
 <br/>
 
 We use a phased approach to control implementation by addressing higher risk tasks first. 
+
 - Baseline security requirements are first set by the [system categorization](categorization.md).
 - Security requirements are further tailored using information obtained from the [system diagram](diagram.md) as well as the SD Elements project survey.
 - Privacy controls are added based upon the results of the [privacy analysis](privacy.md).
-- Security tasks are generated and injected into a teams product backlog for prioritization and execution.
-- Engineers implement controls and provide evidence that is evaluated by their partnering Application Security Assessor (eg direct references to code are provided for both evaluation and traceability)
+- Security requirements are generated and injected into a teams product backlog for prioritization and execution.
+- Engineers address security requirements and provide evidence of their work (eg source code) that is then evaluated by their Application Security Assessor
 - Security requirement adjustments are evaluated as changes in the [system architecture](diagram.md) are introduced. 
 
