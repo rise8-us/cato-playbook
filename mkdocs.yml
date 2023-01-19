@@ -10,6 +10,8 @@ theme:
     repo: fontawesome/brands/github
   features:
     - navigation.tabs
+theme:
+  features:
     - navigation.top
 extra:
   social:
