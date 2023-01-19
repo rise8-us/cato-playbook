@@ -1,9 +1,22 @@
 # Categorization
 
 ## What is System Categorization?
-The categorization process determines the worst-case potential impact that could result from a compromise of the confidentiality, integrity, or availability of an information type, and the overall system. This is expressed using a triple rating format as described below, and where the acceptable values for potential *impact* are LOW, MODERATE, or HIGH. As an example, if a given information system were categorized {low, moderate, low} the overall outcome would be ***Moderate*** because that was the highest impact level for the overall assessment of risk for the system.
+The categorization process determines the worst-case potential impact that could result from a compromise of the confidentiality, integrity, or availability of an information type, and the overall system. This is expressed using a triple rating formula as described below, and where the acceptable values for potential *impact* are LOW, MODERATE, or HIGH. 
 
-**SC**~information_system~ = {(**confidentiality**, *impact*), (**integrity**, *impact*), (**availability**, *impact*)}, 
+**SC**~information_system~ = {(**confidentiality**, *impact*), (**integrity**, *impact*), (**availability**, *impact*)} 
+
+<br/>
+
+As an example, if a given information system were categorized {LOW, MODERATE, LOW} the overall outcome would be ***Moderate*** because that was the highest impact level for the overall assessment of risk for the system.
+
+***MODERATE*** = {(**confidentiality**, *LOW*), (**integrity**, *MODERATE*), (**availability**, *LOW*)}
+
+<br/>
+
+For another example, if a given information system were categorized {LOW, MODERATE, HIGH} the overall outcome would be ***Moderate*** because that was the highest impact level for the overall assessment of risk for the system.
+
+***HIGH*** = {(**confidentiality**, *LOW*), (**integrity**, *MODERATE*), (**availability**, *HIGH*)}
+
 
 <br/>
 
