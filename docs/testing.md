@@ -20,9 +20,9 @@ With access to the VA network, both WASA and DB testing can be requested by visi
 ## What are the vulnerability remediation expectations?
 The following vulnerability remediation expectations are applicable for both WASA and database testing:
 
-- Critical and High findings must be remediated before deploying to production.
-- Medium findings must be remediated within 60 days of detection.
-- Low findings are remediated at the discretion of the Application Assessor.
+- **Critical** and **High** findings must be remediated before deploying to production.
+- **Medium** findings must be remediated within 60 days of detection.
+- **Low** findings are remediated at the discretion of the Application Assessor.
 
 <br>
 
