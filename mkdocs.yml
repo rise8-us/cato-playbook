@@ -38,7 +38,7 @@ plugins:
   - print-site
 nav:
   - 'Introduction':
-      - 'Prologue': 'prologue.md'
+      - 'Prologue': 'index.md'
       - 'Overview': 'overview.md'
       - 'Approach': 'approach.md'
       - 'Benefits': 'benefits.md'
