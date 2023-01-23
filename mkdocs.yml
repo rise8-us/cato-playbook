@@ -37,9 +37,8 @@ plugins:
   - search
   - print-site
 nav:
-  - 'Home': 'index.md'
+  - 'Prologue': 'index.md'
   - 'Introduction': 
-      - 'Prologue': 'index.md'
       - 'Overview': 'overview.md'
       - 'Approach': 'approach.md'
       - 'Benefits': 'benefits.md'
