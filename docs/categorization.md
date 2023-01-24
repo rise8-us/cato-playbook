@@ -13,8 +13,6 @@ The categorization process determines the worst-case potential impact that could
 > 
 > System Categorization = {(**confidentiality**, *LOW*), (**integrity**, *MODERATE*), (**availability**, *LOW*)} = ***MODERATE***
 
-<br/>
-
 ### Example 2
 
 > If a given information system were categorized {LOW, MODERATE, HIGH} the overall outcome would be ***Moderate*** because that was the highest impact level for the overall assessment of risk for the system.
