@@ -7,6 +7,7 @@ Policies are considered our rule of engagement to leverage our cATO processes fo
 
 ## How is Lighthouse different?
 The combination of our SecRel Pipeline and embedding of Application Security Assessors are drastically improved forms of policy for three main reasons:
+
 1. Application Security Assessors have shared context about a systems risk, changes in risk and provide cybersecurity depth rather than compliance and process management.
 2. SecRel has built in criteria for security vulnerability and requirements management through its gate check features that automate decision-making of signing images (ie official approvals).
 3. Because we're able to define policies-as-code, we are agile in our ability to scale these changes to all customers as needed.
