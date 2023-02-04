@@ -18,6 +18,7 @@ The combination of our SecRel Pipeline and embedding of Application Security Ass
 
 ### SD Elements Gate Check
 Security requirements generated via SD Elements must be addressed by Application Development Teams, and verified by an Application Security Assessor. Enforcement is managed by our SD Elements Gate Check within the SecRel Pipeline that validates all scope of work has been completed and verified. The following criteria is used as a way to incrementally phase in security risks to a teams backlog: 
+
 1. Tasks with highest priority (7-10), must be completed and verified prior to the first release into production
 2. Tasks with priority 4-6, must be completed and verified within 30 days after the first release into production
 3. Tasks with priority 1-3, must be completed and verified within 60 days after the first release into production
