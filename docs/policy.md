@@ -19,6 +19,8 @@ The combination of our SecRel Pipeline and embedding of Application Security Ass
 ### SD Elements Gate Check
 Security requirements generated via SD Elements (SDE) must be addressed by Application Development Teams, and verified by an Application Security Assessor. Enforcement is managed by our SDE Gate Check within the SecRel Pipeline which validates all scope of work has been completed by Application Development Teams and verified by Application Security Assessors. More specifically, teams will be accountable for addressing SDE countermeasures and updating their status to either `Completed`, `Inherited` or `Not Applicable`. Teams should use the `Inherited` status only when the countermeasure is fully covered by another component of their system (eg. LHDI Platform or VAEC AWS), or `Not Applicable` when the team believes the countermeasure should not actually be in scope. In all cases the team must prove the result, capture the evidence in the countermeasure notes and the Application Security Assessor must set the Verification Status to `Pass` confirming the outcome.
 
+Today, only the first phase of SDE countermeasures is enforced by our SecRel pipeline gate check. Other phases will be introduced in future versions of the SecRel pipeline. 
+
 1. Tasks with highest priority (7-10), must be completed and verified prior to the first release into production
 2. Tasks with priority 4-6, must be completed and verified within 30 days after the first release into production
 3. Tasks with priority 1-3, must be completed and verified within 60 days after the first release into production
