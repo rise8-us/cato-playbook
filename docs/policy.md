@@ -1,7 +1,7 @@
 # Policy
 
 ## What are policies?
-Policies are considered our rule of engagement to leverage our cATO processes for continuously delivering software into production. Policies that are verablly agreed upon, and typically adhered to by manual processes, are weaker forms of enforcement in terms of assurance and speed. 
+Policies are considered our rule of engagement to leverage our cATO processes for continuously delivering software into production. Policies that are verablly agreed upon, and typically adhered to by manual processes, are weaker forms of enforcement in terms of assurance and speed. Please refer to our Current Process Adjustments section of our [Approach](approach.md) page to see how we still support existing VA policies, and what we have adjusted to achieve continious Authority to Operate (cATO).
 
 <br/>
 
@@ -16,8 +16,13 @@ The combination of our SecRel Pipeline and embedding of Application Security Ass
 
 ## What policies are enforced today?
 
-### SD Elements Gate Check
-Security requirements generated via SD Elements (SDE) must be addressed by Application Development Teams, and verified by an Application Security Assessor. Enforcement is managed by our SDE Gate Check within the SecRel Pipeline which validates all scope of work has been completed by Application Development Teams and verified by Application Security Assessors. More specifically, teams will be accountable for addressing SDE countermeasures and updating their status to either `Completed`, `Inherited` or `Not Applicable`. Teams should use the `Inherited` status only when the countermeasure is fully covered by another component of their system (eg. LHDI Platform or VAEC AWS), or `Not Applicable` when the team believes the countermeasure should not actually be in scope. In all cases the team must prove the result, capture the evidence in the countermeasure notes and the Application Security Assessor must set the Verification Status to `Pass` confirming the outcome.
+### SecRel Pipeline, SD Elements and Partnering with Assessors
+In order to take advantage of the value created within the Lighthouse program, all teams who wish to deploy their software onto the LHDI platform, must use the SecRel pipeline, profile and manage their systems security risks with SD Elements (SDE), as well as partner with Application Security Assessors to verify the accuracy of vulnerability remediation and security requirements.
+
+<br/>
+
+### SD Elements Gate Check Within SecRel
+Security requirements generated via SDE must be addressed by Application Development Teams, and verified by an Application Security Assessor. Enforcement is managed by our SDE Gate Check within the SecRel Pipeline which validates all scope of work has been completed by Application Development Teams and verified by Application Security Assessors. More specifically, teams will be accountable for addressing SDE countermeasures and updating their status to either `Completed`, `Inherited` or `Not Applicable`. Teams should use the `Inherited` status only when the countermeasure is fully covered by another component of their system (eg. LHDI Platform or VAEC AWS), or `Not Applicable` when the team believes the countermeasure should not actually be in scope. In all cases the team must prove the result, capture the evidence in the countermeasure notes and the Application Security Assessor must set the Verification Status to `Pass` confirming the outcome.
 
 Today, only the first phase of SDE countermeasures is enforced by our SecRel pipeline gate check. Other phases will be introduced in future versions of the SecRel pipeline. 
 
@@ -25,7 +30,9 @@ Today, only the first phase of SDE countermeasures is enforced by our SecRel pip
 2. Tasks with priority 4-6, must be completed and verified within 30 days after the first release into production
 3. Tasks with priority 1-3, must be completed and verified within 60 days after the first release into production
     
-### Aqua and Snyk Gate Checks
+<br/>
+
+### Aqua and Snyk Gate Checks Within SecRel
 - Critical and high severity vulnerabilities detected via Static Application Security Testing (SAST) must be mitigated 
 prior to deployment into both staging and production environments. Detection is **automated** via the
 [Secure Release Pipeline](https://department-of-veterans-affairs.github.io/lighthouse-tornado). Enforcement is 
