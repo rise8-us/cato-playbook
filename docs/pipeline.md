@@ -1,4 +1,4 @@
-# Pipeline
+# Secure Release Pipeline
 
 ## What is a Pipeline?
 [Continuous integration](https://www.martinfowler.com/articles/continuousIntegration.html) pipelines ensure that application teams can deliver products into production quickly and safely. While most CI/CD pipelines focus on automed software builds, testing and releases, teams will be able to address security and compliance concerns by adopting our secure and release stages into their pipelines. The [Secure Release (SecRel) Pipeline](https://department-of-veterans-affairs.github.io/lighthouse-tornado) is a Lighthouse Delivery Platform service that manages and enforces both the secure and release stages.
