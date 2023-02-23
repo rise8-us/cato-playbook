@@ -1,4 +1,4 @@
-# Categorization
+# System Categorization
 
 ## What is System Categorization?
 The categorization process determines the worst-case potential impact that could result from a compromise of the confidentiality, integrity, or availability of an information type, and the overall system. This is expressed using a triple rating formula as described below, and where the acceptable values for potential *impact* are LOW, MODERATE, or HIGH. 
