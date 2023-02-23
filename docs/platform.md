@@ -1,7 +1,7 @@
-# Platform
+# Lighthouse DI Platform
 
-## What is a Pipeline?
-Lighthouse Delivery Infrastructure (LHDI) is a set of tools, development guidelines and a multi-tenant deployment environment that enables rapid and secure development, deployment and operation of high-quality VA APIs. Our goal is to prioritize developers' efficiency, remove unnecessary waits in their paths to production and make it easy to deliver maximum value.
+## What is a Platform?
+Lighthouse Delivery Infrastructure (LHDI) is considered a Platform as a Service (PaaS). This can be broken down as a set of tools, development guidelines and a multi-tenant deployment environment that enables rapid and secure development, deployment and operation of high-quality VA APIs. Our goal is to prioritize developers' efficiency, remove unnecessary waits in their paths to production and make it easy to deliver maximum value.
 
 :material-lightbulb-outline: For more information on the Delivery Infrastructure head over to their [site](https://department-of-veterans-affairs.github.io/lighthouse-di-documentation/)
 
