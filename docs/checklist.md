@@ -4,17 +4,17 @@ We've put together a checklist for application development teams who are looking
 
 ## Phase 1 - Compatibility with LHDI & SecRel
 - [ ] Access the [Compatibility Assessment Questionnaire](compatibility.docx) and click `View raw` on next github screen
-- [ ] Send us your copy via Slack message on [lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH)
+- [ ] Send `@Owls-LHDI-Enablement` a copy of your assessment via Slack message on [lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH)
 
 <br/>
 
 ## Phase 2 - Existing VA Processes for Registering Systems
-Partner with an assigned System Steward to complete the following in parallel with eachother:
+Partner with an assigned System Steward to complete the following actions in parallel with eachother:
 
 - [ ] Register with VASI `Instructional Guidance Coming Soon`
-- [ ] Create [system diagram](diagram.md) 
-- [ ] Perform [privacy anlaysis](privacy.md)
-- [ ] Obtain [system categorization](categorization.md) 
+- [ ] Create [system diagram](diagram.md) using your preferred medium
+- [ ] Perform [privacy anlaysis](privacy.md) using existing VA processes for PTA/PIA
+- [ ] Obtain [system categorization](categorization.md) using existing VA Processes
 - [ ] Register with eMASS `Instructional Guidance Coming Soon`
 
 <br/>
@@ -27,8 +27,8 @@ Partner with an assigned System Steward to complete the following in parallel wi
 
 ## Phase 4 - Adopt & Continuously Demonstrate cATO
 - [ ] An Application Security Assessor will be assigned to your team once onboarded to the SecRel Toolchain, and supports your team for initial and ongoing [survey and security requirements generation](selection.md)
-- [ ] Remediate security findings thoughout development cycles in accordance with our [policy](policy.md)
-- [ ] Perform required [penetration testing](testing.md) and remediate findings in accordance with our [policy](policy.md)
+- [ ] Remediate security findings thoughout every development cycle in accordance with our [policy](policy.md)
+- [ ] Perform required [penetration testing](testing.md) activities, and remediate findings in accordance with our [policy](policy.md)
 - [ ] Ship your application to a production environment within the [LHDI platform](platform.md)
 - [ ] Managing risk is never done! [You're responsible](monitoring.md) for making security and risk discussions a part of every day life.
 
