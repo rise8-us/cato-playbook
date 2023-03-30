@@ -3,7 +3,7 @@ header.md-header,
   background-color: #112E51;
 }
 
-a.md-tabs__link {
+a.md-tabs__link:not(.md-tabs__link--active) {
   color: #D6D7D9;
   opacity: 1;
 }
