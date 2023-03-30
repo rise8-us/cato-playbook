@@ -16,6 +16,7 @@ extra:
       link: https://github.com/department-of-veterans-affairs/lighthouse-cato-playbook
     - icon: fontawesome/brands/slack
       link: https://lighthouseva.slack.com/archives/C03G2J6G7AR
+extra_css: [extra.css]
 markdown_extensions:
   - abbr
   - footnotes
