@@ -1,5 +1,5 @@
 header.md-header,
-.md-container nav:not(.md-nav--secondary) {
+.md-container nav.md-tabs {
   background-color: #112E51;
 }
 
