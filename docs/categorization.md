@@ -31,7 +31,7 @@ System categorization affects your security and privacy control selection. In ge
 <br/>
 
 ## How do I complete this task?
-We leverage an existing service managed by the VA's Governance Risk Compliance (GRC) organization for system categorization. To initiate this activity, you should contact your assigned System Steward to coordinate an assessment of your information types and overall system with the GRC organization. Don't have an assigned System Steward? Reach out to us on slack at [lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH), and we can help pair you up.
+We leverage an existing service managed by the VA's Governance Risk Compliance (GRC) organization for system categorization. To initiate this activity, you should contact your assigned focal from Team Owls to coordinate an assessment of your information types and overall system with the GRC organization. Don't remember who your assigned focal is? Reach out to [team-owls](https://lighthouseva.slack.com/archives/C040UBT08TE) on slack, and they will help confirm for you.
 
 <br/>
 
