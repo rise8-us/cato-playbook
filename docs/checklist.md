@@ -8,9 +8,15 @@ We've put together a checklist for application development teams who are looking
 
 <br/>
 
-## Phase 2 - Existing VA Processes for Registering Systems
-Partner with an assigned System Steward to complete the following actions in parallel with eachother:
+## Phase 2 - Onboard to LHDI and SecRel
+- [ ] Onboard to LHDI Platform by notifying `Team Honeybadger` via Slack message on [lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH)
+- [ ] Onboard to SecRel Toolchain by submitting a Github Issue via the [Onboarding Guide](https://upgraded-invention-05777635.pages.github.io/onboarding/)
+- [ ] An Application Security Assessor will be assigned to your team once onboarded to the SecRel Toolchain, and supports your team for initial and ongoing [survey and security requirements generation](selection.md)
 
+<br/>
+
+## Phase 3 - Existing VA Processes for Registering Systems
+Partner with an assigned focal from [Team Owls](https://lighthouseva.slack.com/archives/C040UBT08TE) to complete the following actions in parallel with eachother:
 - [ ] Register with VASI `Instructional Guidance Coming Soon`
 - [ ] Create [system diagram](diagram.md) using your preferred medium
 - [ ] Perform [privacy anlaysis](privacy.md) using existing VA processes for PTA/PIA
@@ -19,14 +25,7 @@ Partner with an assigned System Steward to complete the following actions in par
 
 <br/>
 
-## Phase 3 - Onboard to LHDI and SecRel
-- [ ] Onboard to LHDI Platform by notifying `Team Honeybadger` via Slack message on [lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH)
-- [ ] Onboard to SecRel Toolchain by submitting a Github Issue via the [Onboarding Guide](https://upgraded-invention-05777635.pages.github.io/onboarding/)
-
-<br/>
-
 ## Phase 4 - Adopt & Continuously Demonstrate cATO
-- [ ] An Application Security Assessor will be assigned to your team once onboarded to the SecRel Toolchain, and supports your team for initial and ongoing [survey and security requirements generation](selection.md)
 - [ ] Remediate security findings thoughout every development cycle in accordance with our [policy](policy.md)
 - [ ] Perform required [penetration testing](testing.md) activities, and remediate findings in accordance with our [policy](policy.md)
 - [ ] Ship your application to a production environment within the [LHDI platform](platform.md)
