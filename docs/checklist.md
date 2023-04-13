@@ -17,6 +17,7 @@ We've put together a checklist for application development teams who are looking
 
 ## Phase 3 - Existing VA Processes for Registering Systems
 Partner with an assigned focal from [Team Owls](https://lighthouseva.slack.com/archives/C040UBT08TE) to complete the following actions in parallel with eachother:
+
 - [ ] Register with VASI `Instructional Guidance Coming Soon`
 - [ ] Create [system diagram](diagram.md) using your preferred medium
 - [ ] Perform [privacy anlaysis](privacy.md) using existing VA processes for PTA/PIA
