@@ -26,9 +26,9 @@ Security requirements generated via SDE must be addressed by Application Develop
 
 The following Risk Policies help teams prioritize SDE countermeasures as a means for incrementally addressing higher impact NIST controls as their product/application matures. Priority ratings are determined by the latest Common Vulnerability Scoring System (CVSS) standards.
 
-1. **Highest Risk Requirements Only** focuses on countermeasures with priority rating 7-10. This Risk Policy must be completed and verified prior to the first release into production, and account for roughly 85% of NIST controls.
-2. **Requirements Round 2** focuses on countermeasures with priority rating 4-7, while also addressing countermeasures from previous Risk Policies if changes being introduced warrant a re-assessment. This Risk Policy scope must be completed and verified within 30 days after the first release into production, and account for roughly 10% of NIST controls.
-2. **Requirements Round 3** focuses on countermeasures with priority rating 1-3, while also addressing countermeasures from previous Risk Policies if changes being introduced warrant a re-assessment. These must be completed and verified within 60 days after the first release into production, and account for roughly 5% of NIST controls.
+1. **Highest Risk Requirements Only** focuses on countermeasures with priority rating 7-10. This Risk Policy must be completed and verified prior to the first release into production, and account for roughly 73% of NIST controls.
+2. **Requirements Round 2** focuses on countermeasures with priority rating 4-6, while also addressing countermeasures from previous Risk Policies if changes being introduced warrant a re-assessment. This Risk Policy scope must be completed and verified within 30 days after the first release into production, and account for roughly 25% of NIST controls.
+2. **Requirements Round 3** focuses on countermeasures with priority rating 1-3, while also addressing countermeasures from previous Risk Policies if changes being introduced warrant a re-assessment. These must be completed and verified within 60 days after the first release into production, and account for roughly 2% of NIST controls.
 3. **Continuous RMF** accounts for all countermeasures, regardless of their priority rating, and the scope of re-assesment is determined by changes being introduced by updating the product/application SDE survey with App Assessors.
     
 <br/>
