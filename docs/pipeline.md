@@ -12,13 +12,8 @@ Access to the SecRel pipeline means Application Teams can gain immediate feedabc
 
 <br/>
 
-## How do I get access?
-:material-lightbulb-outline: For guidance on how to onboard to our SecRel Toolchain, please leverage our [Onboarding Guide](https://upgraded-invention-05777635.pages.github.io/onboarding/)
-
-<br/>
-
 ## How do I use this capability?
-:material-lightbulb-outline: For more information on the SecRel Pipeline, and how it works, head over to their [site](https://department-of-veterans-affairs.github.io/lighthouse-tornado)
+:material-lightbulb-outline: For more information on the SecRel Pipeline, how it works, and how to onboard, head over to their [site](https://department-of-veterans-affairs.github.io/lighthouse-tornado)
 
 
 
