@@ -2,6 +2,7 @@
 
 ## What is Penetration & DB Testing?
 A penetration test, colloquially known as a pentest or ethical hacking, is an authorized simulated cyberattack on a computer system, performed to evaluate the security of the system. Database scanning helps identify security gaps in databases such as missing patches, weak passwords, unauthorized changes, misconfigured privileges, excessive administrative logins, unusual after-hours activity, and other behavioral vulnerabilities such as account sharing. We currently leverage existing services within the VA to perform these forms of testing. 
+
 - [ ] A web application penetration test, referred to as a Web Application Security Assessment (WASA) within the VA, must be performed before the application is made available in a production environment.
 - [ ] A relational database scan must be performed[^1] before the application is made available in a production environment.
 
