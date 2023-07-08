@@ -8,7 +8,7 @@
 <br/>
 
 ## Why is this important?
-Access to the SecRel pipeline means Application Teams can gain immediate feedabck on security vulnerabilities for their source code, 3rd party libraries and images, every time they commit code. Not only do engineers gain continuous feedback, but they also receive guidance on combating security weaknesses, access to cybersecurity education resources, and quickly remediate these blockers in real-time so that our pipeline can [digitally sign](https://csrc.nist.gov/glossary/term/digital_signature) their images. This is how we can enforce the validation of low risk software being deployed. This means that an Application Teams' ability to release code to users in production is gated and controlled by our [Policy](https://verbose-lamp-357464da.pages.github.io/policy/) that is built into our SecRel pipeline.
+Access to the SecRel pipeline means Application Teams can gain immediate feedabck on security vulnerabilities for their source code, 3rd party libraries and images, every time they commit code. Not only do engineers gain continuous feedback, but they also receive guidance on combating security weaknesses, access to cybersecurity education resources, and quickly remediate these blockers in real-time so that our pipeline can [digitally sign](https://csrc.nist.gov/glossary/term/digital_signature) their images. This is how we can enforce the validation of low risk software being deployed. This means that an Application Teams' ability to release code to users in production is gated and controlled by our [Policy](policy.md) that is built into our SecRel pipeline.
 
 <br/>
 
