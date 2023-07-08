@@ -11,7 +11,7 @@ In reality, no two systems should ever be alike. Not only are there control base
 <br/>
 
 ## How do I complete this task?
-1. Onboard to [SecRel Toolchain](https://upgraded-invention-05777635.pages.github.io/onboarding/)
+1. Onboard to [SecRel Toolchain](https://department-of-veterans-affairs.github.io/lighthouse-tornado/onboarding)
 2. Keep all artifacts from the [checklist](checklist.md) up to date, and meet with your Application Security Assessor on a recurring basis between software releases to update your project survey in [SD Elements](https://www.securitycompass.com/sdelements/). 
 
 Updating SD Elements surveys helps articulate the cybersecurity and regulation based risks of your system, and this is leveraged to determine applicable security requirements that are then immediately managed in Application Team backlogs. Those requirements are managed alongside other product backlog workitems. These tasks are mapped to applicable NIST 800-53 controls. 
