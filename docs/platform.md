@@ -13,7 +13,7 @@ In NIST parlance, the LHDI platform is a common controls provider(CCP)[^1]. This
 <br/>
 
 ## How do I get started with DI?
-:material-lightbulb-outline: For guidance on how to onboard to the LHDI platform, please leverage their [Getting Started](https://animated-carnival-57b3e7f5.pages.github.io/GETTING-STARTED/) page.
+:material-lightbulb-outline: For guidance on how to onboard to the LHDI platform, please leverage their [Getting Started](https://department-of-veterans-affairs.github.io/lighthouse-di-documentation/GETTING-STARTED) page.
 
 <br/>
 
