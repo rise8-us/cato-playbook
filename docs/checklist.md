@@ -10,7 +10,7 @@ We've put together a checklist for application development teams who are looking
 
 ## Phase 2 - Onboard to LHDI and SecRel
 - [ ] Onboard to LHDI Platform by notifying `Team Honeybadger` via Slack message on [lighthouse-delivery-platform-support](https://lighthouseva.slack.com/archives/C03UA9MV1EH)
-- [ ] Onboard to SecRel Toolchain by submitting a Github Issue via the [Onboarding Guide](https://upgraded-invention-05777635.pages.github.io/onboarding/)
+- [ ] Onboard to SecRel Toolchain by submitting a Github Issue via the [Onboarding Guide](https://department-of-veterans-affairs.github.io/lighthouse-tornado/onboarding)
 - [ ] An Application Security Assessor will be assigned to your team once onboarded to the SecRel Toolchain, and supports your team for initial and ongoing [survey and security requirements generation](selection.md)
 
 <br/>
