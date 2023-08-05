@@ -1,4 +1,4 @@
-# Policy
+# Policy-as-Code 
 
 ## What are policies?
 Policies are considered our rule of engagement to leverage our cATO processes for continuously delivering software into production. Policies that are verablly agreed upon, and typically adhered to by manual processes, are weaker forms of enforcement in terms of assurance and speed. Please refer to our Current Process Adjustments section of our [Approach](approach.md) page to see how we still support existing VA policies, and what we have adjusted to achieve continious Authority to Operate (cATO).
