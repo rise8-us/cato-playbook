@@ -53,7 +53,7 @@ Our approach within the Lighthouse Program is aimed at aligning security assessm
 
 <br/>
 
-![AppAssessor!](images/AppAssessor.png "AppAssessor")
+![AppAssessor!](images/AppAssessor.png "AppAssessor") 
 
 <br/>
 
