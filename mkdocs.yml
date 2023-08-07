@@ -54,7 +54,7 @@ nav:
       - 'platform.md'
       - 'testing.md'
  - 'Policies': 
-      - 'policy.md'
+      - 'Policy-as-Code': 'policy.md'
       - 'poam.md'
   - 'monitoring.md'
   - 'Support':
