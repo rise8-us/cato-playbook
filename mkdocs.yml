@@ -53,7 +53,9 @@ nav:
       - 'pipeline.md'
       - 'platform.md'
       - 'testing.md'
-  - 'Policies': 'policy.md'
+ - 'Policies': 
+      - 'policy.md'
+      - 'poam.md'
   - 'monitoring.md'
   - 'Support':
     - 'contact.md'
