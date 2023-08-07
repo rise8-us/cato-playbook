@@ -41,3 +41,23 @@ Once a POAM response has been established, the App Assessor will review the deta
 ![POAM Verification!](images/poam-verification.png "POAM Verification")
 
 <br/>
+
+## How are Countermeasure Status vs. Verification Status used?
+Every SD Elements countermeasure (i.e. requirement) has a status that product teams will update from `Incomplete`, to `In Progress`, and finally to either of the three available done status which are `Complete`,`Inherited`, or `Not Applicable`.
+
+- **Complete** indicates that the team has successfully addressed the requirement, and is ready for an App Assessor to verify the implementation details.
+- **Inherited** is used when the team believes the requirement is fulfilled, and thus can be fully inherited, by a different component (e.g. LHDI, a shared authentication service, or even a VA organization such as Privacy), and is ready for an App Assessor to verify.
+- **Not Applicable** is used when the team believes the requirement does not pertain to their application/product at all, and is ready for an App Assessor to verify.
+
+<br/>
+
+Every SD Elements countermeasure also has a Verification Status, which is used to confirm that the risk identified has been addressed. App Assessors will update Verification Status from `no verification status` to either `pass` or `partial pass`. Partial pass is strictly reserved for identifying requirements that have been POAM'd for reporting and traceability purposes. The following combinations of Countermeasure Status and Verification Status are used to indicate specific decisions that have been made with POAMs
+
+
+| **Countermeasure Status**           | **Verification Status**             | **POAM Action Translation**                                                       |
+|-------------------------------------|-------------------------------------|-----------------------------------------------------------------------------------|
+| `Incomplete`                        | `Partial Pass`                      | Deficient requirement that is backlogged, and will be addressed in future sprints |
+| `In Progress`                       | `Partial Pass`                      | Deficient requirement that is actively being addressed                            |
+
+
+
