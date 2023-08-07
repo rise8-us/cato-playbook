@@ -26,8 +26,18 @@ When a product team and their App Assessor determine that a requirement generate
 
 <br/>
 
+![POAM Response!](images/poam-response.png "POAM Response")
+
+<br/>
+
 ## How are POAMs accepted in Lighthouse?
 Once a POAM response has been established, the App Assessor will review the details with an Authorizing Official (or designated delegate). If the risk is accepted, one of the following actions can be taken to update the status of a specific SD Elements requirement backlog item. An example of how this is displayed to users in SD Elements is shown below.
 
 1. The Authorizing Offical (or designated delegate) can log into SD Elements, add a note indicating they're accepting the risk, and update the verifaction status tp `partial pass`.
 2. The App Assessor can update the verifaction status to `partial pass` as long as they have obtain evidence of the Authorizing Officials (or designated delegate) risk acceptance (e.g. email response), and included within the SD Elements requirement backlog item  
+
+<br/>
+
+![POAM Verification!](images/poam-verification.png "POAM Verification")
+
+<br/>
