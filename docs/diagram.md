@@ -1,7 +1,7 @@
 # System Diagram
 
 ## What are System Diagrams?
-Similar to what was described in our approach for a [Lighthouse Ongoing Authorization Boundary](https://verbose-lamp-357464da.pages.github.io/approach/#:~:text=the%20LHDI%20Platform.-,LH%20Ongoing%20Authorization%20Boundary,-Our%20Ongoing%20Authorization) A system diagram is a visual representation of what components and connections exist in your overall system boundary. Other terms that have been used to describe a system diagram are architecture diagrams or threat models. 
+Similar to what was described in our approach for a [Lighthouse Ongoing Authorization Boundary](https://department-of-veterans-affairs.github.io/lighthouse-cato-playbook/approach/#lhdi-ongoing-authorization-boundary) A system diagram is a visual representation of what components and connections exist in your overall system boundary. Other terms that have been used to describe a system diagram are architecture diagrams or threat models. 
 
 <br/>
 
