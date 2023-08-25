@@ -69,14 +69,13 @@ When an Application Development Team and their Application Security Assessor det
 <a name="like"></a>
 ### How to Assess Likelihood
 
-| **Likelihood** |  | **Very Low Impact** | **Low Impact** | **Moderate Impact** | **High Impact** | **Very High Impact** |
-|:---:|---|:---:|:---:|:---:|:---:|:---:|
-|  |  |  |  |  |  |  |
-| **Very High Threat** |  | Very Low | Low | Moderate | High | Very High |
-| **High Threat** |  | Very Low | Low | Moderate | High | Very High |
-| **Moderate Threat** |  | Very Low | Low | Moderate | Moderate | High |
-| **Low Threat** |  | Very Low | Low | Low | Low | Moderate |
-| **Very Low Threat** |  | Very Low | Very Low | Very Low | Low | Low |
+| **Likelihood** | **Very Low Impact** | **Low Impact** | **Moderate Impact** | **High Impact** | **Very High Impact** |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Very High Threat** | Very Low | Low | Moderate | High | Very High |
+| **High Threat** | Very Low | Low | Moderate | High | Very High |
+| **Moderate Threat** | Very Low | Low | Moderate | Moderate | High |
+| **Low Threat** | Very Low | Low | Low | Low | Moderate |
+| **Very Low Threat** | Very Low | Very Low | Very Low | Low | Low |
 
 <br/>
 
