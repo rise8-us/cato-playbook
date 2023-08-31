@@ -42,6 +42,7 @@ nav:
   - 'Introduction': 
       - 'Overview': 'overview.md'
       - 'Approach': 'approach.md'
+      - 'Assessors': 'assessor.md'
       - 'Benefits': 'benefits.md'
   - 'Process':
       - 'Overview': 'process.md'
