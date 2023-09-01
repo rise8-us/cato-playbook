@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this page is to outline how Security Application Assessors within the VA Lighthouse program conduct continuous risk management framework for planning, control selections, risk assessment and monitoring of software applications that are developed, tested and released onto the [Lighthouse Delivery Infrastructure (LHDI) Platform](platform.md) , in order to maintain [Continuous Authority to Operate (cATO)](overview.md) . The individual procedures described on this page are critical to enabling our [policy-as-code](policy.md)  approach that reinforce the value of establishing a [Secure Release (SecRel) Pipeline](pipeline.md).
+The purpose of this page is to outline how Security Application Assessors within the VA Lighthouse program conduct continuous risk management framework for planning, control selections, risk assessment, and monitoring of software applications that are developed, tested, and released onto the [Lighthouse Delivery Infrastructure (LHDI) Platform](platform.md) , in order to maintain [Continuous Authority to Operate (cATO)](overview.md) . The individual procedures described on this page are critical to enabling our [policy-as-code](policy.md)  approach that reinforce the value of establishing a [Secure Release (SecRel) Pipeline](pipeline.md).
 
 <br/>
 
@@ -38,14 +38,14 @@ The primary objective of this procedure is to ensure that all parties have conte
 | Action | Expected Output | Expected Outcome |
 |-----|-----|-----|
 | New App Team [onboarding request](https://department-of-veterans-affairs.github.io/lighthouse-tornado/onboarding) & assignment of App Assessor teammate | <ol><li>App Teams submit an onboarding request via Github Issue template.</li><li>Automated slack messages informing Application Team and App Assessors of onboarding progress and next steps.</li><li>SecRel pipeline, Snyk project(s), Aqua scope(s) and an SD Elements project are automatically provisioned.</li><li>App Assessors decide who will be assigned to the new App Team.</li></ol>| App Teams acquire resources to start leveraging SecRel, clarity of who their App Assessor teammate will be, and next steps on their journey to production using cATO. |
-| Kick-off meeting hosted by App Assessor. Includes App Team, ISO or Product Owner, and ISSO | <ol><li>App Teams produce and share system diagrams and data flow diagrams.</li><li>App Assessors drive the completion of SD Elements (SDE) project survey.</li><li>Tailored control baseline selection is completed based on survey responses, and confirmed as countermeasure (i.e. task) backlog.</li></ol> | App Assessor will become familiarized with the system. <br><br>App Team will become familiarized with SD Elements, how work is completed and assessed to meet [SDE Gate Check policy expectations](policy.md) |
-| Verify LHDI Inheritance | <ol><li>Inheritable evidence from the LHDI platform is uploaded to applicable SDE countermeasures.</li><li>App Assessors verify inheritable control response accuracy.</li></ol> | Reduced overall effort on App Teams to achieve approval for an Authority to Operate (ATO). |
+| Kick-off meeting hosted by App Assessor. Includes App Team, ISO or Product Owner, and ISSO | <ol><li>App Teams produce and share system diagrams and data flow diagrams.</li><li>App Assessors drive the completion of SD Elements (SDE) project survey.</li><li>Tailored control applicability selection is completed based on survey responses, and confirmed as countermeasure (i.e. task) backlog.</li></ol> | App Assessor will become familiarized with the system. <br><br>App Team will become familiarized with SD Elements, how work is completed and assessed to meet [SDE Gate Check policy expectations](policy.md) |
+| Verify LHDI Inheritance | <ol><li>Inheritable evidence from the LHDI platform is uploaded to applicable SDE countermeasures.</li><li>App Assessors verify inheritable control response accuracy.</li></ol> | Reduced overall effort on App Teams to become compliant with LHDI Authority to Operate (ATO). |
 
 <br/>
 
 ### Weekly Risk  Reviews
 
-Conversations regarding risk never end. The primary objective of this procedure is to ensure there is alignment and agreement between Application Development Teams and Application Security Assessors to maintain a consistent format of managing risk as assumptions change.
+Conversations regarding risk are ongoing. The primary objective of this procedure is to ensure there is alignment and agreement between Application Development Teams and Application Security Assessors to maintain a consistent format of managing risk as assumptions change.
 
 | Action | Expected Output | Expected Outcome |
 |-----|-----|-----|
