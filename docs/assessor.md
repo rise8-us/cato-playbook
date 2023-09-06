@@ -14,11 +14,13 @@ This SOP only applies to Application Development Teams who are developing, testi
 ## Roles & Responsibilities
 1.	**Application Security Assessors** are responsible for executing the procedures identified in this SOP, in order to demonstrate continuous assessment of risks for applications, and to act as a designated cATO subject matter expert to enhance the ongoing relationships with Application Development Teams.
 
+    - Leverage available resources from App Tenants and cybersecurity industry to achieve intimate knowledge of systems they are supporting (e.g. System and architecture diagrams, data flow diagrams, SD Elements surveys, technologies used to develop the system, etc.)
     - Be the primary point of contact for teams as security relevant issues are detected by the SecRel pipeline, industry security announcements or changes in risk as context for applications change.
     - Assist Application Development Teams with validating controls.
     - Assist with and manage risk reduction and mitigations of security issues.
     - Assist the Plan of Actions and Milestones (POA&M) lifecycle by routing, and advising on, POA&Ms to Authorizing Officials for formal reviews and decisions.
     - Foster an open line of communication with Application Development Teams, and drive a security-first mindset.
+    - Collect and prepare data that will be used for Quarterly Risk Reviews (QRRs)
 
 2.	**Application Development Teams** are responsible for the following in support of Application Security Assessors:
 
