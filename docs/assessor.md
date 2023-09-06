@@ -20,7 +20,8 @@ This SOP only applies to Application Development Teams who are developing, testi
     - Assist with and manage risk reduction and mitigations of security issues.
     - Assist the Plan of Actions and Milestones (POA&M) lifecycle by routing, and advising on, POA&Ms to Authorizing Officials for formal reviews and decisions.
     - Foster an open line of communication with Application Development Teams, and drive a security-first mindset.
-    - Collect and prepare data that will be used for Quarterly Risk Reviews (QRRs)
+    - Collect and prepare data that will be used for Quarterly Risk Reviews (QRRs).
+    - Continuously improve the usage of cATO tools and processes between App Assessors and App Tenants.
 
 2.	**Application Development Teams** are responsible for the following in support of Application Security Assessors:
 
