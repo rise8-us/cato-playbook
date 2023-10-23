@@ -10,6 +10,7 @@ theme:
     repo: fontawesome/brands/github
   features:
     - navigation.tabs
+    - navigation.footer
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -25,8 +26,8 @@ markdown_extensions:
       custom_checkbox: true
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
@@ -39,7 +40,7 @@ plugins:
   - print-site
 nav:
   - 'Prologue': 'index.md'
-  - 'Introduction': 
+  - 'Introduction':
       - 'Overview': 'overview.md'
       - 'Approach': 'approach.md'
       - 'Assessors': 'assessor.md'
@@ -54,7 +55,7 @@ nav:
       - 'pipeline.md'
       - 'platform.md'
       - 'testing.md'
-  - 'Policies': 
+  - 'Policies':
       - 'Policy-as-Code': 'policy.md'
       - 'poam.md'
   - 'monitoring.md'
