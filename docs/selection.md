@@ -1,7 +1,7 @@
 # Control Selection
 
 ## What is Control Selection?
-As we described in the overview of [NIST RMF Structure](https://department-of-veterans-affairs.github.io/lighthouse-cato-playbook/overview/#rmf-structure), control selection is how individual Application Teams determine what privacy and security controls their system needs to be addressed before shipping to production. 
+As we described in the overview of [NIST RMF Structure](overview.md#rmf-structure), control selection is how individual Application Teams determine what privacy and security controls their system needs to be addressed before shipping to production. 
 
 <br/>
 
