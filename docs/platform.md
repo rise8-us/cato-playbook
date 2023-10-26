@@ -1,7 +1,7 @@
 # Platform
 
 ## What is a Platform?
-A Platform (or a *Platform as a Service* [*PaaS*]) can be broken down as a set of tools, development guidelines and a multi-tenant deployment environment that enables rapid and secure development, deployment and operation of high-quality software. Our goal is to prioritize developers' efficiency, remove unnecessary waits in their paths to production and make it easy to deliver maximum value.
+A Platform (or a *Platform as a Service* (*PaaS*)) can be broken down as a set of tools, development guidelines and a multi-tenant deployment environment that enables rapid and secure development, deployment and operation of high-quality software. Our goal is to prioritize developers' efficiency, remove unnecessary waits in their paths to production and make it easy to deliver maximum value.
 
 <br/>
 
