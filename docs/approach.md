@@ -15,8 +15,12 @@ We leverage a modern architecture that allows us to build, deploy and monitor ou
 
 <br/>
 
+![Technology Stack!](images/architecture.png "Technology Stack")
+
+<br/>
+
 ## Ongoing Authorization Boundary
-Our LHDI Ongoing Authorization Boundary (also known as Accountability Boundary) and approach to performing continuous Authority to Operate (cATO), covers the LHDI Platform, LHDI SecRel Pipeline, custom VA Applications/Products deployed onto the platform, as well as any Commercial Off The Shelf (COTS) software that supports the operations of the LHDI Platform or LHDI SecRel Pipeline (ie Auth0, Snyk, Aqua and SD Elements). All COTS software that is SaaS-based, has completed the necessary accredidation for Federal Risk and Authorization Management Program (FedRAMP). All COTS software that is container-based, has been accepted for use via the VA [Technical Reference Model (TRM)](https://oit.va.gov/Services/TRM/TRMHomePage.aspx) process.  Until the Digital Transformation Center (DTC) has secured an ATO for Saas products (Auth0 and Synk), the Lighthouse AO has accepted the risk of leveraging these solutions within our Ongoing Authorization boundary. These solutions would fall outside of the Ongoing Authorization boundary scope once they are ATO'd. Both [Github](https://www.oit.va.gov/marketplace/product/details/get/github) and [Datadog](https://www.oit.va.govmarketplace/product/details/get/datadog) have been previously authorized by the VA.
+The platform's Ongoing Authorization Boundary (also known as the *Accountability Boundary*) and approach to performing continuous Authority to Operate (cATO) covers the platform, secure release pipeline, custom applications/products deployed onto the platform, as well as any Commercial Off The Shelf (COTS) software that supports the operations of the platform or secure release pipeline (ie Auth0, Snyk, Aqua and SD Elements). All COTS software that is SaaS-based must complete the necessary accreditation for Federal Risk and Authorization Management Program (FedRAMP). All COTS software that is container-based should be accepted for use via an agency's [Technical Reference Model (TRM)](https://csrc.nist.gov/glossary/term/technical_reference_model) process.
 
 <br/>
 
@@ -24,7 +28,7 @@ Our LHDI Ongoing Authorization Boundary (also known as Accountability Boundary) 
 
 <br/>
 
-## SecRel Pipeline Capabilities
+## Secure Release Pipeline Capabilities
 [Continuous integration](https://www.martinfowler.com/articles/continuousIntegration.html) pipelines ensure that Application Development Teams can deliver frequent changes of software into production quickly and safely. Within the Lighthouse Program, app teams have the flexibility to build, test and deploy using whatever strategy is best suited for their product(s). However, before teams can deploy to the LHDI Platform, they must be registered to, and call our, [Secure Release Pipeline (SecRel)](https://department-of-veterans-affairs.github.io/lighthouse-tornado). 
 
 This pipeline service is only available to software development teams that are customers of the LHDI platform. SecRel enables security vulnerability detection and remediation guidance every time an engineer commits code changes to their teams repository. Upon each commit, the app team is receiving immediate feedback on security vulnerabilities for Static Application Security Testing (SAST), Software Composition Analysis (SCA) for open source packages, as well as vulnerabilities that exist within Image(s)/Container(s) being leveraged by the application. Our SecRel Pipeline enforces [policies](policy.md) as gatecheck jobs, that must be adhered to in order for teams to achieve a [digitally signed](https://csrc.nist.gov/glossary/term/digital_signature) application image. Only images signed by the SecRel Pipeline are allowed onto the LHDI Platform, and are validated by the platform prior to deployment.
