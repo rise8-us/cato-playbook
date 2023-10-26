@@ -1,6 +1,6 @@
 # High Level Approach
 
-This page currently covers a brief description of approaches made to support establishing Ongoing Authorization and continuous Authority to Operate (cATO) for applications that are deploying onto a given platform.
+This page currently covers a brief description of approaches made to support establishing an Ongoing Authorization and continuous Authority to Operate (cATO) for applications that are deploying onto a given platform.
 
 - [Architecture Inheritance Model](#architecture-inheritance-model)
 - [Ongoing Authorization Boundary](#ongoing-authorization-boundary)
