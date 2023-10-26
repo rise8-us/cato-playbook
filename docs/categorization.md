@@ -20,20 +20,12 @@ The categorization process determines the worst-case potential impact that could
 <br/>
 
 ## Why are they important?
-System categorization affects your security and privacy control selection. In general, the higher the impact due to loss, the more security requirements your team will need to address to reduce the risk to the VA and your users. The impact levels are described as follows:
+System categorization affects your security and privacy control selection. In general, the higher the impact due to loss, the more security requirements your team will need to address to reduce the risk to your organization and your end-users. The impact levels are described as follows:
 
-- **Low** - the loss of confidentiality, integrity, or availability could be expected to have a limited adverse effect on organizational operations, organizational assets, or individuals.[^2]
-- **Moderate** - the loss of confidentiality, integrity, or availability could be expected to have a serious adverse effect on organizational operations, organizational assets, or individuals.[^2]
-- **High** - the loss of confidentiality, integrity, or availability could be expected to have a severe or catastrophic adverse effect on organizational operations, organizational assets, or individuals.[^2]
-
-:material-information-outline: Because the LHDI platform is currently categorized as Moderate System, we are only accepting applications that are rated as Low or Moderate systems at this time. 
+- **Low** - the loss of confidentiality, integrity, or availability could be expected to have a limited adverse effect on organizational operations, organizational assets, or individuals.[^1]
+- **Moderate** - the loss of confidentiality, integrity, or availability could be expected to have a serious adverse effect on organizational operations, organizational assets, or individuals.[^1]
+- **High** - the loss of confidentiality, integrity, or availability could be expected to have a severe or catastrophic adverse effect on organizational operations, organizational assets, or individuals.[^1]
 
 <br/>
 
-## How do I complete this task?
-We leverage an existing service managed by the VA's Governance Risk Compliance (GRC) organization for system categorization. To initiate this activity, you should contact your assigned focal from Team Owls to coordinate an assessment of your information types and overall system with the GRC organization. Don't remember who your assigned focal is? Reach out to [team-owls](https://lighthouseva.slack.com/archives/C040UBT08TE) on slack, and they will help confirm for you.
-
-<br/>
-
-[^1]:[NIST Special Publication 800-37](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final)
-[^2]:[Standards for Security Categorization of Federal Information and Information Systems](https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.199.pdf)
+[^1]:[Standards for Security Categorization of Federal Information and Information Systems](https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.199.pdf)
