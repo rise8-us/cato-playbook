@@ -4,9 +4,8 @@ This page currently covers a brief description of approaches and adjustments tha
 
 - [Architecture Inheritance Model](#architecture-inheritance-model)
 - [Ongoing Authorization Boundary](#ongoing-authorization-boundary)
-- [SecRel Pipeline Capabilities](#secrel-pipeline-capabilities)
+- [Secure Release Pipeline Capabilities](#secure-release-pipeline-capabilities)
 - [Application Security Assessors](#application-security-assessors)
-- [Current Process Adjustments](#current-process-adjustments)
 
 <br/>
 
@@ -29,17 +28,13 @@ The platform's Ongoing Authorization Boundary (also known as the *Accountability
 <br/>
 
 ## Secure Release Pipeline Capabilities
-[Continuous integration](https://www.martinfowler.com/articles/continuousIntegration.html) pipelines ensure that Application Development Teams can deliver frequent changes of software into production quickly and safely. Within the Lighthouse Program, app teams have the flexibility to build, test and deploy using whatever strategy is best suited for their product(s). However, before teams can deploy to the LHDI Platform, they must be registered to, and call our, [Secure Release Pipeline (SecRel)](https://department-of-veterans-affairs.github.io/lighthouse-tornado). 
+[Continuous Integration](https://www.martinfowler.com/articles/continuousIntegration.html) (CI) pipelines ensure that Application Development Teams can deliver frequent changes of software into production quickly and safely. Within the platform, app teams have the flexibility to build, test and deploy using whatever strategy is best suited for their product(s). However, before teams can deploy to the platform, they must be registered to and call the secure release pipeline. 
 
-This pipeline service is only available to software development teams that are customers of the LHDI platform. SecRel enables security vulnerability detection and remediation guidance every time an engineer commits code changes to their teams repository. Upon each commit, the app team is receiving immediate feedback on security vulnerabilities for Static Application Security Testing (SAST), Software Composition Analysis (SCA) for open source packages, as well as vulnerabilities that exist within Image(s)/Container(s) being leveraged by the application. Our SecRel Pipeline enforces [policies](policy.md) as gatecheck jobs, that must be adhered to in order for teams to achieve a [digitally signed](https://csrc.nist.gov/glossary/term/digital_signature) application image. Only images signed by the SecRel Pipeline are allowed onto the LHDI Platform, and are validated by the platform prior to deployment.
+This pipeline service is only available to software development teams that are customers of the platform. The secure release pipeline enables security vulnerability detection and remediation guidance every time an engineer commits code changes to their teams repository. Upon each commit, the app team is receiving immediate feedback on security vulnerabilities for Static Application Security Testing (SAST), Software Composition Analysis (SCA) for open source packages, as well as vulnerabilities that exist within Image(s)/Container(s) being leveraged by the application. The secure release pipeline enforces [policies](policy.md) as gatecheck jobs, that must be adhered to in order for teams to achieve a [digitally signed](https://csrc.nist.gov/glossary/term/digital_signature) application image. Only images signed by the secure release pipeline are allowed onto the platform, and are validated by the platform prior to deployment.
 
 <br/>
 
 ![SecRel!](images/SecRel.png "SecRel")
-
-<br/>
-
-Please refer to the [Current Process Adjustments](#current-process-adjustments) section below, for all other forms of security vulnerability scanning practices that are currently not covered by the SecRel Pipeline.
 
 <br/>
 
@@ -53,31 +48,3 @@ Our approach within the Lighthouse Program is aimed at aligning security assessm
 <br/>
 
 ![AppAssessor!](images/AppAssessor.png "AppAssessor") 
-
-<br/>
-
-## Current Process Adjustments
-This section communicates what existing VA processes vs. new Lighthouse cATO processes have been approved to satisfy requirements for `Application Development Teams` in order to leverage the LHDI Platform, Lighthouse Program Ongoing Authorization and cATO. All existing VA Processes come directly from OIT/OIS services that are aligned with [VA Handbook 6500](https://dvagov.sharepoint.com/sites/OITOIS/KnowledgeService/KSPublications/VA_Handbook_6500.pdf#search=6500). All Lighthouse cATO process adjustments also align well with the desired concepts and outcomes stated in both of the Enterprise Security Architecture (ESA) publishings, [VA DevSecOps Security Concept of Operations](https://dvagov.sharepoint.com/sites/OITOIS/KnowledgeService/ESA/SiteAssets/ESA%20DevSecOps_revised/DevSecOps%20Documents/DevSecOps_Security_Concept_of_Operations.pdf#search=devsecops) and [DevSecOps Continuous Authorization (cATO) Proposal for the Department of Veterans Affairs](https://dvagov.sharepoint.com/sites/OITOIS/KnowledgeService/ESA/SiteAssets/ESA%20DevSecOps_revised/DevSecOps%20Documents/DevSecOps_%20Continuous_%20Authorization_%20Proposal_%20for_%20the_%20Department_%20of%20_Veterans_%20Affairs%20.pdf#search=devsecops).
-
-| **Activity**                                               | **Existing VA Process**                                                          | **New Lighthouse cATO Process**                                         |
-|------------------------------------------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| Register System                                            | :white_check_mark: VA GRC Tool (eMASS)                                           |                                                                         |
-| Visualize Security Risks                                   | :white_check_mark: System Diagram (any format)                                   |                                                                         |
-| Privacy Analysis                                           | :white_check_mark: PTA & PIA w/ Privacy Office                                   |                                                                         |
-| Privacy Data Handling <br/> `If Applicable`                | :white_check_mark: Privacy Act System of Record Notice (SORN)                    |                                                                         |
-| Authorizing Interconnections <br/> `If Applicable`         | :white_check_mark: VA MOU/ISA Standard Operating Procedure                       |                                                                         |
-| System Categorization                                      | :white_check_mark: FIPS 199 + NIST 800-60 (eMASS)                                |                                                                         |
-| Application Assessors                                      | :x: Coordination through GRC Team                                                | :white_check_mark: Embedded with App Teams on day 1, Assessors verify requirements as they are completed                     |
-| Control Selection                                          | :x: eMASS Static Baseline including all CCIs                                     | :white_check_mark: SD Elements survey and threadt model determine applicable requirements                |
-| Control Implementation                                     | :x: eMASS                                                                        | :white_check_mark: Evidence of implementation is captured in SD Elements     |
-| Web Application Security Testing                           | :white_check_mark: EAS WASA                                                      |                                                                         |
-| Mobile Application Security Testing <br/> `If Applicable`  | :white_check_mark: EAS MASA                                                      |                                                                         |
-| Database Scanning                                          | :white_check_mark: DB Scanning                                                   |                                                                         |
-| SAST and SCA Scanning                                      | :x: Fortify                                                                      | :white_check_mark: SecRel Pipeline - Snyk                               |
-| Image/Container Scanning                                   | :x: Does not exist                                                               | :white_check_mark: SecRel Pipeline - Aqua                               |
-| Control Assessment                                         | :x: Coordination through GRC Team for initial ATO and then only upon ATO renewal | :white_check_mark: Assessed as you go with SD Elements                  |
-| POAMs                                                      | :x: Create & manage after assessment periods                                     | :white_check_mark: Managed in SD Elements & approved by AO or their delegate     |
-| Authorization                                              | :x: AO approves initial and all major changes                                    | :white_check_mark: Pre-approved when adhering to all cATO [policies](policy.md) and [monitoring](monitoring.md) processes |
-| Ongoing Change Impacts                                     | :x: System Impact Analysis (SIA)                                                 | :white_check_mark: Regular updates to SD Elements (Survey + Threat Model Diagram) between major/minor versions           |
-
-
