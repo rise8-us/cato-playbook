@@ -6,7 +6,7 @@ The Plan of Action and Milestones (POA&Ms) describes the actions that are planne
 <br/>
 
 ## When are POA&M mitigations not required?
-Deficiencies that are accepted by the AO as `residual risk`, or that are remediated during an assessment and before a release, do not require the documentation and monitoring of a POA&M. Residual risk is often covered by other controls that were fully, and successfully addressed.
+Deficiencies that are accepted by the AO as residual risk, or, that are remediated during an assessment and before a release, do not require the documentation and monitoring of a POA&M. Residual risk is often covered by other controls that were fully, and successfully addressed.
 
 - Residual risk is defined as risk that remains after efforts to identify and mitigate said risk have been taken.
 - Information System Security Officers (ISSO) or Application Security Assessors will monitor for new POA&M items submitted for review, and report them to the as needed AO.
