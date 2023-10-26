@@ -1,26 +1,21 @@
-# Lighthouse High Level Approach
+# High Level Approach
 
-The Lighthouse (LH) Program AO and Leadership Team, have chosen to run experiments with different strategies that gradually enable and mature their cATO practices. The focus of each experimental adjustment targets increasing transparency of security risks, continuous delivery velocity, and/or overall security culture. This page currently covers a brief description of approaches and adjustments that we have made to support establishing Ongoing Authorization and cATO for applications that are deploying onto the Lighthouse Delivery Infrastructure (LHDI) platform. We will continue to update this page as experiments yield positive outcomes.
+This page currently covers a brief description of approaches and adjustments that we have made to support establishing Ongoing Authorization and cATO for applications that are deploying onto a given platform. We will continue to update this page as experiments yield positive outcomes.
 
-- [LHDI Architecture Inheritance Model](#lhdi-architecture-inheritance-model)
-- [LHDI Ongoing Authorization Boundary](#lhdi-ongoing-authorization-boundary)
-- [LHDI SecRel Pipeline Capabilities](#lhdi-secrel-pipeline-capabilities)
+- [Architecture Inheritance Model](#architecture-inheritance-model)
+- [Ongoing Authorization Boundary](#ongoing-authorization-boundary)
+- [SecRel Pipeline Capabilities](#secrel-pipeline-capabilities)
 - [Application Security Assessors](#application-security-assessors)
 - [Current Process Adjustments](#current-process-adjustments)
 
 <br/>
 
-## LHDI Architecture Inheritance Model
-We leverage a modern architecture that allows us to build, deploy and monitor our applications. This is also the foundation to supporting a common control inheritance model through [common control providers](https://csrc.nist.gov/glossary/term/common_control_provider#:~:text=Definition(s)%3A,controls%20inherited%20by%20information%20systems). At the lowest level, a cloud environment (eg VA Enterprise Cloud (VAEC)) serves as our infrastructure providing flexible AWS compute and storage capabilities. Above that is a modern platform which provides both operating environments (eg [Lighthouse Delivery Infrastructure (LHDI)](https://department-of-veterans-affairs.github.io/lighthouse-di-documentation/) platform, as well as a secure mechanism for shipping applications (eg [Secure Release Pipeline](pipeline.md)). VAEC, the LHDI platform and SecRel pipeline, account for a percentage of NIST 800-53 Controls that are solely owned by each layer of the stack. This means that application development teams benefit in having an overall reduction in effort and responsibility for NIST 800-53 Controls that are addressed from the other layers in the stack, when shipping software onto the LHDI Platform. 
+## Architecture Inheritance Model
+We leverage a modern architecture that allows us to build, deploy and monitor our applications. This is also the foundation to supporting a common control inheritance model through [common control providers](https://csrc.nist.gov/glossary/term/common_control_provider#:~:text=Definition(s)%3A,controls%20inherited%20by%20information%20systems). At the lowest level, a cloud environment serves as our infrastructure providing flexible compute and storage capabilities. Above that is a modern platform which provides both operating environments, as well as a secure mechanism for shipping applications. The cloud environment, the platform, and the secure release pipeline account for a percentage of NIST 800-53 Controls that are solely owned by each layer of the stack. This means that application development teams benefit in having an overall reduction in effort and responsibility for NIST 800-53 Controls that are addressed from the other layers in the stack, when shipping software onto the platform.
 
 <br/>
 
-![Technology Stack!](images/architecture.png "Technology Stack")
-
-
-<br/>
-
-## LHDI Ongoing Authorization Boundary
+## Ongoing Authorization Boundary
 Our LHDI Ongoing Authorization Boundary (also known as Accountability Boundary) and approach to performing continuous Authority to Operate (cATO), covers the LHDI Platform, LHDI SecRel Pipeline, custom VA Applications/Products deployed onto the platform, as well as any Commercial Off The Shelf (COTS) software that supports the operations of the LHDI Platform or LHDI SecRel Pipeline (ie Auth0, Snyk, Aqua and SD Elements). All COTS software that is SaaS-based, has completed the necessary accredidation for Federal Risk and Authorization Management Program (FedRAMP). All COTS software that is container-based, has been accepted for use via the VA [Technical Reference Model (TRM)](https://oit.va.gov/Services/TRM/TRMHomePage.aspx) process.  Until the Digital Transformation Center (DTC) has secured an ATO for Saas products (Auth0 and Synk), the Lighthouse AO has accepted the risk of leveraging these solutions within our Ongoing Authorization boundary. These solutions would fall outside of the Ongoing Authorization boundary scope once they are ATO'd. Both [Github](https://www.oit.va.gov/marketplace/product/details/get/github) and [Datadog](https://www.oit.va.govmarketplace/product/details/get/datadog) have been previously authorized by the VA.
 
 <br/>
@@ -29,7 +24,7 @@ Our LHDI Ongoing Authorization Boundary (also known as Accountability Boundary) 
 
 <br/>
 
-## LHDI SecRel Pipeline Capabilities
+## SecRel Pipeline Capabilities
 [Continuous integration](https://www.martinfowler.com/articles/continuousIntegration.html) pipelines ensure that Application Development Teams can deliver frequent changes of software into production quickly and safely. Within the Lighthouse Program, app teams have the flexibility to build, test and deploy using whatever strategy is best suited for their product(s). However, before teams can deploy to the LHDI Platform, they must be registered to, and call our, [Secure Release Pipeline (SecRel)](https://department-of-veterans-affairs.github.io/lighthouse-tornado). 
 
 This pipeline service is only available to software development teams that are customers of the LHDI platform. SecRel enables security vulnerability detection and remediation guidance every time an engineer commits code changes to their teams repository. Upon each commit, the app team is receiving immediate feedback on security vulnerabilities for Static Application Security Testing (SAST), Software Composition Analysis (SCA) for open source packages, as well as vulnerabilities that exist within Image(s)/Container(s) being leveraged by the application. Our SecRel Pipeline enforces [policies](policy.md) as gatecheck jobs, that must be adhered to in order for teams to achieve a [digitally signed](https://csrc.nist.gov/glossary/term/digital_signature) application image. Only images signed by the SecRel Pipeline are allowed onto the LHDI Platform, and are validated by the platform prior to deployment.

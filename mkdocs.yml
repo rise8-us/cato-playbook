@@ -1,8 +1,8 @@
-site_name: Lighthouse cATO Playbook
-site_url: https://department-of-veterans-affairs.github.io/lighthouse-cato-playbook
-repo_url: https://github.com/department-of-veterans-affairs/lighthouse-cato-playbook
+site_name: cATO Playbook
+site_url: https://rise8-us.github.io/cato-playbook
+repo_url: https://github.com/rise8-us/cato-playbook
 edit_uri: edit/main/docs/
-repo_name: lighthouse-cato-playbook
+repo_name: cato-playbook
 theme:
   name: material
   logo: images/logo.png
@@ -14,9 +14,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/department-of-veterans-affairs/lighthouse-cato-playbook
-    - icon: fontawesome/brands/slack
-      link: https://lighthouseva.slack.com/archives/C03G2J6G7AR
+      link: https://github.com/rise8-us/cato-playbook
 extra_css: [extra.css]
 markdown_extensions:
   - abbr
