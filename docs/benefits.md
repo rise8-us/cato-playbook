@@ -4,7 +4,7 @@
 
 - Reduce the number of security defects through [threat analysis and secure coding practices](https://www.securitycompass.com/sdelements/)
 - Continuously detect and remediate application vulnerabilities quickly via the [Secure Release Pipeline](pipeline.md)
-- Cybersecurity and vulnerability education is available to application development teams just by using SecRel tooling 
+- Cybersecurity and vulnerability education is available to application development teams simply by utilizing the secure release pipeline 
 
 <br/>
 
