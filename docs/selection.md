@@ -11,19 +11,11 @@ In reality, no two systems should ever be alike. Not only are there control base
 <br/>
 
 ## How do I complete this task?
-1. Onboard to [SecRel Toolchain](https://department-of-veterans-affairs.github.io/lighthouse-tornado/onboarding)
-2. Keep all artifacts from the [checklist](checklist.md) up to date, and meet with your Application Security Assessor on a recurring basis between software releases to update your project survey in [SD Elements](https://www.securitycompass.com/sdelements/). 
-
-Updating SD Elements surveys helps articulate the cybersecurity and regulation based risks of your system, and this is leveraged to determine applicable security requirements that are then immediately managed in Application Team backlogs. Those requirements are managed alongside other product backlog workitems. These tasks are mapped to applicable NIST 800-53 controls. 
-
-<br/>
-
 We use a phased approach to control implementation by addressing higher risk tasks first. 
 
-- Baseline security requirements are first set by the [system categorization](categorization.md), and is capture in your SD Elements project survey.
-- Security requirements are further tailored using information obtained from the [system diagram](diagram.md) as well as the SD Elements project survey.
-- Privacy controls are added based upon the results of the [privacy analysis](privacy.md), and further updates to SD Elements project survey.
-- Security requirements are generated based upon SD Elements survey and threat model inputs for prioritization and execution.
-- Engineers address security requirements and provide evidence of their work (eg source code, links to artifacts, etc.) that is then evaluated by their Application Security Assessor.
+- Baseline security requirements are first set by the [system categorization](categorization.md).
+- Security requirements are further tailored using information obtained from the [system diagram](diagram.md).
+- Privacy controls are added based upon the results of the [privacy analysis](privacy.md).
+- Security requirements are generated based upon your systems unique changes in risk context for prioritization and execution.
+- Engineers address security requirements and provide evidence of their work (eg source code, links to artifacts, etc.) that is then evaluated by their Security Control Assessor.
 - Security requirement adjustments are evaluated as changes in the [system architecture](diagram.md), [system categorization](categorization.md) and [privacy analysis](privacy.md) are introduced.
-
