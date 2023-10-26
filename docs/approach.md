@@ -1,6 +1,6 @@
 # High Level Approach
 
-This page currently covers a brief description of approaches and adjustments that we have made to support establishing Ongoing Authorization and cATO for applications that are deploying onto a given platform. We will continue to update this page as experiments yield positive outcomes.
+This page currently covers a brief description of approaches made to support establishing Ongoing Authorization and continuous Authority to Operate (cATO) for applications that are deploying onto a given platform.
 
 - [Architecture Inheritance Model](#architecture-inheritance-model)
 - [Ongoing Authorization Boundary](#ongoing-authorization-boundary)
@@ -19,7 +19,7 @@ We leverage a modern architecture that allows us to build, deploy and monitor ou
 <br/>
 
 ## Ongoing Authorization Boundary
-The platform's Ongoing Authorization Boundary (also known as the *Accountability Boundary*) and approach to performing continuous Authority to Operate (cATO) covers the platform, secure release pipeline, custom applications/products deployed onto the platform, as well as any Commercial Off The Shelf (COTS) software that supports the operations of the platform or secure release pipeline (ie Auth0, Snyk, Aqua and SD Elements). All COTS software that is SaaS-based must complete the necessary accreditation for Federal Risk and Authorization Management Program (FedRAMP). All COTS software that is container-based should be accepted for use via an agency's [Technical Reference Model (TRM)](https://csrc.nist.gov/glossary/term/technical_reference_model) process.
+The platform's Ongoing Authorization Boundary (also known as the *Accountability Boundary*) and approach to performing cATO covers the platform, secure release pipeline, custom applications/products deployed onto the platform, as well as any Commercial Off The Shelf (COTS) software that supports the operations of the platform or secure release pipeline (ie Auth0, Snyk, Aqua and SD Elements). All COTS software that is SaaS-based must complete the necessary accreditation for Federal Risk and Authorization Management Program (FedRAMP). All COTS software that is container-based should be accepted for use via an agency's [Technical Reference Model (TRM)](https://csrc.nist.gov/glossary/term/technical_reference_model) process.
 
 <br/>
 
