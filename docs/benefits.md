@@ -10,7 +10,7 @@
 
 ***Increase transparency and trust***
 
-- Default access to all body of evidence artifacts throughout the software development life cycle (ie source code, documents, diagrams) for security control assessors and cybersecurity personnel to support continuous monitoring (eg assessment and evaluation)
+- Default access to all body of evidence artifacts throughout the software development life cycle (i.e. source code, documents, diagrams) for security control assessors and cybersecurity personnel to support continuous monitoring (e.g. assessment and evaluation)
 - Incrementally automating risk assessment via secure release pipelines
 
 <br/>
