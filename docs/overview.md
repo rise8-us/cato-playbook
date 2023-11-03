@@ -1,6 +1,6 @@
 # Overview
 
-As your organization implements Development, Security and Operations (DevSecOps) methodologies, there is an opportunity to implement Continuous Authorization to Operate (cATO) practices that will enable real-time monitoring and continuous delivery of secure software. cATO represents a challenging but necessary enhancement of our cyber risk approach in order to accelerate innovation while outpacing expanding cybersecurity threats. Speed can only be achieved utilizing small, incremental changes that are easily tested and shipped into production. However, the quick pace of development can often outpace security and compliance practices that do not adapt and evolve with the times.
+As your organization implements Development, Security and Operations (DevSecOps) methodologies, there is an opportunity to implement Continuous Authorization to Operate (cATO) practices that will enable real-time monitoring and continuous delivery of secure software. cATO represents a challenging but necessary enhancement to our cyber risk approach in order to accelerate innovation while outpacing expanding cybersecurity threats. Speed can only be achieved utilizing small, incremental changes that are easily tested and shipped into production. However, the quick pace of development can often outpace security and compliance practices that do not adapt and evolve with the times.
 
 > ***Sacrificing security and compliance for speed is neither acceptable nor necessary.***
 
@@ -8,15 +8,15 @@ As your organization implements Development, Security and Operations (DevSecOps)
 
 ## NIST RMF Fundamentals
 
-The [National Institute of Standards and Technology](https://www.nist.gov/) (NIST), and in partnership with other organizations, developed the [Risk Management Framework](https://csrc.nist.gov/projects/risk-management) (RMF) to improve information security, strengthen risk management processes, and encourage reciprocity[^1] among organizations which includes data privacy. NIST encourages organizations to employ, whenever possible, iterative and incremental approaches to ensure security and privacy requirements and controls are implemented, verified, and validated as development progresses throughout the life cycle. Security controls are aligned to a given systems unique security risk context via NIST Security and Privacy Controls for Federal Information Systems and Organizations[^2].
+The [National Institute of Standards and Technology](https://www.nist.gov/) (NIST), and in partnership with other organizations, developed the [Risk Management Framework](https://csrc.nist.gov/projects/risk-management) (RMF) to improve information security, strengthen risk management processes, and encourage reciprocity[^1] among organizations which includes data privacy. NIST encourages organizations to employ, whenever possible, iterative and incremental approaches to ensure security and privacy requirements and controls are implemented, and validated as development progresses throughout the life cycle. Security controls are aligned to a given systems unique security risk context via NIST Security and Privacy Controls for Federal Information Systems and Organizations[^2].
 
-Organizations should maximize the use of ***automation***, wherever possible, to increase the speed, effectiveness, and efficiency of executing the steps in the Risk Management Framework (RMF). Automation is particularly useful in the assessment and continuous monitoring of controls, the preparation of authorization packages for timely decision-making, and the implementation of ongoing authorization approaches—together facilitating a real-time or near real-time risk-based decision-making process for senior leaders.
+Organizations should maximize the use of ***cloud-based systems, automation, reuse of artifacts***, wherever possible, to increase the speed, effectiveness, and efficiency of executing all steps in the Risk Management Framework (RMF). Automation is particularly useful in the assessment and continuous monitoring of controls, the preparation of authorization packages for timely decision-making, and  facilitating a real-time or near real-time risk-based decision-making process for senior leaders.
 
 <br/>
 
 ## RMF Org-Wide Risk Management
 
-Effective NIST RMF is structured in an layered format that supports both bi-directional communication and reporting as well as risk management approach defined by boundaries of ownership. Application development teams align to Level 3 of an organization-wide RMF approach as described by the image below, and focus on addressing direct and indirect[^3] risks tied to their *information system* boundary. Level 1 and 2 are responsible for employing systems and processes that information system owning teams will interact with throughout the software development lifecycle (SDLC), including day two operations such as incident response.
+Effective NIST RMF is structured in an layered format that supports both bi-directional communication and reporting as well as a risk management approach defined by boundaries of ownership. Application development teams align to Level 3 of an organization-wide RMF approach as described by the image below, and focus on addressing direct and indirect[^3] risks tied to their *information system* boundary. Level 1 and 2 are responsible for employing systems and processes that information system owning teams will interact with throughout the software development lifecycle (SDLC), including day two operations such as incident response.
 
 <br/> 
 
@@ -26,7 +26,7 @@ Effective NIST RMF is structured in an layered format that supports both bi-dire
 
 ## RMF Structure
 
-There are sevent steps in the RMF. While the RMF steps are listed in sequential order below, it's important to note that steps that occur after *Prepare*  can be carried out in a non-sequential order. This distinction aligns well with Agile and DevSecOps methodologies where incremental and iterative adjustments that are introduced to a system come from a feedback loop with end-users, peer teams or data that exists from various monitoring solutions. The purpose of each step is outlined for you here:
+There are seven steps in the RMF. While the RMF steps are listed in sequential order below, it's important to note that steps occurring after *Prepare* can be carried out in a non-sequential order. This distinction aligns well with Agile and DevSecOps methodologies where incremental and iterative adjustments to a system, come from a variety of feedback loops with end-users, peer teams or data that exists from various monitoring solutions. The purpose of each step is outlined for you here:
 
 - **Prepare** to execute the RMF from an organization- and a system-level perspective by establishing a context and priorities for managing security and privacy risk.
 - **Categorize** the system and the information processed, stored, and transmitted by the system based on an analysis of the impact of loss.
@@ -44,22 +44,22 @@ There are sevent steps in the RMF. While the RMF steps are listed in sequential 
 
 ## Ongoing Authorization and cATO
 
-Traditionally, the *Authorize* step of RMF is where a designated Authorizing Official (AO) will make an Authorization to Operate decision based upon:
+Traditionally, the *Authorize* step of RMF is where a designated Authorizing Official (AO) will authorize the system, and any outstanding risks, based upon:
 
 1. A risk acceptance statement
 2. Time or event-driven triggers for review of the security and privacy posture of a given system (if any)
 
-It's important to note that risks can be remediated, accepted with no intent to remediate or accept with a planned future remediation strategy - also known as a Plan of Action and Milestone (POAM).
+It's important to note that risks can be remediated, accepted with no intent to remediate or accepted with a planned future remediation strategy - also known as a Plan of Action and Milestone (POA&M).
 
 <br/>
 
 ***Ongoing authorization*** requires that “security controls and organizational risks are assessed and analyzed at a frequency sufficient to support risk-based security decisions to adequately protect organizational information”[^4]. Risk management can become near real-time by using the right balance of strategies for automation, technology, processes and people for the ongoing monitoring of controls and changes to systems and the environments in which those systems operate. Continuous monitoring based on the needs of the AO, produces the necessary ***current*** information to determine the security and privacy posture of a given system, and highlights their risks in an easy to consume manner. The following are critical to how we support cATO:
 
 - **Cloud Adoption** reduces the amount of authorizations needed across the organization.
-- **Common Control Inheritance** reduces the amount of security and compliance scope for products and applications being developed.
+- **Common Control Inheritance** reduces the amount of security and compliance scope for applications being developed through resuable control implementations.
 - **Automation** reduces the amount of manual work required for security categorization, control selection, assessment and monitoring.
 - **Autonomy Requires Accountability** requires application development teams to responsibly manage their systems direct and indirect security risks.
-- **Embedded Support** looks like cybersecurity certified specialists are now members of the application development team to rapidly assist with managing security risks 
+- **Embedded Support** looks like cybersecurity certified specialists are now members of the application development team to rapidly assist with managing security risks. 
 
 <br/>
 
