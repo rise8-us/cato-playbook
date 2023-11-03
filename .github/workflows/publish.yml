@@ -1,0 +1,25 @@
+name: Publish Playbook
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    # Steps required to build and deploy
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Install python
+        uses: actions/setup-python@v3
+      - name: Install mkdocs
+        run: pip install mkdocs-material mkdocs-print-site-plugin
+      - name: Build and deploy
+        run: mkdocs gh-deploy --force

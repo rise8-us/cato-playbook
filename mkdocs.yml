@@ -1,0 +1,62 @@
+site_name: cATO Playbook
+site_url: https://rise8-us.github.io/cato-playbook
+repo_url: https://github.com/rise8-us/cato-playbook
+edit_uri: edit/main/docs/
+repo_name: cato-playbook
+theme:
+  name: material
+#  logo: images/logo.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.footer
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rise8-us/cato-playbook
+extra_css: [extra.css]
+markdown_extensions:
+  - abbr
+  - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - admonition
+plugins:
+  - search
+  - print-site
+nav:
+  - 'Prologue': 'index.md'
+  - 'Introduction':
+      - 'Overview': 'overview.md'
+      - 'Approach': 'approach.md'
+      - 'Assessors': 'assessor.md'
+      - 'Benefits': 'benefits.md'
+  - 'Process':
+      - 'Overview': 'process.md'
+      - 'checklist.md'
+      - 'categorization.md'
+      - 'privacy.md'
+      - 'diagram.md'
+      - 'selection.md'
+      - 'pipeline.md'
+      - 'platform.md'
+      - 'testing.md'
+  - 'Policies':
+      - 'Policy-as-Code': 'policy.md'
+      - 'poam.md'
+  - 'monitoring.md'
+  - 'Support':
+    - 'contact.md'
+    - 'FAQ': 'faq.md'
