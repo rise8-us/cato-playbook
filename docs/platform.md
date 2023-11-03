@@ -6,7 +6,7 @@ A Platform (or a *Platform as a Service* (*PaaS*)) can be broken down as a set o
 <br/>
 
 ## Why is this important?
-In NIST parlance, the platform is a common controls provider(CCP)[^1]. This allows us to manage the security posture of the platform instead of our product teams having to manage it. This also allows us to provide a secure and compliant platform to our product teams, which in turn allows them to focus on delivering value to our customers.
+In NIST parlance, the platform is a Common Controls Provider (CCP)[^1]. This allows you to manage the security posture of the platform, separately from our mission critical applications. This also allows you to provide a secure and compliant platform as a service to System Owning teams, which in turn allows them to focus more time and energy on delivering value to their users and customers.
 
 <br/>
 
