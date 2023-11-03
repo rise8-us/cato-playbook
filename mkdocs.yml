@@ -57,6 +57,3 @@ nav:
       - 'Policy-as-Code': 'policy.md'
       - 'poam.md'
   - 'monitoring.md'
-  - 'Support':
-    - 'contact.md'
-    - 'FAQ': 'faq.md'
