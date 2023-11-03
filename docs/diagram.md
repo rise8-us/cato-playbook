@@ -3,17 +3,17 @@
 ## What are System Diagrams?
 Similar to what was described in our approach for an [Ongoing Authorization Boundary](approach.md#ongoing-authorization-boundary), a system diagram is a visual representation of what components and connections exist in your application/product overall system boundary.
 
-Other terms that have been used to describe a system diagram are architecture diagrams or threat models. 
+> The term system diagram is often referred to as an architecture diagram and include data flows between systems or sub-systems. 
 
 <br/>
 
 ## Why are they important?
-We require a system diagram be produced by your application/product team in order to tailor security requirements during the control selection process. The diagram is also utilized for threat analysis and our [continuous monitoring](monitoring.md) strategy. 
+System diagrams help making the identification of risks, easier, and it can help tailor what requirements will be in scope during the Control Selection process. The diagram is also utilized for threat analysis and part of your [Continuous Monitoring](monitoring.md) strategy. 
 
 <br/>
 
 ## How do I complete this task?
-Today, teams can leverage any solution and medium preference that they prefer, to create system diagrams. The only requirements are that Application teams must include the items listed below in their system diagram and information flow diagram, and must maintain this artifact with the current and proposed future state of their system. This ensures that Application Teams and Security Control Assessors are on the same page in terms of changes in the systems risk landscape.
+Organizations should be able to leverage any solution and medium they prefer, to create system diagrams. The only requirements are that System Owning teams must include the items listed below in their system diagram and information flow diagrams, and must maintain this artifact with the current and proposed future state of their system. This ensures that System Owning teams and Security Control Assessors are on the same page with changes to the systems risk landscape.
 
 - Show all components that make up your overall system,
 - Clarify which components your application team is responsible for maintaining, by drawing an authorization boundary around them,
