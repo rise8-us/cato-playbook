@@ -44,7 +44,6 @@ nav:
       - 'Benefits': 'benefits.md'
   - 'Process':
       - 'Overview': 'process.md'
-      - 'checklist.md'
       - 'categorization.md'
       - 'privacy.md'
       - 'diagram.md'
