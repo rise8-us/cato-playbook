@@ -50,7 +50,6 @@ nav:
       - 'selection.md'
       - 'pipeline.md'
       - 'platform.md'
-      - 'testing.md'
   - 'Policies':
       - 'Policy-as-Code': 'policy.md'
       - 'poam.md'
