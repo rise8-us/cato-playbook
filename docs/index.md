@@ -1,13 +1,17 @@
 # Prologue
 
 This playbook is meant to be a living document[^1] outlining the people, process and technology practices that will help organizations enable continuous Authority to Operate (cATO) in a concise and consumable way. We ***highly encourage*** all readers of this playbook to watch 🎥 [Continuous ATO: RMF & Ongoing Authorization](https://www.youtube.com/watch?v=k4lO3-9kIM0) before proceeding to other pages of the playbook.
+
 <br/>
 
 As warfighters and operators continue to rely more and more on the success of mission critical software, the consequences of experiencing software outages and exploited  cybersecurity threats are unprecedented. It is incumbent on organizations, and application development teams, to manage the risks that their systems introduce to their organizations network, and to mitigate those risks to the greatest extent possible. Through a process of Certification and Accreditation, a system can be granted what is known as an Authority to Operate (ATO). An ATO is the official authorization for a system to be deployed into a production envrionment, and the acceptance of any open risks that could impact organizational operations, assets, individuals, other even other organizations and the nation as a whole. A tremendous amount of work and responsibility goes into certifying a system for use, and requires that an Authorizing Official (AO) be the individual who accepts both the benefits and risks of the system going into production for the first time, as well as maintaining an ATO. As software becomes more dependent on microservice-based architectures, and application development teams adopt modern methodologies and technologies to achieve continuous delivery of software, we must also be willing to continuously adapt and evolve our security practices to support **continuous assessment, authorization and monitoring of risks**.  
+
 <br/>
 
 ![This is an image](images/weightScale.png)
-  
+
+<br/>
+
 Throughout our research and experiences, we've consistently validated that when organizations applied traditional waterfall practices to risk management implementations, they failed to match the speed and agility of modern software development, and increased the number security and privacy risks going undetected and unaddressed in production. In fact, we found that most application development teams we interviewed had limited to no awareness, or working knowledge of what an ATO is, how to achieve one, or that they had direct responsibilities tied to their path to production. This begs the question - if teams are not aware of what responsibilities they own in terms of security and privacy risk management, and how it supports their goal of delivering value, then how can we assume that security risks are actually being mitigated to the greatest extent possible? This is why we felt it was critical to publish a cATO playbook, and empower a community of change agents to take action.
 <br/>
 
