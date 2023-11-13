@@ -1,3 +1,75 @@
+# Overview
+
+xxx
+
+<br/>
+
+# People
+
+xxx
+
+<br/>
+
+# Integrated Process & Technology
+
+xxx
+
+<br/>
+
+## Prepare (zero-based review)
+
+xxx
+
+<br/>
+
+## Categorize
+
+xxx
+
+<br/>
+
+## Select
+
+xxx
+
+<br/>
+
+## Implement
+
+xxx
+
+<br/>
+
+## Assess
+
+xxx
+
+<br/>
+
+## Initial Authorization
+
+xxx
+
+<br/>
+
+## Monitor
+
+xxx
+
+<br/>
+
+## Ongoing Authorization
+
+xxx
+
+<br/>
+
+
+
+
+
+
+
 # High Level Approach
 
 This page currently covers a brief description of approaches made to support establishing an Ongoing Authorization and continuous Authority to Operate (cATO) for systems that are deploying onto a given platform.
