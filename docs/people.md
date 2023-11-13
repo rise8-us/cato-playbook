@@ -2,7 +2,7 @@
 
 Just like any other problem worth prioritizing and solving, establishing cATO and Ongoing Authorization demands that we identify, build and support the right team - a Dream Team! Start by identifying a passionate change agent within your own organization who fully understands how software delivery is achieved today, and how it currently impacts both the business as well as the product teams who are focused on delivering outcomes to warfighters, operators and civilians. There is a high likelihood that this change agent will assume the role and responsibilities of a Product Manager, focused on navigating risks surrounding the viability of each cATO implementation detail as an opportunity to impact the business. 
 
-![Boundary!](images/boundary.png "Boundary")
+![This is an image](images/balanced-team.png)
 
 From there, you’ll want to build a fully balanced team by incorporating additional roles and competencies that help manage desirability risks, by employing User Centered Design and Service Design principles that considers the local goals, wants and needs of your users – including assessors and authorizing officials. Finally, you’ll also include the right mixture of engineering and cyber security personnel to manage feasibility risks for solution(s) that consider your local constraints. 
 
