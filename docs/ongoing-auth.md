@@ -13,6 +13,7 @@ Leverage a memorandum signed by the AO to grant ongoing authorization. Per NIST 
 ## Authorization Frequency
 
 We recommend quarterly authorization frequency as a starting point, with a meeting for risk reporting to stakeholders (AO, SCA, etc.)
+
 - This again emphasizes more, not less
 - Manual reporting to start–slides are ok but move towards automation and a dashboard as you mature
 - Identify and accept risk
@@ -20,6 +21,7 @@ We recommend quarterly authorization frequency as a starting point, with a meeti
 - Formally document renewal
 
 The quarterly reporting should include things like:
+
 - New applications shipped onto the platform
     - % security requirements (e.g. SD Elements) approved by assessor
     - Compliance with ongoing authorization and cATO playbook policy’s
@@ -35,9 +37,3 @@ The quarterly reporting should include things like:
     - Staffing
 
 Congratulations! You’ve got an ongoing authorization that allows you to continuously deliver applications and services, provided that teams shift left on security and privacy risk.
-
-<br/><br/>
-
-> [!NOTE]
-> *We are proposing the term “cATO” no longer be used, see Manifesto*
-
