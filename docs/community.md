@@ -7,8 +7,3 @@ We shared our internal playbook with the community to help get it moving forward
 When you do, share your new implementations, plays, automations, and lessons learned! We will be creating a formal open source community around RMF for continuous delivery, and will provide ways for you to contribute as we advance the cause, together. 
 
 ***Together, we rise!***
-
-<br/><br/>
-
-> [!NOTE]
-> *We are proposing the term “cATO” no longer be used, see Manifesto*
