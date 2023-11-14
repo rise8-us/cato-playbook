@@ -62,8 +62,3 @@ But how likely are we to achieve that? Can we get the talent? Will they be produ
 Here is a buy example, where many FTEs are avoided by buying platform licenses, conservatively reducing total cost by 50% while improving likelihood, drastically lowering TTV, and lowering effort and stress:
 
 ![THis is an image!](images/xxx.png)
-
-<br/><br/>
-
-> [!NOTE]
-> *We are proposing the term “cATO” no longer be used, see Manifesto*
