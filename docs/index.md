@@ -22,8 +22,7 @@ When you do, share your new implementations, plays, automations, and lessons lea
 
 ***Together, we rise!***
 
-
-<br/><br/>
+<br/>
 
 [^1]: We are proposing the term “cATO” no longer be used, see our Manifesto for a CD-RMF.
 
