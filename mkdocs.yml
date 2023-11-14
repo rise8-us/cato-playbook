@@ -48,16 +48,16 @@ nav:
       - 'Overview': 'overview.md'
       - 'people.md'
       - 'policy.md'
-  - 'Integrated Process & Technology':
-      - 'prepare.md'
-      - 'categorize.md'
-      - 'select.md'
-      - 'implement-assess.md'
-      - 'initial-auth.md'
-      - 'monitor.md'
-      - 'ongoing-auth.md'
-      - 'outcomes.md'
-      - 'community.md'
+      - Integrated Process & Technology:
+          - Integrated Process & Technology/prepare.md
+          - Integrated Process & Technology/categorize.md
+          - Integrated Process & Technology/select.md
+          - Integrated Process & Technology/implement-assess.md
+          - Integrated Process & Technology/initial-auth.md
+          - Integrated Process & Technology/monitor.md
+          - Integrated Process & Technology/ongoing-auth.md
+          - Integrated Process & Technology/outcomes.md
+          - Integrated Process & Technology/community.md
   - 'Plays':
       - 'organize.md'
       - 'assessors.md'
