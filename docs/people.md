@@ -27,6 +27,7 @@ We also recommend fencing off program dollars to be sent to the departments that
 Whether it's the actual teams implementing and supporting cATO, or the product teams who are delivering outcomes to warfighters, operators and civilians, we want to observe how security, privacy and operations become first class citizens throughout the system life cycle. There are actually multiple recommendations that should be considered here. 
 
 Start with a principle of learning by doing, by creating learning opportunities directly within, and throughout, your SDLC processes. Similar to the pairing model described earlier, and to support our rationale for having dedicated assessors, there is an opportunity for product teams to pair with assessors beyond just the assessment step of RMF. Think of it like embedding another subject matter expert into the product team, where the product team can now learn in near real-time about threats, weaknesses and general security concepts. This helps:
+
 - Create a bi-directional learning environment for teams to learn about cybersecurity and complex privacy laws and regulations, and assessors to learn deeper context about the products they will be assessing.
 - Build better quality into your products, earlier.
 - Reduce the feedback loop process between control implementation, assessment and authorization.
