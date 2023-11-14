@@ -18,8 +18,3 @@ We covered this throughout the document, but here is a quick summary:
 - Static Application & Dependency Vulnerability Scanning (e.g. Snyk)
 - Image Scanning (e.g. Aqua)
 - Container Scanning (e.g. Aqua)
-
-<br/><br/>
-
-> [!NOTE]
-> *We are proposing the term “cATO” no longer be used, see Manifesto*
