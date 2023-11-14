@@ -11,6 +11,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.footer
+    - navigation.expand
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -37,7 +38,7 @@ plugins:
   - search
   - print-site
 nav:
-  - 'README': 'index.md'
+  - README: 'index.md'
   - 'Introduction': 
       - 'The Why': 'why.md'
       - 'History': 'history.md'
@@ -48,16 +49,16 @@ nav:
       - 'Overview': 'overview.md'
       - 'people.md'
       - 'policy.md'
-  - 'Integrated Process & Technology':
-      - 'prepare.md'
-      - 'categorize.md'
-      - 'select.md'
-      - 'implement-assess.md'
-      - 'initial-auth.md'
-      - 'monitor.md'
-      - 'ongoing-auth.md'
-      - 'outcomes.md'
-      - 'community.md'
+      - 'Integrated Process & Technology':
+          - 'prepare.md'
+          - 'categorize.md'
+          - 'select.md'
+          - 'implement-assess.md'
+          - 'initial-auth.md'
+          - 'monitor.md'
+          - 'ongoing-auth.md'
+          - 'outcomes.md'
+          - 'community.md'
   - 'Plays':
       - 'organize.md'
       - 'assessors.md'

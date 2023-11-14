@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Continuous Delivery Risk Management Framework (CD-RMF) Playbook©
 
 **AKA THE C-ATO[^1] PLAYBOOK**
