@@ -13,6 +13,7 @@ The ideal situation is that control selection is tailored based upon the system 
 In the graphic above, let’s assume that the platform has a common controls authorization and we are deploying an application to it. After accounting for inheritance, SD Elements would run an application survey to determine what security requirements the application development team is uniquely responsible for, and any additional tailoring could be performed. These can be added to the team’s backlog via native integrations or API, creating a traceable identifier for each. 
 
 To start, we recommend a kickoff meeting with security (including privacy if the system is impacted):
+
 - An hour meeting
 - Assign the team an assessor
 - Perform product architectural analysis
@@ -21,6 +22,7 @@ To start, we recommend a kickoff meeting with security (including privacy if the
 - Assigned assessor will help team prioritize backlog
 
 Assuming a code level implementation, the engineers would pick up the story, complete implementation and documentation, and assessor acceptance would be required, much like PM acceptance for user stories. It helps to standardize the way teams respond to these tasks:
+
 - Describe the team’s technical decisions and task implementation details
 - Provide a link to the code and/or regularly maintained artifacts to make reviewing easier
 - Provide a technical point of contact with name and email, who signed for the task completion
@@ -49,6 +51,7 @@ Here are examples of how we used Snyk and Aqua in one implementation:
 
 To ensure adequate progress throughout the course of development, we recommend periodic control and scan reviews such as:
 Weekly meeting will be set between assessor and team
+
 - Assigned assessor must have access to the team's backlog
 - Help prioritize security controls
 - Determine product security progress
@@ -63,6 +66,7 @@ The SSP and POAM should be digitized, and automation can be applied as your matu
 The POAM describes the actions that are planned to correct deficiencies in a given control identified during the assessment of controls as well as during continuous monitoring. A POAM typically includes tasks to be accomplished with a recommendation for completion before or after system authorization; resources required to accomplish the tasks; milestones established to meet the tasks; and the scheduled completion dates for the milestones and tasks. POAMs are reviewed by the Authorizing Official (AO) to ensure there is agreement with the remediation actions planned to correct the identified deficiencies.
 
 POAMs are not needed when deficiencies are accepted by the AO as residual risk, or, are remediated during an assessment and before a release. Residual risk is often covered by other controls that were fully and successfully addressed.
+
 - Residual risk is defined as risk that remains after efforts to identify and mitigate said risk have been taken.
 - Information System Security Officers (ISSO) or Application Security Assessors will monitor for new POAM items submitted for review, and report them to the AO as needed.
 
@@ -89,8 +93,3 @@ This process of assessing risks and verifying that requirements have been met oc
 We recommend starting simple and adding automation based on your largest bottlenecks. This looks very different in an organization with 5 apps versus 100, or with 100 users versus 100,000, or with 1,000 monthly API calls versus 10M. Trying to automate all the things on day 1 is a terrible strategy (you will fail) and unnecessary. The goal is risk management, and then continuous improvement. Sure, think big… but then start small and scale appropriately.
 
 [OSCAL](https://pages.nist.gov/OSCAL/) looks promising when it comes to generating authorization packages dynamically, saving a great deal of time and money as [demonstrated by AWS](https://aws.amazon.com/blogs/security/aws-achieves-the-first-oscal-format-system-security-plan-submission-to-fedramp/) last year. We have built an OSCAL-based RMF platform and are beginning to implement it with our customers. In the future we may add implementations to the playbook or as an external reference.
-
-<br/><br/>
-
-> [!NOTE]
-> *We are proposing the term “cATO” no longer be used, see Manifesto*
