@@ -3,6 +3,7 @@
 Use the Prepare step to align all stakeholders to go on a journey towards ongoing authorization strategy using people, process, and technology to achieve near real-time continuous monitoring of controls and cybersecurity. 
 
 It is important to develop a communications strategy with your team and relevant stakeholders. Key points to emphasize in your are communications strategy are:
+
 - RMF is our common denominator, start there
 - Discuss real concerns, don’t generalize
 - Compare outcomes, not intentions vs. outcomes
@@ -62,8 +63,3 @@ To help with this, we recommend formalizing a Shared Responsibility Model using 
 ## Tools and Automation
 
 This is also a good time to present any tools and automation to be used for both digitization of documentation and workflows and their subsequent automation. This is especially important if you elect not to use the enterprise’s preferred GRC platform, such as eMASS or XACTA. FISMA and RMF do not mandate any tools, though an exception to policy may be required at some level of your organization if these solutions have been mandated. 
-
-<br/>
-
-> [!NOTE]
-> *We are proposing the term “cATO” no longer be used, see Manifesto*
