@@ -5,6 +5,8 @@ edit_uri: edit/main/docs/
 repo_name: cato-playbook
 theme:
   name: material
+  logo: images/r8.png
+  favicon: images/r8.png
 #  logo: images/logo.png
   icon:
     repo: fontawesome/brands/github
