@@ -48,6 +48,5 @@ In the digital era, both the warfighting domain and policy domain are digital. B
 
 <br/>
 
-> [!IMPORTANT]
-> The early and continuous delivery of software requires continuous ATO. Why do we need that? Because our democracy hangs in the balance.
+***The early and continuous delivery of software requires continuous ATO. Why do we need that? Because our democracy hangs in the balance.***
 
