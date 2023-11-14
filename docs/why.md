@@ -21,15 +21,18 @@ In their book Continuous Delivery, Dave Farley and Jez Humble define continuous 
 ## The Benefits
 
 **Improve security posture and lower risk**
+
 - Reduce the number of security defects through threat analysis and secure coding practices
 - Continuously detect and remediate application vulnerabilities quickly via the Secure Release Pipeline
 - Cybersecurity and vulnerability education is available to application development teams simply by utilizing the secure release pipeline
 
 **Increase transparency and trust**
+
 - Default access to all body of evidence artifacts throughout the software development life cycle (i.e. source code, documents, diagrams) for security control assessors and cybersecurity personnel to support continuous monitoring (e.g. assessment and evaluation)
 - Incrementally automating risk assessment via secure release pipelines
 
 **Reduce costs & increase delivery of value to organizations and end-users**
+
 - Reducing the number of security defects and risks
 - Leveraging a cloud environment
 - Shipping software can be accomplished in hours or days, instead of weeks, months or even years
@@ -39,6 +42,7 @@ In their book Continuous Delivery, Dave Farley and Jez Humble define continuous 
 ## What's Really at Stake
 
 In the digital era, both the warfighting domain and policy domain are digital. Both demand the early and continuous delivery of valuable software:
+
 - We cannot afford to be disrupted on the battlefield–our democracy will be toppled from without.
 - We cannot afford to fail to deliver on promises to our citizens–our democracy will be toppled from within. 
 
