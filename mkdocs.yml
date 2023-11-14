@@ -37,7 +37,7 @@ plugins:
   - search
   - print-site
 nav:
-  - 'README': 'readme.md'
+  - 'README': 'index.md'
   - 'Introduction': 
       - 'The Why': 'why.md'
       - 'History': 'history.md'
