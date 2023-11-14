@@ -18,7 +18,7 @@ While this was great to see and a cleanup is much needed, we believe it misses t
 
 That is why Rise8 authored the manifesto and are making our playbook for CD-RMF public. Additionally we are forming a group of like-minded experts to lead an open source community that continues advancing CD-RMF.
 
-<br/>
+<br/><br/>
 
 > [!NOTE]
 > *We are proposing the term “cATO” no longer be used, see Manifesto*
