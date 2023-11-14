@@ -2,6 +2,10 @@
 
 Use the Prepare step to align all stakeholders to go on a journey towards ongoing authorization strategy using people, process, and technology to achieve near real-time continuous monitoring of controls and cybersecurity. 
 
+<br/>
+
+## Communication Strategy and Plan
+
 It is important to develop a communications strategy with your team and relevant stakeholders. Key points to emphasize in your are communications strategy are:
 
 - RMF is our common denominator, start there
