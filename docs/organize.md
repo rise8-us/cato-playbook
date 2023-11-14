@@ -47,11 +47,11 @@ According to the CNCF Platforms White Paper, “here are capability domains to c
 
 Here is what that looks like:
 
-![THis is an image!](images/xxx.png)
+![THis is an image!](images/CNCF.png)
 
 That is a lot of capability. Developing, deploying, operating, and maintaining all that capability would realistically take more resources (people and money) than you want to spend for what is below the mission value line. Here is a very conservative look at solely the labor costs for each area:
 
-![THis is an image!](images/xxx.png)
+![THis is an image!](images/Assumptions.png)
 
 What’s the value in that? Since we are part of the federal acquisition system, I really want to emphasize that cost, schedule, and performance are one side of a value equation. Value equals performance divided by the product of schedule and cost. It’s important because no matter how much you minimize cost and schedule, if performance is low, value will be low. It’s also worth noting that performance isn’t measured against a specification, but against what the mission and the user really needed–in this case a platform that enables applications to continuously deliver with reduced cognitive load.
 
@@ -61,4 +61,4 @@ But how likely are we to achieve that? Can we get the talent? Will they be produ
 
 Here is a buy example, where many FTEs are avoided by buying platform licenses, conservatively reducing total cost by 50% while improving likelihood, drastically lowering TTV, and lowering effort and stress:
 
-![THis is an image!](images/xxx.png)
+![THis is an image!](images/Buy.png)
