@@ -1,8 +1,3 @@
 # 2. Hire independent technical assessors
 
 This is one of the most important plays in the entire playbook. We recommend fencing off program dollars to be sent to the departments that manage the Security Control Assessor & Privacy Officer functions. You may need to help them award an appropriate contract for this, write job descriptions, and more. But it is important that technical assessors and privacy officers report to whoever is responsible for assessing systems in your organization, so that they maintain their independence. On average over 80% of the time spent getting an ATO is spent waiting in queue, and one of the largest pain points reported is the back and forth between product teams and other functions - especially with (non-technical) assessors. This play solves for both.
-
-<br/><br/>
-
-> [!NOTE]
-> *We are proposing the term “cATO” no longer be used, see Manifesto*
