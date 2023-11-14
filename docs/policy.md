@@ -73,5 +73,5 @@ When the RMF has been effectively applied across the organization and the organi
 
 ## Final Note
 
-We recommend reading NIST SP 800-37, Revision 2 in its entirety, paying particular attention to information about ongoing authorization, automation, and aligning the RMF with the SDLC. Appendix F is important to understand as you move towards Ongoing Authorization. These excerpts are just to help set a baseline for the playbook.
+We recommend reading [NIST SP 800-37, Revision 2](https://csrc.nist.gov/pubs/sp/800/37/r2/final) in its entirety, paying particular attention to information about ongoing authorization, automation, and aligning the RMF with the SDLC. Appendix F is important to understand as you move towards Ongoing Authorization. These excerpts are just to help set a baseline for the playbook.
 

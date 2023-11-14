@@ -48,4 +48,4 @@ NIST SP 800-37, Revision 2 gives you a whole list of tips for streamlining imple
 
 <br/>
 
-***Now stop making excuses, and start making ship happen!***
+***Now stop making excuses, and start making  🚀  happen!***
