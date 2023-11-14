@@ -1,3 +1,3 @@
 # 6. Mythbusting
 
-See here.
+See [here](myths.md).
