@@ -1,3 +1,3 @@
-# Quarterly Renewal Frequency
+# 23. Quarterly renewal frequency, immediate notification
 
-## xxx
+See **Authorization Frequency** under Ongoing Authorization, [here](ongoing-auth.md).

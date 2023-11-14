@@ -1,3 +1,3 @@
-# Scan on Every Commit
+# 17. Scan on every commit
 
-## xxx
+See **Secure Release Pipeline** under Implement & Assess [here](implement-assess.md).

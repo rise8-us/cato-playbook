@@ -1,3 +1,3 @@
-# Mythbusting
+# 6. Mythbusting
 
-## xxx
+See [here](myths.md).

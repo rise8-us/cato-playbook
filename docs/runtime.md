@@ -1,3 +1,3 @@
-# Scan in Prod at Runtime
+# 18. Scan applications at runtime
 
-## xxx
+See **Secure Release Pipeline** and our examples with **Aqua Security** under Implement & Assess [here](implement-assess.md).

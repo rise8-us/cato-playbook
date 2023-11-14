@@ -1,3 +1,3 @@
-# Spot Checks & Pen Tests
+# 20. Periodic spot checks and pen tests
 
-## xxx
+See how embedding Security Control Assessors, with technical proficiency, can support spot check audit processes under Monitor [here](monitor.md).
