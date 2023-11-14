@@ -1,3 +1,3 @@
 # 3. Develop a communications strategy & plan
 
-See here.
+See **Communication Strategy and Plan** under Prepar, [here](prepare.md).
