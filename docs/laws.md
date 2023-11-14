@@ -1,8 +1,6 @@
 # FISMA
 
-*(Copied from the NIST RMF website [FISMA background](https://csrc.nist.gov/Projects/risk-management/fisma-background))*
-
-<br/>
+*Copied from the NIST RMF website [FISMA background](https://csrc.nist.gov/Projects/risk-management/fisma-background)*
 
 ## What is FISMA?
 
@@ -11,6 +9,7 @@ The Federal Information Security Management Act (FISMA) [FISMA 2002], part of th
 [The Federal Information Security Modernization Act of 2014](https://www.congress.gov/113/plaws/publ283/PLAW-113publ283.pdf) amends FISMA 2002, by providing several modifications that modernize federal security practices to address evolving security concerns. These changes result in less overall reporting, strengthens the use of continuous monitoring in systems, increases focus on the agencies for compliance and reporting that is more focused on the issues caused by security incidents. FISMA 2014 also required the Office of Management and Budget (OMB) to amend/revise OMB Circular A-130 to eliminate inefficient and wasteful reporting and reflect changes in law and advances in technology.
 
 FISMA, along with the Paperwork Reduction Act of 1995 and the Information Technology Management Reform Act of 1996 (Clinger-Cohen Act), explicitly emphasizes a risk-based policy for cost-effective security.  In support of and reinforcing FISMA, the Office of Management and Budget (OMB) through [Circular A-130](https://www.whitehouse.gov/omb/information-for-agencies/circulars/), “Managing Federal Information as a Strategic Resource,” requires executive agencies within the federal government to:
+
 - Plan for security
 - Ensure that appropriate officials are assigned security responsibility
 - Periodically review the security controls in their systems
@@ -21,6 +20,7 @@ FISMA, along with the Paperwork Reduction Act of 1995 and the Information Techno
 ## What does FISMA require?
 
 Federal agencies need to provide information security protections commensurate with the risk and magnitude of the harm resulting from unauthorized access, use, disclosure, disruption, modification, or destruction of:
+
 - information collected/maintained by or on behalf of an agency
 - Information systems used or operated by an agency or by a contractor of an agency or other organization on behalf of an agency.
 
@@ -42,11 +42,12 @@ As defined in FISMA 2002, "[t]he term ‘Federal information system’ means an 
 
 # NIST Risk Management Framework
 
-*(Copied from the NIST RMF website [FISMA background](https://csrc.nist.gov/Projects/risk-management/fisma-background))*
+*Copied from the NIST RMF website [FISMA background](https://csrc.nist.gov/Projects/risk-management/fisma-background)*
 
 The NIST Risk Management Framework (RMF), outlined in NIST Special Publication 800-37, provides a flexible, holistic, and repeatable 7-step process to manage security and privacy risk and links to a suite of NIST standards and guidelines to support implementation of risk management programs to meet the requirements of the Federal Information Security Modernization Act (FISMA).  
 
 **The risk-based approach of the NIST RMF helps an organization:**
+
 1. **Prepare** for risk management through essential activities critical to design and implementation of a risk management program.
 2. **Categorize** systems and information based on an impact analysis.
 3. **Select** a set of the NIST SP 800-53 controls to protect the system based on risk assessments.
