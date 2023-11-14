@@ -1,3 +1,8 @@
-# Communications Strategy & Plan
+# 3. Develop a communications strategy & plan
 
-## xxx
+See here.
+
+<br/><br/>
+
+> [!NOTE]
+> *We are proposing the term “cATO” no longer be used, see Manifesto*
