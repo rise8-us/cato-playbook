@@ -46,5 +46,8 @@ In the digital era, both the warfighting domain and policy domain are digital. B
 - We cannot afford to be disrupted on the battlefield–our democracy will be toppled from without.
 - We cannot afford to fail to deliver on promises to our citizens–our democracy will be toppled from within. 
 
-The early and continuous delivery of software requires continuous ATO. Why do we need that? Because our democracy hangs in the balance.
+<br/>
+
+> [!IMPORTANT]
+> The early and continuous delivery of software requires continuous ATO. Why do we need that? Because our democracy hangs in the balance.
 
