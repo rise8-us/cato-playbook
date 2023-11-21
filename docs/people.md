@@ -10,7 +10,7 @@ In order to foster a decentralized, and creative working environment for this te
 
 <br/>
 
-## What is we don't have the right skills?
+## What if we don't have the right skills?
 
 When you encounter situations such as members of a Dream Team possessing strengths for the local context of your business, but lack technical or industry experience for Lean Product Management, User Centered Design and modern engineering practices, we recommend leveraging a pairing model. The benefits of this approach are the long term investment in growing workforce talent, and it ensures that the team is well equipped with the full range of competencies to help navigate the various risks we’ve previously discussed. Pairing models demand trust, as each pairing situation typically looks like one person leading their teammate through the journey navigating the business with their years of knowledge and experiences with the local context. While the other teammate is focused on applying and teaching the practices and skills that will forge new behaviors that drive curiosity-led outcomes, rather than solutions and outputs.
 
