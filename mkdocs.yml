@@ -5,6 +5,7 @@ edit_uri: edit/main/docs/
 repo_name: cato-playbook
 theme:
   name: material
+  custom_dir: docs/overrides
   logo: images/r8.png
   favicon: images/r8.png
 #  logo: images/logo.png
@@ -38,10 +39,22 @@ markdown_extensions:
   - admonition
 plugins:
   - search
-  - print-site
+  - git-revision-date-localized:
+      type: iso_datetime
+  - with-pdf:
+      output_path: assets/cATO_Playbook.pdf
+      author: Rise8
+      copyright: © 2023
+      cover_subtitle: ""
+      toc_title: Table of Contents
+      toc_level: 1
+      ordered_chapter_level: 0
+      two_columns_level: 0
+  - print-site:
+      path_to_pdf: "assets/cATO_Playbook.pdf"
 nav:
   - README: 'index.md'
-  - 'Introduction': 
+  - 'Introduction':
       - 'The Why': 'why.md'
       - 'History': 'history.md'
       - 'Laws and Regulations': 'laws.md'
