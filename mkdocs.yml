@@ -19,6 +19,9 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/rise8-us/cato-playbook
+  analytics:
+    provider: google
+    property: G-RZTRD0E336
 extra_css: [extra.css]
 markdown_extensions:
   - abbr
