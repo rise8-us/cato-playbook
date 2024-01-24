@@ -53,7 +53,7 @@ The NIST Risk Management Framework (RMF), outlined in NIST Special Publication 8
 3. **Select** a set of the NIST SP 800-53 controls to protect the system based on risk assessments.
 4. **Implement** the controls, and document how the controls are deployed.
 5. **Assess** the control implementation to determine if the controls are in place, operating as intended, and producing the desired results to manage risk.
-6. **Authorize** the system to operate by a senior-level official that understand the controls in place to manage risk and any residual risk.
+6. **Authorize** the system to operate by a senior-level official that understands the controls in place to manage risk and any residual risk.
 7. **Continuously monitor** control implementation and changes to the risks to the system.
 
 We recommend reading [NIST SP 800-37, Revision 2](https://csrc.nist.gov/pubs/sp/800/37/r2/final) in its entirety before embarking on your ATO journey, paying particular attention to information about ongoing authorization, automation, and aligning the RMF with the SDLC. Appendix F is important to understand as you move towards Ongoing Authorization. These excerpts are just to help set a baseline for the playbook.
