@@ -6,7 +6,7 @@ Use the Prepare step to align all stakeholders to go on a journey towards ongoin
 
 ## Communication Strategy and Plan
 
-It is important to develop a communications strategy with your team and relevant stakeholders. Key points to emphasize in your are communications strategy are:
+It is important to develop a communications strategy with your team and relevant stakeholders. Key points to emphasize in your communications strategy are:
 
 - RMF is our common denominator, start there
 - Discuss real concerns, don’t generalize
