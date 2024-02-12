@@ -1,13 +1,17 @@
 # cato-playbook
+
 This playbook is a collection of best practices, tools, and resources for implementing a Continuous Delivery Risk Management Framework (CD-RMF)© in the federal government. It is intended to be a living document that will be updated as new tools and best practices emerge.
 
 ## Contributing
+
 It is required for external contributors to submit a pull request for review before merging into the main branch.
 
 ## Development
+
 To accommodate non-technical users, the playbook is written in markdown and compiled to HTML using [MkDocs](https://www.mkdocs.org/). We have included a devcontainer for VSCode that will install all the necessary dependencies and allow you to preview the playbook locally.
 
 ### Editing Files on GitHub
+
 GitHub provides various methods for editing files in your repositories, each with its own set of features and limitations. Depending on your needs and preferences, you can choose from the following options:
 
 ### 1. GitHub Web UI
@@ -29,12 +33,14 @@ The GitHub web user interface (UI) is a straightforward way to edit files in you
 - Editing multiple files simultaneously is not be supported; you may need to edit and commit each file separately to a new branch before submitting a pull request.
 
 ### 2. GitHub.dev Editor
+
 Prerequisites:
+
 - You will need a basic understanding of Git and GitHub and the VSCode editor, as well as the [VSCode Source Control extension](https://code.visualstudio.com/docs/sourcecontrol/overview).
 
 GitHub.dev is an integrated development environment (IDE) that GitHub offers directly in your web browser. It provides a more robust editing experience compared to the standard web UI:
 
-1. **Access GitHub.dev:** You can access by going to https://github.dev/rise8-us/cato-playbook. You can also find the file you wish to edit in the GitHub web UI and click the "Open with... gitHub.dev" option from the "Edit this file" button (the pencil icon) dropdown.
+1. **Access GitHub.dev:** You can access by going to <https://github.dev/rise8-us/cato-playbook>. You can also find the file you wish to edit in the GitHub web UI and click the "Open with... gitHub.dev" option from the "Edit this file" button (the pencil icon) dropdown.
 
 2. **Edit Files:** Navigate to the file you want to edit and click on it. The GitHub.dev editor will open with syntax highlighting, code suggestions, and more.
 
@@ -45,7 +51,9 @@ GitHub.dev is an integrated development environment (IDE) that GitHub offers dir
 - You will not be able to preview your changes in a browser or run any scripts or commands.
 
 ### 3. GitHub Codespaces (Recommended)
+
 Prerequisites:
+
 - You will need a basic understanding of Git and GitHub and the VSCode editor, as well as the [VSCode Source Control extension](https://code.visualstudio.com/docs/sourcecontrol/overview) or alternatively how to use Git in the terminal.
 
 GitHub Codespaces is a powerful cloud-based development environment that allows you to work on your projects in a full-fledged development environment directly in your web browser. It's ideal for more extensive coding and collaboration:

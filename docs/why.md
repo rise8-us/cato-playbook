@@ -2,13 +2,13 @@
 
 The DevOps Research and Assessment (DORA) organization has nearly a decade of research showing that there is no tradeoff between speed and stability nor speed and security in high performing software organizations. In fact, both stability and security are positively correlated with speed. In other words, organizations with high software delivery performance experience a virtuous cycle between speed and security.
 
-<br/>
+
 
 ## The True Cost of Delay
 
 At the same time, both our citizens and our soldiers are paying the price of an immense cost of delay imposed by the way we currently approach the National Institute of Standards and Technology (NIST) Risk Management Framework (RMF) and obtaining Authorization to Operate (ATO). Unlike the commercial sector, in government the cost of delay is often measured in lives. Our security and privacy risk management processes are creating downstream risk to operations. The delay of capability to the battlefield, the operating table, and even in the distribution of government benefits is literally killing people.
 
-<br/>
+
 
 ## Continuous Delivery as a Risk Mitigation
 
@@ -16,7 +16,7 @@ But aren’t we doing Agile, now? It has become popular to adopt Agile Software 
 
 In their book Continuous Delivery, Dave Farley and Jez Humble define continuous delivery as, “The ability to get changes, features, configuration changes, bug fixes, experiments into production safely and quickly in a sustainable way.” In this way, continuous delivery becomes an exercise in risk reduction not only to security and privacy risk, but especially to operational risk. To realize this benefit, production cannot be an arbitrary designation; production is the setting where software is put into operation for its intended uses by end users. Getting to such a production environment in Federal requires an ATO within the RMF. Continuously delivering to production would require a continuous ATO, which would require continuous application of the RMF. Thankfully, this can be accomplished within existing laws and NIST guidelines.
 
-<br/>
+
 
 ## The Benefits of cATO
 
@@ -37,7 +37,7 @@ In their book Continuous Delivery, Dave Farley and Jez Humble define continuous 
 - Leveraging a cloud environment
 - Shipping software can be accomplished in hours or days, instead of weeks, months or even years
 
-<br/>
+
 
 ## What's Really at Stake
 
@@ -46,7 +46,7 @@ In the digital era, both the warfighting domain and policy domain are digital. B
 - We cannot afford to be disrupted on the battlefield–our democracy will be toppled from the outside.
 - We cannot afford to fail to deliver on promises to our citizens–our democracy will be toppled from within. 
 
-<br/>
+
 
 ***The early and continuous delivery of software requires continuous ATO. Why do we need that? Because our democracy hangs in the balance.***
 

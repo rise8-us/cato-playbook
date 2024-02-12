@@ -15,8 +15,6 @@ FISMA, along with the Paperwork Reduction Act of 1995 and the Information Techno
 - Periodically review the security controls in their systems
 - Authorize system processing prior to operations and, periodically, thereafter
 
-<br/>
-
 ## What does FISMA require?
 
 Federal agencies need to provide information security protections commensurate with the risk and magnitude of the harm resulting from unauthorized access, use, disclosure, disruption, modification, or destruction of:
@@ -26,19 +24,17 @@ Federal agencies need to provide information security protections commensurate w
 
 Also, federal agencies need to “com[ply] with the information security standards” and guidelines, and mandatory required standards developed by NIST.
 
-<br/>
-
 ## To whom does FISMA apply?
 
 Federal agencies, contractors, or other sources that provide information security for the information and information systems that support the operations and assets of the agency.
 
-<br/>
+
 
 ## What is a Federal Information System?
 
 As defined in FISMA 2002, "[t]he term ‘Federal information system’ means an information system used or operated by an executive agency, by a contractor of an executive agency, or by another organization on behalf of an executive agency."
 
-<br/>
+
 
 # NIST Risk Management Framework
 

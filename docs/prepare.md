@@ -2,7 +2,7 @@
 
 Use the Prepare step to align all stakeholders to go on a journey towards ongoing authorization strategy using people, process, and technology to achieve near real-time continuous monitoring of controls and cybersecurity. 
 
-<br/>
+
 
 ## Communication Strategy and Plan
 
@@ -13,7 +13,7 @@ It is important to develop a communications strategy with your team and relevant
 - Compare outcomes, not intentions vs. outcomes
 - Afford us the ability to experiment and create a better process
 
-<br/>
+
 
 ## Resources
 
@@ -23,7 +23,7 @@ For cATO, this playbook is a great resource to share, and we highly recommend wa
 
 For general RMF knowledge, we highly recommend this [RMF Introductory Course](https://csrc.nist.gov/Projects/risk-management/rmf-course) and, again, a thorough study of [NIST SP 800-37, Revision 2](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final). The [NIST RMF Website](https://csrc.nist.gov/projects/risk-management) also has other great resources and the NIST documentation is incredibly well-written, organized, and useful.
 
-<br/>
+
 
 ## Common Controls Inheritance
 
@@ -39,7 +39,7 @@ The more structure and opinionation built into the application platform, the mor
 
 A highly structured and opinionated platform also reduces the cost of development and operations. Taken together with a lower cost of compliance, it can drastically reduce total cost of ownership for the system while improving software delivery performance to include quality, security, and speed. It is essential to communicate this as well, because many RMF and Program Management Office (PMO) stakeholders will be concerned about potential tradeoffs regarding cost, schedule, and performance.
 
-<br/>
+
 
 ## Authorization Boundary
 
@@ -64,7 +64,7 @@ In this case, we recommend that consuming Mission Owner AOs review the common co
 
 To help with this, we recommend formalizing a Shared Responsibility Model using best practices from the commercial cloud providers. In this, both Authorizing Officials will sign a document that explicitly lays out the responsibilities of each Mission Owner, including shared responsibilities. This overlap is where the consumer will need to accept any risk, or put in requirements for future consideration. It is also where the provider will exert requirements on the consumer, such as the use of an enterprise secure release pipeline that blocks critical findings or runtime scanning of containers and an SLA for remediation. This must be a negotiation between the provider and consumers, and usually the provider will exert more influence as they have to meet the needs of an entire enterprise.
 
-<br/>
+
 
 ## Tools and Automation
 

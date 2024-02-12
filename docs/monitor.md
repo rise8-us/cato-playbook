@@ -1,14 +1,14 @@
 # Monitor
 
-We recommend laying out an initial observation period with your AO of 6-12 months. During this time, meet regularly with assessors and your AO to demonstrate the results of your greatly improved implementation, assessment, and continuous monitoring processes. Set conditions for gaining an ongoing authorization and report on these metrics during these performance reviews. This is also your opportunity to outline recommendations for continuous improvement initiatives, and obtain feedback from assessors and AOs to achieve the virtuous cycle we laid out in our ‘why’. 
+We recommend laying out an initial observation period with your AO of 6-12 months. During this time, meet regularly with assessors and your AO to demonstrate the results of your greatly improved implementation, assessment, and continuous monitoring processes. Set conditions for gaining an ongoing authorization and report on these metrics during these performance reviews. This is also your opportunity to outline recommendations for continuous improvement initiatives, and obtain feedback from assessors and AOs to achieve the virtuous cycle we laid out in our ‘why’.
 
 Aside from monitoring via automation, embedding Assessors and Privacy Officers should be staffed organically to:
 
 - Review security scan results when developers mark findings as false positives, or decide to suppress for future sprints
-    - Provide feedback to developers if disagreements arise
-    - Assist developers with mitigations
+  - Provide feedback to developers if disagreements arise
+  - Assist developers with mitigations
 - Review security tasks as developers complete them
-    - Provide feedback to developers if implementation details aren’t sufficient
+  - Provide feedback to developers if implementation details aren’t sufficient
 - Monitor system diagram and overall SSP for changes
 - Perform spot checks on the cATO process
 - Perform Penetration Testing exercises
