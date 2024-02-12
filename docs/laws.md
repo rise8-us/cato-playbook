@@ -28,13 +28,9 @@ Also, federal agencies need to “com[ply] with the information security standar
 
 Federal agencies, contractors, or other sources that provide information security for the information and information systems that support the operations and assets of the agency.
 
-
-
 ## What is a Federal Information System?
 
 As defined in FISMA 2002, "[t]he term ‘Federal information system’ means an information system used or operated by an executive agency, by a contractor of an executive agency, or by another organization on behalf of an executive agency."
-
-
 
 # NIST Risk Management Framework
 
@@ -53,4 +49,3 @@ The NIST Risk Management Framework (RMF), outlined in NIST Special Publication 8
 7. **Continuously monitor** control implementation and changes to the risks to the system.
 
 We recommend reading [NIST SP 800-37, Revision 2](https://csrc.nist.gov/pubs/sp/800/37/r2/final) in its entirety before embarking on your ATO journey, paying particular attention to information about ongoing authorization, automation, and aligning the RMF with the SDLC. Appendix F is important to understand as you move towards Ongoing Authorization. These excerpts are just to help set a baseline for the playbook.
-
