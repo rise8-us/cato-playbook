@@ -1,23 +1,29 @@
-name: Notify Team - PR Opened
+name: Notify PR Status
 
 on:
   pull_request:
-    types: [opened]
+    types: [opened, closed]
+    branches:
+      - main
+  pull_request_review:
+    types: [submitted]
+
+env:
+  ACTOR: ${{ github.actor }}
+  PR_NAME: ${{ github.event.pull_request.title }}
+  PR_URL: ${{ github.event.pull_request.html_url }}
+  PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+  PR_AUTHOR_URL: ${{ github.event.pull_request.user.html_url }}
+  PR_APPROVER: ${{ github.event.review.user.login }}
+  REPO: ${{ github.repository }}
+  REPO_URL: ${{ github.event.repository.html_url }}
 
 jobs:
-  notify:
+  notify-opened:
     runs-on: ubuntu-latest
-    env:
-      PR_NAME: ${{ github.event.pull_request.title }}
-      PR_URL: ${{ github.event.pull_request.html_url }}
-      PR_AUTHOR: ${{ github.event.pull_request.user.login }}
-      PR_AUTHOR_URL: ${{ github.event.pull_request.user.html_url }}
-      REPO: ${{ github.repository }}
-      REPO_URL: ${{ github.event.repository.html_url }}
+    if: github.event_name == 'pull_request' && github.event.action == 'opened'
     steps:
-    - name: Checkout repository
-      id: checkout-this-repo
-      uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
     - name: Generate message
       id: generate-message
@@ -33,3 +39,24 @@ jobs:
         channel-id: ${{ vars.SLACK_CHANNEL_ID }}
         message: ${{ steps.generate-message.outputs.payload }}
         slack-bot-token: ${{ secrets.SLACK_BOT_TOKEN }}
+
+  notify-approved:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request_review' && github.event.review.state == 'approved'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate message
+        id: generate-message
+        run: |
+          bash templates/slack-notify-pr-approved.tpl
+          cat slack_message | awk '{printf "%s\\n", $0}' > slack_message.stripped
+          BODY=$(cat slack_message.stripped)
+          echo "payload=$BODY" >> $GITHUB_OUTPUT
+  
+      - name: Post to Slack
+        uses: rise8-us/cato-playbook/.github/actions/post-to-slack@notifications
+        with:
+          channel-id: ${{ vars.SLACK_CHANNEL_ID }}
+          message: ${{ steps.generate-message.outputs.payload }}
+          slack-bot-token: ${{ secrets.SLACK_BOT_TOKEN }}
