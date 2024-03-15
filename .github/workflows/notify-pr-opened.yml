@@ -13,6 +13,7 @@ jobs:
       PR_AUTHOR: ${{ github.event.pull_request.user.login }}
       PR_AUTHOR_URL: ${{ github.event.pull_request.user.html_url }}
       REPO: ${{ github.repository }}
+      REPO_URL: ${{ github.event.repository.html_url }}
     steps:
     - name: Checkout repository
       id: checkout-this-repo
