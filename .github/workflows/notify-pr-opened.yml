@@ -1,0 +1,35 @@
+name: Notify Team - PR Opened
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    env:
+      PR_NAME: ${{ github.event.pull_request.title }}
+      PR_URL: ${{ github.event.pull_request.html_url }}
+      PR_AUTHOR: ${{ github.actor }}
+      REPO: ${{ github.repository }}
+    steps:
+    - name: Checkout repository
+      id: checkout-this-repo
+      uses: actions/checkout@v4
+
+    - name: Generate message
+      needs: checkout-this-repo
+      id: generate-message
+      run: |
+        bash templates/slack-notify-pr-opened.tpl
+        cat slack_message | awk '{printf "%s\\n", $0}' > slack_message.stripped
+        BODY=$(cat slack_message.stripped)
+        echo "payload=$BODY" >> $GITHUB_OUTPUT
+
+    - name: Post to Slack
+      needs: [checkout-this-repo, generate-message]
+      uses: rise8-us/cato-playbook/.github/actions/post-to-slack@notifications
+      with:
+        channel-id: ${{ vars.SLACK_CHANNEL_ID }}
+        message: ${{ steps.generate-message.outputs.payload }}
+        slack-bot-token: ${{ secrets.SLACK_BOT_TOKEN }}
