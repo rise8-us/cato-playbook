@@ -1,0 +1,9 @@
+header.md-header,
+.md-container nav.md-tabs {
+  background-color: #3D3D3D;
+}
+
+a.md-tabs__link:not(.md-tabs__link--active) {
+  color: #FFFFFF;
+  opacity: 1;
+}
