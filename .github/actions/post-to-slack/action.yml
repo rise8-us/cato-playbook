@@ -1,0 +1,75 @@
+name: Send Slack message
+description: Sends a Slack message
+
+inputs:
+  channel-id:
+    description: 'Slack channel ID'
+    required: true
+    type: string
+  message:
+    description: 'The message to send'
+    required: true
+    type: string
+  slack-bot-token:
+    description: 'The token of the Slack bot'
+    required: true
+  thread_ts:
+    description: 'The threaded timestamp on the message that was posted'
+    required: false
+    type: string
+outputs:
+  thread_ts:
+    description: 'The threaded timestamp on the message that was posted'
+    value: ${{ steps.send-message.outputs.thread_ts }}
+
+runs:
+  using: composite
+  steps:
+    - name: Send message
+      id: send-message
+      if: inputs.thread_ts == ''
+      uses: slackapi/slack-github-action@v1
+      with:
+        channel-id: ${{ inputs.channel-id }}
+        payload: |
+          {
+            "text": "Slack Message",
+            "unfurl_links": false,
+            "unfurl_media": false,
+            "blocks": [
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "${{ inputs.message }}"
+                }
+              }
+            ]
+          }
+      env:
+        SLACK_BOT_TOKEN: ${{ inputs.slack-bot-token }}
+
+    - name: Send message in existing thread
+      id: update-thread
+      if: inputs.thread_ts != ''
+      uses: slackapi/slack-github-action@v1
+      with:
+        channel-id: ${{ inputs.channel-id }}
+        payload: |
+          {
+            "text": "Slack Message",
+            "unfurl_links": false,
+            "unfurl_media": false,
+            "thread_ts": "${{ inputs.thread_ts }}",
+            "blocks": [
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "${{ inputs.message }}"
+                }
+              }
+            ]
+          }
+      env:
+        SLACK_BOT_TOKEN: ${{ inputs.slack-bot-token }}
