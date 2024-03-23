@@ -1,0 +1,31 @@
+repos:
+  - repo: https://github.com/punitlad/git-mob
+    rev: f111493
+    hooks:
+      - id: add-coauthors
+        stages: ["prepare-commit-msg"]
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0
+    hooks:
+      - id: detect-private-key
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: ['--fix=auto']
+      - id: check-json
+      - id: pretty-format-json
+        name: format json
+        args: ['--autofix']
+        files: \.json(\.tpl)?$
+        types: [text]
+      - id: check-yaml
+        args: ["--allow-multiple-documents"]
+
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.39.0
+    hooks:
+      - id: markdownlint
+        args: [ "--fix" ]

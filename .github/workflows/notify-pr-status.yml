@@ -54,7 +54,7 @@ jobs:
           cat slack_message | awk '{printf "%s\\n", $0}' > slack_message.stripped
           BODY=$(cat slack_message.stripped)
           echo "payload=$BODY" >> $GITHUB_OUTPUT
-  
+
       - name: Post to Slack
         uses: rise8-us/cato-playbook/.github/actions/post-to-slack@main
         with:
