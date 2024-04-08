@@ -1,3 +1,3 @@
 # 22. Zero-based review to Ongoing Authorization
 
-See guidance on initial zero-based review [here](initial-auth.md), a monitor period [here](monitor.md), and ongoing authorization [here](ongoing-auth.md).
+Refer to pages 24 - 32 for guidance on initial zero-based review, a monitoring period, and ongoing authorization.

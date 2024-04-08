@@ -1,3 +1,3 @@
 # 6. Mythbusting
 
-See [here](myths.md).
+Refer to page 9 for common myths and the supporting information to bust them.

@@ -1,3 +1,3 @@
 # 9. Enable modularity of common control inheritance through automation
 
-See [here](policy.md) for how to think about authorization boundaries for common controls authorizations. With that in mind, no GRC platforms currently support this, which is why we [built our own](https://www.rise8.us/solutions/tracer) at Rise8. 
+Refer to page 17 for guidance on authorization boundaries for common controls authorizations. With that in mind, no GRC platforms currently support this, which is why we built TRACER at Rise8. Learn more about TRACER at rise8.us/capabilities/tracer
