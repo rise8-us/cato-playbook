@@ -21,7 +21,7 @@ It is important to emphasize with your stakeholders that you will be following N
 
 For cATO, this playbook is a great resource to share, and we highly recommend watching this video (rise8.us/resources/continuous-delivery-for-nist-rmf-cato) along with all your stakeholders as a starting point.
 
-For general RMF knowledge, we highly recommend this [RMF Introductory Course](https://csrc.nist.gov/Projects/risk-management/rmf-course) and, again, a thorough study of [NIST SP 800-37, Revision 2](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final). The [NIST RMF Website](https://csrc.nist.gov/projects/risk-management) also has other great resources and the NIST documentation is incredibly well-written, organized, and useful.
+For general RMF knowledge, we highly recommend this RMF Introductory Course (csrc.nist.gov/Projects/risk-management/rmf-course) and, again, a thorough study of [NIST SP 800-37, Revision 2](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final). The [NIST RMF Website](https://csrc.nist.gov/projects/risk-management) also has other great resources and the NIST documentation is incredibly well-written, organized, and useful.
 
 <br/>
 
